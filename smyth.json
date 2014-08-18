@@ -12,10 +12,12 @@
       "depTree"
     ]
   },
-  "morph" : {
-    "retrievers" : {
-      "BspMorphRetriever" : {
-        "resource" : "morphologyServiceGrc"
+  "plugins" : {
+    "morph" : {
+      "retrievers" : {
+        "BspMorphRetriever" : {
+          "resource" : "morphologyServiceGrc"
+        }
       }
     }
   }
