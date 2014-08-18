@@ -1,0 +1,22 @@
+{
+  "main" : {
+    "plugins" : [
+      "text",
+      "morph",
+      "relation",
+      "sg",
+      "artificialToken",
+      "search",
+      "history",
+      "comments",
+      "depTree"
+    ]
+  },
+  "morph" : {
+    "retrievers" : {
+      "BspMorphRetriever" : {
+        "resource" : "morphologyServiceGrc"
+      }
+    }
+  }
+}
