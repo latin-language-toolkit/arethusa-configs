@@ -100,6 +100,14 @@
                 "color" : "deeppink"
               }
             },
+            "nrl" : {
+              "short" : "nrl",
+              "long" : "numeral",
+              "postag" : "m",
+              "style" : {
+                "color" : "lightgreen"
+              }
+            },
             "intj" : {
               "long" : "interjection",
               "short" : "intj",
@@ -440,7 +448,6 @@
           "values" : {
             "pos" : {
               "verb\nparticiple": "verb",
-              "numeral": "adjective",
               "particle": "adverb",
               "preposition": "adposition",
               "exclamation": "interjection"
