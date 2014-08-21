@@ -160,6 +160,11 @@
               "long" : "plural",
               "short" : "pl",
               "postag" : "p"
+            },
+            "du" : {
+              "long" : "dual",
+              "short" : "du",
+              "postag" : "d"
             }
           }
         },
@@ -203,6 +208,11 @@
               "long" : "future",
               "short" : "fut",
               "postag" : "f"
+            },
+            "aor" : {
+              "long" : "aorist",
+              "short" : "aor",
+              "postag" : "a"
             }
           }
         },
@@ -256,6 +266,11 @@
               "long" : "supine",
               "short" : "sup",
               "postag" : "s"
+            },
+            "opt" : {
+              "long" : "optative",
+              "short" : "opt",
+              "postag" : "o"
             }
           }
         },
@@ -284,6 +299,16 @@
               "long" : "deponens",
               "short" : "dep",
               "postag" : "d"
+            },
+            "med" : {
+              "long" : "medio_passive",
+              "short" : "med",
+              "postag" : "e"
+            },
+            "mid" : {
+              "long" : "middle",
+              "short" : "mid",
+              "postag" : "m"
             }
           }
         },
