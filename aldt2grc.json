@@ -23,6 +23,14 @@
           "long" : "Part of Speech",
           "short" : "pos",
           "values" : {
+            "art" : {
+              "long" : "article",
+              "short" : "art",
+              "postag" : "l",
+              "style" : {
+                "color" : "lightblue"
+              }
+            },
             "noun" : {
               "long" : "noun",
               "short" : "noun",
@@ -140,7 +148,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron" ]
+              "pos" : [ "noun", "art", "part", "adj", "pron" ]
             }
           },
           {
@@ -160,6 +168,11 @@
               "long" : "plural",
               "short" : "pl",
               "postag" : "p"
+            },
+            "dl" : {
+              "long" : "dual",
+              "short" : "dl",
+              "postag" : "d"
             }
           }
         },
@@ -203,6 +216,11 @@
               "long" : "future",
               "short" : "fut",
               "postag" : "f"
+            },
+            "aor" : {
+              "long" : "aorist",
+              "short" : "aor",
+              "postag" : "a"
             }
           }
         },
@@ -256,6 +274,11 @@
               "long" : "supine",
               "short" : "sup",
               "postag" : "s"
+            },
+            "opt" : {
+              "long" : "optative",
+              "short" : "opt",
+              "postag" : "o"
             }
           }
         },
@@ -284,6 +307,16 @@
               "long" : "deponens",
               "short" : "dep",
               "postag" : "d"
+            },
+            "md" : {
+              "long" : "medio_passive",
+              "short" : "md",
+              "postag" : "e"
+            },
+            "mid" : {
+              "long" : "middle",
+              "short" : "mid",
+              "postag" : "m"
             }
           }
         },
@@ -293,7 +326,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron", "nrl" ]
+              "pos" : [ "noun", "adj", "pron", "nrl", "art" ]
             }
           },
           {
@@ -327,7 +360,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron", "nrl" ]
+              "pos" : [ "noun", "adj", "pron", "nrl", "art" ]
             }
           },
           {
@@ -418,7 +451,8 @@
           },
           "values" : {
             "pos" : {
-              "verb\nparticiple": "verb"
+              "verb\nparticiple": "verb",
+              "particle": "adverb"
             },
             "tense" : {
               "pluperfect" : "plusquamperfect"
