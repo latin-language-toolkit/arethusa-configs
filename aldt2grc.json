@@ -23,6 +23,14 @@
           "long" : "Part of Speech",
           "short" : "pos",
           "values" : {
+            "art" : {
+              "long" : "article",
+              "short" : "art",
+              "postag" : "l",
+              "style" : {
+                "color" : "lightblue"
+              }
+            },
             "noun" : {
               "long" : "noun",
               "short" : "noun",
@@ -140,7 +148,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron" ]
+              "pos" : [ "noun", "art", "part", "adj", "pron" ]
             }
           },
           {
@@ -161,9 +169,9 @@
               "short" : "pl",
               "postag" : "p"
             },
-            "du" : {
+            "dl" : {
               "long" : "dual",
-              "short" : "du",
+              "short" : "dl",
               "postag" : "d"
             }
           }
@@ -300,9 +308,9 @@
               "short" : "dep",
               "postag" : "d"
             },
-            "med" : {
+            "md" : {
               "long" : "medio_passive",
-              "short" : "med",
+              "short" : "md",
               "postag" : "e"
             },
             "mid" : {
@@ -318,7 +326,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron", "nrl" ]
+              "pos" : [ "noun", "adj", "pron", "nrl", "art" ]
             }
           },
           {
@@ -352,7 +360,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron", "nrl" ]
+              "pos" : [ "noun", "adj", "pron", "nrl", "art" ]
             }
           },
           {
@@ -443,7 +451,8 @@
           },
           "values" : {
             "pos" : {
-              "verb\nparticiple": "verb"
+              "verb\nparticiple": "verb",
+              "particle": "adverb"
             },
             "tense" : {
               "pluperfect" : "plusquamperfect"
