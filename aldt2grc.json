@@ -23,6 +23,14 @@
           "long" : "Part of Speech",
           "short" : "pos",
           "values" : {
+            "art" : {
+              "long" : "article",
+              "short" : "art",
+              "postag" : "l",
+              "style" : {
+                "color" : "lightblue"
+              }
+            },
             "noun" : {
               "long" : "noun",
               "short" : "noun",
@@ -39,44 +47,12 @@
                 "color" : "blue"
               }
             },
-            "adv" : {
-              "long" : "adverb",
-              "short" : "adv",
-              "postag" : "d",
-              "style" : {
-                "color" : "darkorange"
-              }
-            },
-            "conj" : {
-              "long" : "conjunction",
-              "short" : "conj",
-              "postag" : "c",
-              "style" : {
-                "color" : "deeppink"
-              }
-            },
-            "prep" : {
-              "long" : "preposition",
-              "short" : "prep",
-              "postag" : "r",
-              "style" : {
-                "color" : "green"
-              }
-            },
             "pron" : {
               "long" : "pronoun",
               "short" : "pron",
               "postag" : "p",
               "style" : {
                 "color" : "purple"
-              }
-            },
-            "excl" : {
-              "long" : "exclamation",
-              "short" : "excl",
-              "postag" : "e",
-              "style" : {
-                "color" : "gold"
               }
             },
             "verb" : {
@@ -87,12 +63,36 @@
                 "color" : "red"
               }
             },
-            "nrl" : {
-              "long" : "numeral",
-              "short" : "nrl",
-              "postag" : "m",
+            "adv" : {
+              "long" : "adverb",
+              "short" : "adv",
+              "postag" : "d",
               "style" : {
-                "color" : "lightgreen"
+                "color" : "darkorange"
+              }
+            },
+            "adp" : {
+              "long" : "adposition",
+              "short" : "adp",
+              "postag" : "r",
+              "style" : {
+                "color" : "green"
+              }
+            },
+            "conj" : {
+              "long" : "conjunction",
+              "short" : "conj",
+              "postag" : "c",
+              "style" : {
+                "color" : "deeppink"
+              }
+            },
+            "intj" : {
+              "long" : "interjection",
+              "short" : "intj",
+              "postag" : "i",
+              "style" : {
+                "color" : "gold"
               }
             },
             "punct" : {
@@ -125,7 +125,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" :  "verb",
+              "pos" : "verb",
               "mood" : "*"
             },
             "unless" : {
@@ -140,7 +140,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron" ]
+              "pos" : [ "noun", "art", "part", "adj", "pron" ]
             }
           },
           {
@@ -160,6 +160,11 @@
               "long" : "plural",
               "short" : "pl",
               "postag" : "p"
+            },
+            "dl" : {
+              "long" : "dual",
+              "short" : "dl",
+              "postag" : "d"
             }
           }
         },
@@ -203,6 +208,11 @@
               "long" : "future",
               "short" : "fut",
               "postag" : "f"
+            },
+            "aor" : {
+              "long" : "aorist",
+              "short" : "aor",
+              "postag" : "a"
             }
           }
         },
@@ -212,7 +222,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" :  "verb"
+              "pos" : "verb"
             }
           }
           ],
@@ -237,25 +247,15 @@
               "short" : "imp",
               "postag" : "m"
             },
-            "gerund" : {
-              "long" : "gerund",
-              "short" : "gerund",
-              "postag" : "d"
-            },
-            "gerundive" : {
-              "long" : "gerundive",
-              "short" : "gerundive",
-              "postag" : "g"
-            },
             "part" : {
               "long" : "participle",
               "short" : "part",
               "postag" : "p"
             },
-            "sup" : {
-              "long" : "supine",
-              "short" : "sup",
-              "postag" : "s"
+            "opt" : {
+              "long" : "optative",
+              "short" : "opt",
+              "postag" : "o"
             }
           }
         },
@@ -280,6 +280,16 @@
               "short" : "pass",
               "postag" : "p"
             },
+            "mid" : {
+              "long" : "middle",
+              "short" : "mid",
+              "postag" : "m"
+            },
+            "md" : {
+              "long" : "medio-passive",
+              "short" : "md",
+              "postag" : "e"
+            },
             "dep" : {
               "long" : "deponens",
               "short" : "dep",
@@ -293,7 +303,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron", "nrl" ]
+              "pos" : [ "art", "noun", "adj", "pron" ]
             }
           },
           {
@@ -327,7 +337,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : [ "noun", "adj", "pron", "nrl" ]
+              "pos" : [ "art", "noun", "adj", "pron" ]
             }
           },
           {
@@ -363,11 +373,6 @@
               "short" : "voc",
               "postag" : "v"
             },
-            "abl" : {
-              "long" : "ablative",
-              "short" : "abl",
-              "postag" : "b"
-            },
             "loc" : {
               "long" : "locative",
               "short" : "loc",
@@ -381,7 +386,7 @@
           "rules" : [
             {
             "if" : {
-              "pos" : "adj"
+              "pos" : ["adj", "adv"]
             }
           },
           {
@@ -418,7 +423,11 @@
           },
           "values" : {
             "pos" : {
-              "verb\nparticiple": "verb"
+              "verb\nparticiple": "verb",
+              "numeral": "adjective",
+              "particle": "adverb",
+              "preposition": "adposition",
+              "exclamation": "interjection"
             },
             "tense" : {
               "pluperfect" : "plusquamperfect"
