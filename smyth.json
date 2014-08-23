@@ -120,6 +120,11 @@
               "long" : "punctuation",
               "short" : "punct",
               "postag" : "u"
+            },
+            "irreg" : {
+              "long" : "irregular",
+              "short" : "irreg",
+              "postag" : "x"
             }
           }
         },
