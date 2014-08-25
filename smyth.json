@@ -459,6 +459,9 @@
             },
             "tense" : {
               "pluperfect" : "plusquamperfect"
+            },
+            "voice" : {
+              "mediopassive" : "medio-passive"
             }
           }
         }
