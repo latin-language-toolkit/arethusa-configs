@@ -1,0 +1,13 @@
+{
+  "plugins" : {
+    "morph" : {
+      "retrievers" : {
+        "BspMorphRetriever" : {
+          "resource" : "morphologyServiceGrc"
+        }
+      },
+      "fileUrl" : "./arethusa.morph/gr_attributes2.json"
+    }
+  }
+}
+
