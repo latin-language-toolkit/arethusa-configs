@@ -6,7 +6,7 @@ task :build do
     Dir.glob('*') do |f|
       if File.file?(f)
         `arethusa merge #{f} -b . > ../dist/#{f}`
-        puts "Created #{f}"
+        puts "Created dist/#{f}"
       end
     end
   end
