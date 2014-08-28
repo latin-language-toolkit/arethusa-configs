@@ -9,7 +9,7 @@
       }
     },
     "relation" : {
-      "fileUrl" : "./arethusa.relation/elmlatch2.json"
+      "@include" : "./arethusa.relation/elmlatch2.json"
     }
   }
 }

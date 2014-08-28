@@ -6,7 +6,7 @@
           "resource" : "morphologyServiceLat"
         }
       },
-      "fileUrl" : "./arethusa.morph/lat_attributes.json"
+      "@include" : "./arethusa.morph/lat_attributes.json"
     }
   }
 }
