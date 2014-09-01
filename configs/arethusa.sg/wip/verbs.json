@@ -1,0 +1,36 @@
+{
+  "nested" : {
+    "vrb_fin" : {
+      "short" : "vrb_fin",
+      "long" : "finite mood verb",
+      "dependency" : {
+        "pers" : "*"
+      },
+      "@include" : "./arethusa.sg/wip/finite_verbs.json"
+    },
+    "vrb_prt" : {
+      "short" : "vrb_prt",
+      "long" : "participle",
+      "dependency" : {
+        "mood" : "part"
+      },
+      "@include" : "./arethusa.sg/wip/participles.json"
+    },
+    "vrb_inf" : {
+      "short" : "vrb_inf",
+      "long" : "infinitive",
+      "dependency" : {
+        "mood" : "inf"
+      },
+      "@include" : "./arethusa.sg/wip/infinitives.json"
+    },
+    "vrb_nab" : {
+      "short" : "vrb_nab",
+      "long" : "none of the above"
+    },
+    "vrb_idk" : {
+      "short" : "vrb_idk",
+      "long" : "I do not know"
+    }
+  }
+}

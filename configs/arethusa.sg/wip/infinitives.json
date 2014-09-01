@@ -1,0 +1,133 @@
+{
+  "nested" : {
+    "inf_dpn" : {
+      "short" : "inf_dpn",
+      "long" : "dependent",
+      "nested" : {
+        "inf_art" : {
+          "short" : "inf_art",
+          "long" : "articular",
+          "nested" : {
+            "inf_nmn" : {
+              "short" : "inf_nmn",
+              "sections" : "2031",
+              "long" : "nominative",
+              "@include" : "./arethusa.sg/wip/nominative_cases.json"
+            },
+            "inf_gnt" : {
+              "short" : "inf_gnt",
+              "sections" : "2032",
+              "long" : "genitive",
+              "@include" : "./arethusa.sg/wip/genetive_cases.json"
+            },
+            "inf_dtv" : {
+              "short" : "inf_dtv",
+              "sections" : "2033",
+              "long" : "dative",
+              "@include" : "./arethusa.sg/wip/dative_cases.json"
+            },
+            "inf_acc" : {
+              "short" : "inf_acc",
+              "sections" : "2034",
+              "long" : "accusative",
+              "@include" : "./arethusa.sg/wip/accusative_cases.json"
+            },
+            "art_nab" : {
+              "short" : "art_nab",
+              "long" : "none of the above"
+            },
+            "art_idk" : {
+              "short" : "art_idk",
+              "long" : "I do not know"
+            }
+          }
+        },
+        "inf_vrb" : {
+          "short" : "inf_vrb",
+          "long" : "verbal",
+          "nested" : {
+            "inf_nmn" : {
+              "short" : "inf_nmn",
+              "long" : "with function of nominative",
+	      "@include" : "./arethusa.sg/wip/ind.json"
+            },
+            "inf_acc" : {
+              "short" : "inf_acc",
+              "long" : "with function of accusative",
+	      "@include" : "./arethusa.sg/wip/ind.json"
+            },
+            "inf_prp" : {
+              "short" : "inf_prp",
+              "long" : "infinitive of purpose",
+	      "sections" : "2008-2010"
+            },
+            "inf_rsl" : {
+              "short" : "inf_rsl",
+              "long" : "infinitive of result",
+	      "sections" : "2011"
+            },
+            "inf_tmp" : {
+              "short" : "inf_tmp",
+              "long" : "temporal infinitive",
+	      "sections" : "2453-2461"
+            },
+            "vrb_nab" : {
+              "short" : "vrb_nab",
+              "long" : "none of the above"
+            },
+            "vrb_idk" : {
+              "short" : "vrb_idk",
+              "long" : "I do not know"
+            }
+          }
+        },
+        "dpn_nab" : {
+          "short" : "dpn_nab",
+          "long" : "none of the above"
+        },
+        "dpn_idk" : {
+          "short" : "dpn_idk",
+          "long" : "I do not know"
+        }
+      }
+    },
+    "inf_ind" : {
+      "short" : "inf_ind",
+      "long" : "independent",
+      "nested" : {
+        "inf_cmm" : {
+          "short" : "inf_cmm",
+          "long" : "command"
+        },
+        "inf_wsh" : {
+          "short" : "inf_wsh",
+          "long" : "wish"
+        },
+        "inf_exc" : {
+          "short" : "inf_exc",
+          "long" : "exclamation"
+        },
+        "inf_abs" : {
+          "short" : "inf_abs",
+          "long" : "absolute infinitive"
+        },
+        "ind_nab" : {
+          "short" : "ind_nab",
+          "long" : "none of the above"
+        },
+        "ind_idk" : {
+          "short" : "ind_idk",
+          "long" : "I do not know"
+        }
+      }
+    },
+    "inf_nab" : {
+      "short" : "inf_nab",
+      "long" : "none of the above"
+    },
+    "inf_idk" : {
+      "short" : "inf_idk",
+      "long" : "I do not know"
+    }
+  }
+}

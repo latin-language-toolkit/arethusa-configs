@@ -1,0 +1,24 @@
+{
+  "nested" : {
+    "ind" : {
+      "short" : "ind",
+      "long" : "in indirect speech",
+      "@include" : "./arethusa.sg/wip/cases.json"
+    },
+    "not_ind" : {
+      "short" : "not_ind",
+      "long" : "not in indirect speech",
+      "@include" : "./arethusa.sg/wip/cases.json"
+    },
+    "nab" : {
+      "short" : "nab",
+      "long" : "none of the above",
+      "@include" : "./arethusa.sg/wip/cases.json"
+    },
+    "idk" : {
+      "short" : "idk",
+      "long" : "I do not know",
+      "@include" : "./arethusa.sg/wip/cases.json"
+    } 
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nested" : {
+    "adj_prt" : {
+      "short" : "adj_prt",
+      "long" : "adjective participle",
+      "@include" : "./arethusa.sg/wip/adj_prt.json"
+    },
+    "sbs_prt" : {
+      "short" : "sbs_prt",
+      "long" : "substantive participle",
+      "@include" : "./arethusa.sg/wip/cases.json"
+    },
+    "prt_nab" : {
+      "short" : "prt_nab",
+      "long" : "none of the above"
+    },
+    "prt_idk" : {
+      "short" : "prt_idk",
+      "long" : "I do not know"
+    } 
+  }
+}

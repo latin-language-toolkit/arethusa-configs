@@ -1,0 +1,84 @@
+{
+  "nested" : {
+    "adv_tmp_lct" : {
+      "short" : "adv_tmp_lct",
+      "long" : "time (with force of genitive/dative)"
+    },
+    "adv_tmp_abl" : {
+      "short" : "adv_tmp_abl",
+      "long" : "time (with force of genitive of separation)"
+    },
+    "adv_tmp_ext" : {
+      "short" : "adv_tmp_ext",
+      "long" : "of time (with force of accusative of extent)"
+    },
+    "adv_tmp_adl" : {
+      "short" : "adv_tmp_adl",
+      "long" : "of time (with force of terminal accusative)"
+    },
+    "adv_plc_lct" : {
+      "short" : "adv_plc_lct",
+      "long" : "place (with force of genitive/dative)"
+    },
+    "adv_plc_abl" : {
+      "short" : "adv_plc_abl",
+      "long" : "place (with force of genitive of separation)"
+    },
+    "adv_plc_ext" : {
+      "short" : "adv_plc_ext",
+      "long" : "place (with force of accusative of extent)"
+    },
+    "adv_plc_adl" : {
+      "short" : "adv_plc_adl",
+      "long" : "place (with force of terminal accusative)"
+    },
+    "adv_src" : {
+      "short" : "adv_src",
+      "long" : "source"
+    },
+    "adv_cau" : {
+      "short" : "adv_cau",
+      "long" : "cause"
+    },
+    "adv_rsl" : {
+      "short" : "adv_rsl",
+      "long" : "result"
+    },
+    "adv_mnn" : {
+      "short" : "adv_mnn",
+      "long" : "manner"
+    },
+    "adv_msr" : {
+      "short" : "adv_msr",
+      "long" : "measure"
+    },
+    "adv_ins" : {
+      "short" : "adv_ins",
+      "long" : "instrument/means"
+    },
+    "adv_prp" : {
+      "short" : "adv_prp",
+      "long" : "purpose"
+    },
+    "adv_cnc" : {
+      "short" : "adv_cnc",
+      "long" : "concession"
+    },
+    "adv_ngt" : {
+      "short" : "adv_ngt",
+      "long" : "negation"
+    },
+    "adv_uns" : {
+      "short" : "adv_uns",
+      "long" : "unspecified"
+    },
+    "adv_nab" : {
+      "short" : "adv_nab",
+      "long" : "none of the above"
+    },
+    "adv_idk" : {
+      "short" : "adv_idk",
+      "long" : "I do not know"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nested" : {
+    "adj_prp" : {
+      "short" : "adj_prp",
+      "long" : "proper"
+    },   
+    "sbs_adj" : {
+      "short" : "sbs_adj",
+      "long" : "substantive",
+      "sections" : "1021-1029",
+      "@include" : "./arethusa.sg/wip/cases.json"
+    },
+    "vrb_adj" : {
+      "short" : "vrb_adj",
+      "long" : "vbl adj in τος/τεος"
+    },
+    "svr_adj" : {
+      "short" : "svr_adj",
+      "long" : "sub. vbl adjective in τος/τεος",
+      "@include" : "./arethusa.sg/wip/cases.json"
+    },
+    "adj_nab" : {
+      "short" : "adj_nab",
+      "long" : "none of the above"
+    },
+    "adj_idk" : {
+      "short" : "adj_idk",
+      "long" : "I do not know"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nested" : {
+    "adj_cl_prp" : {
+      "short" : "adj_cl_prp",
+      "long" : "adjective clause proper",
+      "@include" : "./arethusa.sg/wip/adj_cl_prp.json"
+    },
+    "sbs_adj_cl" : {
+      "short" : "sbs_adj_cl",
+      "long" : "substantivized adjective clause",
+      "@include" : "./arethusa.sg/wip/sbs_adj_cl.json"
+    },
+    "adj_cl_nab" : {
+      "short" : "adj_cl_nab",
+      "long" : "none of the above"
+    },
+    "adj_cl_idk" : {
+      "short" : "adj_cl_idk",
+      "long" : "I do not know"
+    } 
+  }
+}

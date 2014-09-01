@@ -1,0 +1,54 @@
+{
+  "nested" : {
+    "prp" : {
+      "short" : "prp",
+      "long" : "purpose clause",
+      "sections" : "2193-2206",
+      "@include" : "./arethusa.sg/wip/ind.json"
+    },
+    "cau" : {
+      "short" : "cau",
+      "long" : "causal clause",
+      "sections" : "2240-2248",
+      "@include" : "./arethusa.sg/wip/ind.json"
+    },
+    "rsl" : {
+      "short" : "rsl",
+      "long" : "result clause",
+      "sections" : "2249-2278",
+      "@include" : "./arethusa.sg/wip/ind.json"
+    },
+    "cnd" : {
+      "short" : "cnd",
+      "long" : "conditional clause",
+      "sections" : "2280-2368",
+      "@include" : "./arethusa.sg/wip/ind.json"
+    },
+    "cnc" : {
+      "short" : "cnc",
+      "long" : "concessive clause",
+      "sections" : "2369-2382",
+      "@include" : "./arethusa.sg/wip/ind.json"
+    },
+    "tmp" : {
+      "short" : "tmp",
+      "long" : "temporal clause",
+      "sections" : "2383-2461",
+      "@include" : "./arethusa.sg/wip/ind.json"
+    },
+    "cmp" : {
+      "short" : "cmp",
+      "long" : "clause of comparison",
+      "sections" : "2462-2487",
+      "@include" : "./arethusa.sg/wip/ind.json"
+    },
+    "nab" : {
+      "short" : "nab",
+      "long" : "none of the above"
+    },
+    "idk" : {
+      "short" : "idk",
+      "long" : "I do not know"
+    } 
+  }
+}
