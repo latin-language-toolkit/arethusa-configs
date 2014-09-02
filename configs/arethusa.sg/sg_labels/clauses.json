@@ -7,22 +7,22 @@
       "nested" : {
         "stm" : {
           "short" : "stm",
-          "long" : "statement",
+          "long" : "of statement",
           "sections" : "2575"
         },
         "wds" : {
           "short" : "wds",
-          "long" : "will or desire",
+          "long" : "of will or desire",
           "sections" : "2575"
         },
         "qst" : {
           "short" : "qst",
-          "long" : "question",
+          "long" : "of question",
           "sections" : "2575"
         },
         "exc" : {
           "short" : "exc",
-          "long" : "exclamation",
+          "long" : "of exclamation",
           "sections" : "2575"
         },
         "idk" : {

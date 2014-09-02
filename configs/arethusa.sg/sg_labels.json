@@ -7,7 +7,7 @@
       "dependency" : {
         "pos" : "adj"
       },
-      "@include" : "./arethusa.sg/wip/adjectives.json"
+      "@include" : "./arethusa.sg/sg_labels/adjectives.json"
     },
     "art" : {
       "short" : "art",
@@ -24,14 +24,14 @@
       "dependency" : {
         "pos" : "pron"
       },
-      "@include" : "./arethusa.sg/wip/pronouns.json"
+      "@include" : "./arethusa.sg/sg_labels/pronouns.json"
     },
     "adp" : {
       "short" : "adp",
       "long" : "adposition",
       "sections" : "1636-1702",
       "dependency" : {
-        "pos" : "adp"
+        "pos" : "prep"
       }
     },
     "noun" : {
@@ -41,7 +41,7 @@
       "dependency" : {
         "pos" : "noun"
       },
-      "@include" : "./arethusa.sg/wip/cases.json"
+      "@include" : "./arethusa.sg/sg_labels/cases.json"
     },
     "verb" : {
       "short" : "verb",
@@ -49,7 +49,7 @@
       "dependency" : {
         "pos" : "verb"
       },
-      "@include" : "./arethusa.sg/wip/verbs.json"
+      "@include" : "./arethusa.sg/sg_labels/verbs.json"
     },
     "adv" : {
       "short" : "adv",
@@ -58,12 +58,12 @@
       "dependency" : {
         "pos" : "adv"
       },
-      "@include" : "./arethusa.sg/wip/adverbs.json"
+      "@include" : "./arethusa.sg/sg_labels/adverbs.json"
     },
     "cls" : {
       "short" : "cls",
       "long" : "clause",
-      "@include" : "./arethusa.sg/wip/clauses.json"
+      "@include" : "./arethusa.sg/sg_labels/clauses.json"
     }
   }
 }
