@@ -79,7 +79,7 @@
               "short" : "tim",
               "long" : "time",
               "italian" : "tempo",
-              "sections" : "1582-1587",
+              "sections" : "1582-1586;1587",
               "nested" : {
                 "sml_lct" : {
                   "short" : "sml_lct",
