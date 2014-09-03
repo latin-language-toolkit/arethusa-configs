@@ -10,7 +10,7 @@
           "short" : "eff",
           "long" : "internal object",
           "italian" : "oggetto interno",
-          "sections" : "1563-1579",
+          "sections" : "1563-1579;1619-1627",
           "nested" : {
             "cgn_rsl" : {
               "short" : "cgn_rsl",
@@ -34,7 +34,7 @@
           "short" : "aff",
           "long" : "external object",
           "italian" : "oggetto esterno",
-          "sections" : "1590-1598"
+          "sections" : "1590-1598;1613-1633"
         },
         "ext" : {
           "short" : "ext",
