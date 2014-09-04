@@ -9,15 +9,6 @@
       },
       "@include" : "./arethusa.sg/sg_labels/finite_verbs.json"
     },
-    "inf" : {
-      "short" : "inf",
-      "long" : "infinitive",
-      "italian" : "infinito",
-      "dependency" : {
-        "mood" : "inf"
-      },
-      "@include" : "./arethusa.sg/sg_labels/infinitives.json"
-    },
     "prt" : {
       "short" : "prt",
       "long" : "participle",
@@ -26,6 +17,15 @@
         "mood" : "part"
       },
       "@include" : "./arethusa.sg/sg_labels/participles.json"
+    },
+    "inf" : {
+      "short" : "inf",
+      "long" : "infinitive",
+      "italian" : "infinito",
+      "dependency" : {
+        "mood" : "inf"
+      },
+      "@include" : "./arethusa.sg/sg_labels/infinitives.json"
     },
     "nna" : {
       "short" : "nna",
