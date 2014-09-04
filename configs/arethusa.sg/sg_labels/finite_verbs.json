@@ -558,7 +558,7 @@
             "prp" : {
               "short" : "prp",
               "long" : "purpose clause",
-              "italian" : "finale",
+              "italian" : "proposizione finale",
               "sections" : "2193–2206",
               "nested" : {
                 "ind" : {
@@ -587,7 +587,7 @@
             "cau" : {
               "short" : "cau",
               "long" : "causal clause",
-              "italian" : "causale",
+              "italian" : "proposizione causale",
               "sections" : "2240–2248",
               "nested" : {
                 "ind" : {
@@ -616,7 +616,7 @@
             "rsl" : {
               "short" : "rsl",
               "long" : "result clause",
-              "italian" : "consecutiva",
+              "italian" : "proposizione consecutiva",
               "sections" : "2249–2278",
               "nested" : {
                 "ind" : {
@@ -645,7 +645,7 @@
             "cnd" : {
               "short" : "cnd",
               "long" : "conditional clause",
-              "italian" : "condizionale",
+              "italian" : "proposizione condizionale",
               "sections" : "2280–2368",
               "nested" : {
                 "ind" : {
@@ -674,7 +674,7 @@
             "cnc" : {
               "short" : "cnc",
               "long" : "concessive clause",
-              "italian" : "concessiva",
+              "italian" : "proposizione concessiva",
               "sections" : "2369–2382",
               "nested" : {
                 "ind" : {
@@ -703,7 +703,7 @@
             "tmp" : {
               "short" : "tmp",
               "long" : "temporal clause",
-              "italian" : "temporale",
+              "italian" : "proposizione temporale",
               "sections" : "2383–2461",
               "nested" : {
                 "ind" : {
@@ -732,7 +732,7 @@
             "cmp" : {
               "short" : "cmp",
               "long" : "clause of comparison",
-              "italian" : "comparativa",
+              "italian" : "proposizione comparativa",
               "sections" : "2462–2487",
               "nested" : {
                 "ind" : {
