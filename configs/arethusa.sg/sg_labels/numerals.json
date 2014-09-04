@@ -3,6 +3,7 @@
         "crd": {
           "short": "crd",
           "long": "cardinal",
+          "italian" : "cardinale",
           "sections": "347-354",
           "nested" : {
             "prp" : {
@@ -31,6 +32,7 @@
         "ord": {
           "short": "ord",
           "long": "ordinal",
+          "italian" : "ordinale",
           "sections": "347-354",
           "nested" : {
             "prp" : {
@@ -59,6 +61,7 @@
         "adv": {
           "short": "adv",
           "long": "adverb",
+          "italian" : "avverbio",
           "sections": "347-354",
           "@include" : "./arethusa.sg/sg_labels/adverbs.json"
         },
