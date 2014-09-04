@@ -3,12 +3,14 @@
     "sbs" : {
       "short" : "sbs",
       "long" : "substantive pronoun",
+      "italian" : "pronome sostantivo",
       "sections" : "1190-1278",
       "@include" : "./arethusa.sg/sg_labels/cases.json"
     },
     "adj" : {
       "short" : "adj",
       "long" : "adjective pronoun",
+      "italian" : "pronome aggettivo",
       "sections" : "1190-1278"
     },
     "nna" : {
