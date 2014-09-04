@@ -384,12 +384,14 @@
                     "nna" : {
                       "short" : "nna",
                       "long" : "none of the above",
-                      "italian" : "nessuno dei precedenti"
+                      "italian" : "nessuno dei precedenti",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     },
                     "idk" : {
                       "short" : "idk",
                       "long" : "I do not know",
-                      "italian" : "non so"
+                      "italian" : "non so",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     }
                   }
                 },
@@ -415,12 +417,14 @@
                     "nna" : {
                       "short" : "nna",
                       "long" : "none of the above",
-                      "italian" : "nessuno dei precedenti"
+                      "italian" : "nessuno dei precedenti",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     },
                     "idk" : {
                       "short" : "idk",
                       "long" : "I do not know",
-                      "italian" : "non so"
+                      "italian" : "non so",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     }
                   }
                 },
@@ -446,12 +450,14 @@
                     "nna" : {
                       "short" : "nna",
                       "long" : "none of the above",
-                      "italian" : "nessuno dei precedenti"
+                      "italian" : "nessuno dei precedenti",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     },
                     "idk" : {
                       "short" : "idk",
                       "long" : "I do not know",
-                      "italian" : "non so"
+                      "italian" : "non so",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     }
                   }
                 },
@@ -477,12 +483,14 @@
                     "nna" : {
                       "short" : "nna",
                       "long" : "none of the above",
-                      "italian" : "nessuno dei precedenti"
+                      "italian" : "nessuno dei precedenti",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     },
                     "idk" : {
                       "short" : "idk",
                       "long" : "I do not know",
-                      "italian" : "non so"
+                      "italian" : "non so",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     }
                   }
                 },
@@ -508,12 +516,14 @@
                     "nna" : {
                       "short" : "nna",
                       "long" : "none of the above",
-                      "italian" : "nessuno dei precedenti"
+                      "italian" : "nessuno dei precedenti",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     },
                     "idk" : {
                       "short" : "idk",
                       "long" : "I do not know",
-                      "italian" : "non so"
+                      "italian" : "non so",
+                      "@include" : "./arethusa.sg/sg_labels/cases.json"
                     }
                   }
                 },
