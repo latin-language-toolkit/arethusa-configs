@@ -3,6 +3,7 @@
     "fin" : {
       "short" : "fin",
       "long" : "finite verb",
+      "italian" : "verbo finito",
       "dependency" : {
         "pers" : "*"
       },
@@ -11,6 +12,7 @@
     "inf" : {
       "short" : "inf",
       "long" : "infinitive",
+      "italian" : "infinito",
       "dependency" : {
         "mood" : "inf"
       },
@@ -19,6 +21,7 @@
     "prt" : {
       "short" : "prt",
       "long" : "participle",
+      "italian" : "participio",
       "dependency" : {
         "mood" : "part"
       },
