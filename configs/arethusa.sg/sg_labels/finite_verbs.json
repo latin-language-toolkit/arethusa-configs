@@ -56,7 +56,7 @@
     "dpd" : {
       "short" : "dpd",
       "long" : "dependent",
-      "italian" : "dependente",
+      "italian" : "dipendente",
       "nested" : {
         "sbs_cls" : {
           "short" : "sbs_cls",
