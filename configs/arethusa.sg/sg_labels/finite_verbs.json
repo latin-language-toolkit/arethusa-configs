@@ -613,9 +613,9 @@
                 }
               }
             },
-            "rsl" : {
-              "short" : "rsl",
-              "long" : "result clause",
+            "" : {
+              "short" : "",
+              "long" : "clause",
               "italian" : "proposizione consecutiva",
               "sections" : "2249–2278",
               "nested" : {
