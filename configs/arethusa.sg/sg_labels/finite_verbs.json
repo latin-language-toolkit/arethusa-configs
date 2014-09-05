@@ -1,12 +1,12 @@
 {
   "nested" : {
-    "inn" : {
-      "short" : "inn",
+    "ind" : {
+      "short" : "ind",
       "long" : "independent",
       "italian" : "indipendente",
       "nested" : {
-        "stm" : {
-          "short" : "stm",
+        "stt" : {
+          "short" : "stt",
           "long" : "statement",
           "italian" : "asserzione", 
           "sections" : "2153"
@@ -53,8 +53,8 @@
         }
       }
     },
-    "dpd" : {
-      "short" : "dpd",
+    "dpn" : {
+      "short" : "dpn",
       "long" : "dependent",
       "italian" : "dipendente",
       "nested" : {
@@ -63,8 +63,8 @@
           "long" : "substantive clause",
           "italian" : "proposizione sostantiva",
           "nested" : {
-            "stm" : {
-             "short" : "stm",
+            "stt" : {
+             "short" : "stt",
              "long" : "statement",
              "italian" : "asserzione", 
              "sections" : "2576–2588",
@@ -555,8 +555,8 @@
           "short" : "adv_cls",
           "long" : "adverb clause",
           "nested" : {
-            "prp" : {
-              "short" : "prp",
+            "pur" : {
+              "short" : "pur",
               "long" : "purpose clause",
               "italian" : "proposizione finale",
               "sections" : "2193–2206",
