@@ -105,12 +105,6 @@
       "italian" : "perifrastico",
       "sections" : "2091"
     },
-    "sbs" : {
-      "short" : "sbs",
-      "long" : "substantive",
-      "italian" : "sostantivo",
-      "@include" : "./arethusa.sg/sg_labels/cases.json"
-    },
     "nna" : {
       "short" : "nna",
       "long" : "none of the above",
