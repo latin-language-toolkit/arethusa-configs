@@ -12,8 +12,8 @@
       "italian" : "circostanziale",
       "sections" : "2054-2087",
       "nested" : {
-        "tmp" : {
-          "short" : "tmp",
+        "tim" : {
+          "short" : "tim",
           "long" : "time",
           "italian" : "tempo",
           "sections" : "2061"
@@ -72,8 +72,8 @@
         }
       }
     },
-    "supl" : {
-      "short" : "supl",
+    "spl" : {
+      "short" : "spl",
       "long" : "supplementary",
       "sections" : "2088-2148",
       "nested" : {
@@ -99,8 +99,8 @@
         }
       }
     },
-    "prh" : {
-      "short" : "prh",
+    "prp" : {
+      "short" : "prp",
       "long" : "periphrastic",
       "italian" : "perifrastico",
       "sections" : "2091"
