@@ -613,9 +613,9 @@
                 }
               }
             },
-            "" : {
-              "short" : "",
-              "long" : "clause",
+            "cns" : {
+              "short" : "cns",
+              "long" : "consecutive clause",
               "italian" : "proposizione consecutiva",
               "sections" : "2249–2278",
               "nested" : {
