@@ -3,7 +3,8 @@
     "sbs" : {
       "short" : "adj",
       "long" : "adjective participle",
-      "italian" : "participio aggettivale"
+      "italian" : "participio aggettivale",
+      "@include" : "./arethusa.sg/sg_labels/participles2.json"
     },
     "adj" : {
       "short" : "sbs",
