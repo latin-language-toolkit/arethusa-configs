@@ -6,8 +6,8 @@
           "italian" : "cardinale",
           "sections": "347-354",
           "nested" : {
-            "prp" : {
-              "short" : "prp",
+            "adj" : {
+              "short" : "adj",
               "long" : "adjective",
               "italian" : "aggettivo"
             },
@@ -35,8 +35,8 @@
           "italian" : "ordinale",
           "sections": "347-354",
           "nested" : {
-            "prp" : {
-              "short" : "prp",
+            "adj" : {
+              "short" : "adj",
               "long" : "adjective",
               "italian" : "aggettivo"
             },
