@@ -16,7 +16,7 @@
       "dependency" : {
         "mood" : "part"
       },
-      "@include" : "./arethusa.sg/sg_labels/participles.json"
+      "@include" : "./arethusa.sg/sg_labels/participles1.json"
     },
     "inf" : {
       "short" : "inf",
