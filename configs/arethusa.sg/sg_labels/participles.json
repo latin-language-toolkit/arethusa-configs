@@ -3,62 +3,72 @@
     "atr" : {
       "short" : "atr",
       "long" : "attributive",
-      "sections" : "2049-2053",
-      "nested" : {
-        "prop" : {
-          "short" : "prop",
-          "long" : "proper"
-        },
-        "improp" : {
-          "short" : "improp",
-          "long" : "improper"
-        }
-      }
+      "italian" : "attributivo",
+      "sections" : "2049-2053"
     },
     "crc" : {
       "short" : "crc",
       "long" : "circumstantial",
+      "italian" : "circostanziale",
       "sections" : "2054-2087",
       "nested" : {
         "tmp" : {
           "short" : "tmp",
-          "long" : "of time",
+          "long" : "time",
+          "italian" : "tempo",
           "sections" : "2061"
         },
         "mnn" : {
           "short" : "mnn",
-          "long" : "of manner",
+          "long" : "manner",
+          "italian" : "modo",
           "sections" : "2062"
         },
         "mea" : {
-          "short" : "mea",
-          "long" : "of measure",
+          "short" : "mns",
+          "long" : "means",
+          "italian" : "mezzo",
           "sections" : "2063"
         },
         "cau" : {
           "short" : "cau",
-          "long" : "of cause",
+          "long" : "cause",
+          "italian" : "causa",
           "sections" : "2064"
         },
         "pur" : {
           "short" : "pur",
-          "long" : "of purpose",
+          "long" : "purpose",
+          "italian" : "fine",
           "sections" : "2065"
         },
         "cnc" : {
           "short" : "cnc",
-          "long" : "of concession",
+          "long" : "concession",
+          "italian" : "concessione",
           "sections" : "2066"
         },
         "cnd" : {
           "short" : "cnd",
-          "long" : "of condition",
+          "long" : "condition",
+          "italian" : "condizione",
           "sections" : "2067"
         },
         "atd" : {
           "short" : "atd",
-          "long" : "of any attendant circumstance",
+          "long" : "any attendant circumstance",
+          "italian" : "ogni circostanza",
           "sections" : "2068"
+        },
+        "nna" : {
+          "short" : "nna",
+          "long" : "none of the above",
+          "italian" : "nessuno dei precedenti"
+        },
+        "idk" : {
+          "short" : "idk",
+          "long" : "I do not know",
+          "italian" : "non so"  
         }
       }
     },
@@ -67,32 +77,49 @@
       "long" : "supplementary",
       "sections" : "2088-2148",
       "nested" : {
-        "indd" : {
-          "short" : "indd",
-          "long" : "in indirect discourse"
+        "ind" : {
+          "short" : "ind",
+          "long" : "in indirect discourse",
+          "italian" : "nel discorso indiretto"
         },
-        "nind" : {
-          "short" : "nind",
-          "long" : "not in indirect discourse"
+        "not_ind" : {
+          "short" : "not_ind",
+          "long" : "not in indirect discourse",
+          "italian" : "non nel discorso indiretto"
+        },
+        "nna" : {
+          "short" : "nna",
+          "long" : "none of the above",
+          "italian" : "nessuno dei precedenti"
+        },
+        "idk" : {
+          "short" : "idk",
+          "long" : "I do not know",
+          "italian" : "non so"  
         }
       }
     },
     "prh" : {
       "short" : "prh",
       "long" : "periphrastic",
+      "italian" : "perifrastico",
       "sections" : "2091"
     },
     "sbs" : {
       "short" : "sbs",
       "long" : "substantive",
-      "nestedDependency" : true,
+      "italian" : "sostantivo",
       "@include" : "./arethusa.sg/sg_labels/cases.json"
     },
-    "atc" : {
-      "short" : "atc",
-      "long" : "attraction",
-      "sections" : "2522-2528",
-      "@include" : "./arethusa.sg/sg_labels/cases.json"
+    "nna" : {
+      "short" : "nna",
+      "long" : "none of the above",
+      "italian" : "nessuno dei precedenti"
+    },
+    "idk" : {
+      "short" : "idk",
+      "long" : "I do not know",
+      "italian" : "non so"  
     }
   }
 }
