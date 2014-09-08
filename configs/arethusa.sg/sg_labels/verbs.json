@@ -1,7 +1,7 @@
 {
   "nested" : {
-    "fin" : {
-      "short" : "fin",
+    "fnt" : {
+      "short" : "fnt",
       "long" : "finite verb",
       "italian" : "verbo finito",
       "dependency" : {
