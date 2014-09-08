@@ -42,14 +42,14 @@
               "italian" : "materiale o contenuto",
               "sections" : "1323-1324"
             },
-            "mea" : {
-              "short" : "mea",
+            "msr" : {
+              "short" : "msr",
               "long" : "measure",
               "italian" : "misura",
               "sections" : "1325-1327",
               "nested" : {
-                "tim" : {
-                  "short" : "tim",
+                "tmp" : {
+                  "short" : "tmp",
                   "long" : "time",
                   "italian" : "tempo",
                   "sections" : "1325-1327"
@@ -168,8 +168,8 @@
               "italian" : "causa",
               "sections" : "1405-1407"
             },
-            "pur" : {
-              "short" : "pur",
+            "fnl" : {
+              "short" : "fnl",
               "long" : "purpose",
               "italian" : "fine",
               "sections" : "1408"
@@ -192,14 +192,14 @@
             }
           }
         },
-        "tim_plc" : {
-          "short" : "tim_plc",
+        "tmp_plc" : {
+          "short" : "tmp_plc",
           "long" : "time and place",
           "italian" : "tempo e luogo",
           "sections" : "1444-1449",
           "nested" : {
-            "tim" : {
-              "short" : "tim",
+            "tmp" : {
+              "short" : "tmp",
               "long" : "time",
               "italian" : "tempo",
               "sections" : "1444-1447",
@@ -355,8 +355,8 @@
         }
       }
     },
-    "inn" : {
-      "short" : "inn",
+    "ind" : {
+      "short" : "ind",
       "long" : "independent",
       "italian" : "indipendente", 
       "sections" : "1407",
