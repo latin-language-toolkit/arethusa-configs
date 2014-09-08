@@ -11,25 +11,25 @@
             "nmn" : {
               "short" : "nmn",
               "sections" : "2031",
-              "long" : "in nominative",
+              "long" : "nominative",
               "@include" : "./arethusa.sg/sg_labels/nominative_cases.json"
             },
             "gnt" : {
               "short" : "gnt",
-              "sections" : "2031",
-              "long" : "in genitive",
+              "sections" : "2032",
+              "long" : "genitive",
               "@include" : "./arethusa.sg/sg_labels/genetive_cases.json"
             },
             "dtv" : {
               "short" : "dtv",
-              "sections" : "2031",
-              "long" : "in dative",
+              "sections" : "2033",
+              "long" : "dative",
               "@include" : "./arethusa.sg/sg_labels/dative_cases.json"
             },
             "acc" : {
               "short" : "acc",
-              "sections" : "2031",
-              "long" : "in accusative",
+              "sections" : "2034",
+              "long" : "accusative",
               "@include" : "./arethusa.sg/sg_labels/accusative_cases.json"
             }
           }
@@ -40,11 +40,11 @@
           "nested" : {
             "nmn" : {
               "short" : "nmn",
-              "long" : "in nominative"
+              "long" : "nominative"
             },
             "acc" : {
               "short" : "acc",
-              "long" : "in accusative"
+              "long" : "accusative"
             }
           }
         },
@@ -89,7 +89,7 @@
         },
         "abs" : {
           "short" : "abs",
-          "long" : "in absolute us"
+          "long" : "in absolute use"
         }
       }
     }
