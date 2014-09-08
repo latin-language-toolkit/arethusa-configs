@@ -45,31 +45,31 @@
             "acc" : {
               "short" : "acc",
               "long" : "accusative"
-            }
-          }
-        },
-        "unc" : {
-          "short" : "unc",
-          "long" : "uncertain case",
-          "nested" : {
-            "fnl" : {
-              "short" : "fnl",
-              "long" : "purpose",
-              "sections" : "2008-2010"
             },
-            "cns" : {
-              "short" : "cns",
-              "long" : "result",
-              "sections" : "2011"
-            },
-            "tmp" : {
-              "short" : "tmp",
-              "long" : "temporal",
-              "sections" : "2453-2461"
+            "unc" : {
+              "short" : "unc",
+              "long" : "uncertain case",
+              "nested" : {
+                "fnl" : {
+                  "short" : "fnl",
+                  "long" : "purpose",
+                  "sections" : "2008-2010"
+                },
+                "cns" : {
+                  "short" : "cns",
+                  "long" : "result",
+                  "sections" : "2011"
+                },
+                "tmp" : {
+                  "short" : "tmp",
+                  "long" : "temporal",
+                  "sections" : "2453-2461"
+                }
+              }
             }
           }
         }
-      }
+      }  
     },
     "ind" : {
       "short" : "ind",
