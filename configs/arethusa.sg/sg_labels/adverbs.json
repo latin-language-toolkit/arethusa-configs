@@ -94,13 +94,13 @@
       "long" : "measure",
       "italian" : "misura"
     },
-    "ins" : {
-      "short" : "ins",
+    "ins_mns" : {
+      "short" : "ins_mns",
       "long" : "intruments or means",
       "italian" : "strumento o mezzo"
     },
-    "pur" : {
-      "short" : "pur",
+    "fnl" : {
+      "short" : "fnl",
       "long" : "purpose",
       "italian" : "fine"
     },
@@ -113,11 +113,6 @@
       "short" : "ngt",
       "long" : "negation",
       "italian" : "negazione"
-    },
-    "uns" : {
-      "short" : "uns",
-      "long" : "unspecific",
-      "italian" : "non specificato"
     },
     "nna" : {
       "short" : "nna",
