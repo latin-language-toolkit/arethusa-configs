@@ -57,8 +57,8 @@
           "nested" : {
             "nmn" : {
               "short" : "nmn",
-              "long" : "nominative",
-              "italian" : "nominativo",
+              "long" : "as nominative",
+              "italian" : "come nominativo",
               "nested" : {
                 "ind" : {
                   "short" : "ind",
@@ -85,8 +85,8 @@
             },
             "acc" : {
               "short" : "acc",
-              "long" : "accusative",
-              "italian" : "accusativo",
+              "long" : "as accusative",
+              "italian" : "come accusativo",
               "nested" : {
                 "ind" : {
                   "short" : "ind",
