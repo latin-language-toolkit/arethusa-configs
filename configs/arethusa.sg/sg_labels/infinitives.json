@@ -11,25 +11,25 @@
             "nmn" : {
               "short" : "nmn",
               "sections" : "2031",
-              "long" : "nominative",
+              "long" : "in nominative",
               "@include" : "./arethusa.sg/sg_labels/nominative_cases.json"
             },
             "gnt" : {
               "short" : "gnt",
               "sections" : "2032",
-              "long" : "genitive",
+              "long" : "in genitive",
               "@include" : "./arethusa.sg/sg_labels/genetive_cases.json"
             },
             "dtv" : {
               "short" : "dtv",
               "sections" : "2033",
-              "long" : "dative",
+              "long" : "in dative",
               "@include" : "./arethusa.sg/sg_labels/dative_cases.json"
             },
             "acc" : {
               "short" : "acc",
               "sections" : "2034",
-              "long" : "accusative",
+              "long" : "in accusative",
               "@include" : "./arethusa.sg/sg_labels/accusative_cases.json"
             }
           }
@@ -52,14 +52,14 @@
           "short" : "unc",
           "long" : "uncertain case",
           "nested" : {
-            "pur" : {
-              "short" : "pur",
-              "long" : "of purpose",
+            "" : {
+              "short" : "",
+              "long" : "purpose",
               "sections" : "2008-2010"
             },
-            "rsl" : {
-              "short" : "rsl",
-              "long" : "of result",
+            "" : {
+              "short" : "",
+              "long" : "result",
               "sections" : "2011"
             },
             "pri" : {
