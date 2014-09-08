@@ -11,25 +11,25 @@
             "nmn" : {
               "short" : "nmn",
               "sections" : "2031",
-              "long" : "in nominative",
+              "long" : "nominative",
               "@include" : "./arethusa.sg/sg_labels/nominative_cases.json"
             },
             "gnt" : {
               "short" : "gnt",
               "sections" : "2032",
-              "long" : "in genitive",
+              "long" : "genitive",
               "@include" : "./arethusa.sg/sg_labels/genetive_cases.json"
             },
             "dtv" : {
               "short" : "dtv",
               "sections" : "2033",
-              "long" : "in dative",
+              "long" : "dative",
               "@include" : "./arethusa.sg/sg_labels/dative_cases.json"
             },
             "acc" : {
               "short" : "acc",
               "sections" : "2034",
-              "long" : "in accusative",
+              "long" : "accusative",
               "@include" : "./arethusa.sg/sg_labels/accusative_cases.json"
             }
           }
@@ -52,40 +52,40 @@
           "short" : "unc",
           "long" : "uncertain case",
           "nested" : {
-            "" : {
-              "short" : "",
+            "fnl" : {
+              "short" : "fnl",
               "long" : "purpose",
               "sections" : "2008-2010"
             },
-            "" : {
-              "short" : "",
+            "cns" : {
+              "short" : "cns",
               "long" : "result",
               "sections" : "2011"
             },
-            "pri" : {
-              "short" : "pri",
-              "long" : "with πρίν",
+            "tmp" : {
+              "short" : "tmp",
+              "long" : "temporal",
               "sections" : "2453-2461"
             }
           }
         }
       }
     },
-    "inn" : {
-      "short" : "inn",
+    "ind" : {
+      "short" : "ind",
       "long" : "independent",
       "nested" : {
         "com" : {
-          "short" : "com",
-          "long" : "of command"
+          "short" : "cmm",
+          "long" : "command"
         },
         "wsh" : {
           "short" : "wsh",
-          "long" : "of wish"
+          "long" : "wish"
         },
         "exc" : {
           "short" : "exc",
-          "long" : "of exclamation"
+          "long" : "exclamation"
         },
         "abs" : {
           "short" : "abs",
