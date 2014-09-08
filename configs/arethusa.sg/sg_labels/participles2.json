@@ -12,8 +12,8 @@
       "italian" : "circostanziale",
       "sections" : "2054-2087",
       "nested" : {
-        "tim" : {
-          "short" : "tim",
+        "tmp" : {
+          "short" : "tmp",
           "long" : "time",
           "italian" : "tempo",
           "sections" : "2061"
@@ -24,7 +24,7 @@
           "italian" : "modo",
           "sections" : "2062"
         },
-        "mea" : {
+        "mns" : {
           "short" : "mns",
           "long" : "means",
           "italian" : "mezzo",
