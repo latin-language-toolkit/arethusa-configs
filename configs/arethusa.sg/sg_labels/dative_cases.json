@@ -12,8 +12,8 @@
           "italian" : "complemento diretto di verbi",
           "sections" : "1460-1468;1471-1473"
         },
-        "inr" : {
-          "short" : "inr",
+        "ind" : {
+          "short" : "ind",
           "long" : "indirect complement of verbs",
           "italian" : "complemento indiretto di verbi",
           "sections" : "1469-1470;1471-1473"
@@ -84,8 +84,8 @@
               "italian" : "opinione",
               "sections" : "1496-1497"
             },
-            "exp_tim" : {
-              "short" : "exp_tim",
+            "exp_tmp" : {
+              "short" : "exp_tmp",
               "long" : "with a participle of expressing time",
               "sections" : "1498"
             },
@@ -144,7 +144,7 @@
               "sections" : "1527"
             },
             "mea_dff" : {
-              "short" : "mea_dff",
+              "short" : "msr_dff",
               "long" : "measure of difference",
               "italian" : "misura di differenza",
               "sections" : "1513-1515"
@@ -221,8 +221,8 @@
         }
       }
     },
-    "lct" : {
-      "short" : "lct",
+    "lcv" : {
+      "short" : "lcv",
       "long" : "locative",
       "italian" : "locativo", 
       "sections" : "1530-1543",
@@ -260,8 +260,8 @@
             }
           }
         },
-        "tim" : {
-          "short" : "tim",
+        "tmp" : {
+          "short" : "tmp",
           "long" : "time",
           "italian" : "tempo",
           "sections" : "1539-1543",
@@ -315,13 +315,13 @@
       "long" : "adpositional",
       "italian" : "adposizionale",
       "nested" : {
-        "pur" : {
-          "short" : "pur",
+        "fnl" : {
+          "short" : "fnl",
           "long" : "purpose",
           "italian" : "fine"
         },
         "mea" : {
-          "short" : "mea",
+          "short" : "msr",
           "long" : "measure",
           "italian" : "misura"
         },
