@@ -555,9 +555,9 @@
           "short" : "adv_cls",
           "long" : "adverb clause",
           "nested" : {
-            "pur" : {
-              "short" : "pur",
-              "long" : "purpose clause",
+            "fnl" : {
+              "short" : "fnl",
+              "long" : "final clause",
               "italian" : "proposizione finale",
               "sections" : "2193–2206",
               "nested" : {
