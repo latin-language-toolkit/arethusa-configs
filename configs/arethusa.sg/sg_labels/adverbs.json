@@ -10,12 +10,12 @@
           "long" : "simultaneous location",
           "italian" : "locazione simultanea"
         },
-        "squ_lct" : {
+        "sqn_lct" : {
           "short" : "sqn_lct",
           "long" : "sequential location",
           "italian" : "locazione sequenziale"
         },
-        "squ_drt" : {
+        "sqn_drt" : {
           "short" : "sqn_drt",
           "long" : "sequential-durative",
           "italian" : "sequenziale-durativo"
