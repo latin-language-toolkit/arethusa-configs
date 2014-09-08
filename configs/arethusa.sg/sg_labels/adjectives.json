@@ -1,7 +1,7 @@
 {
   "nested" : {
     "prp" : {
-      "short" : "prp",
+      "short" : "adj_prp",
       "long" : "adjective proper",
       "italian" : "aggettivo proprio",
       "sections" : "1018-1020"
@@ -13,8 +13,8 @@
       "sections" : "1021-1029",
       "@include" : "./arethusa.sg/sg_labels/cases.json"
     },
-    "vrb_prp" : {
-      "short" : "vrb_prp",
+    "vrb_adj_prp" : {
+      "short" : "vrb_adj_prp",
       "long" : "verbal adjective proper",
       "italian" : "aggettivo verbale proprio",
       "sections" : "2149-2152"
