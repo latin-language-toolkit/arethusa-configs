@@ -3,33 +3,39 @@
     "dpd" : {
       "short" : "dpd",
       "long" : "dependent",
+      "italian" : "dipendente",
       "nested" : {
         "art" : {
           "short" : "art",
           "long" : "articular",
+          "italian" : "articolare",
           "nested" : {
             "nmn" : {
               "short" : "nmn",
               "sections" : "2031",
               "long" : "nominative",
+              "italian" : "nominativo",
               "@include" : "./arethusa.sg/sg_labels/nominative_cases.json"
             },
             "gnt" : {
               "short" : "gnt",
               "sections" : "2032",
               "long" : "genitive",
+              "italian" : "genitivo",
               "@include" : "./arethusa.sg/sg_labels/genetive_cases.json"
             },
             "dtv" : {
               "short" : "dtv",
               "sections" : "2033",
               "long" : "dative",
+              "italian" : "dativo",
               "@include" : "./arethusa.sg/sg_labels/dative_cases.json"
             },
             "acc" : {
               "short" : "acc",
               "sections" : "2034",
               "long" : "accusative",
+              "italian" : "accusativo",
               "@include" : "./arethusa.sg/sg_labels/accusative_cases.json"
             },
             "nna" : {
@@ -47,10 +53,12 @@
         "vrb" : {
           "short" : "vrb",
           "long" : "verbal",
+          "italian" : "verbale",
           "nested" : {
             "nmn" : {
               "short" : "nmn",
               "long" : "nominative",
+              "italian" : "nominativo",
               "nested" : {
                 "ind" : {
                   "short" : "ind",
@@ -78,6 +86,7 @@
             "acc" : {
               "short" : "acc",
               "long" : "accusative",
+              "italian" : "accusativo",
               "nested" : {
                 "ind" : {
                   "short" : "ind",
@@ -105,20 +114,24 @@
             "unc" : {
               "short" : "unc",
               "long" : "uncertain case",
+              "italian" : "caso incerto",
               "nested" : {
                 "fnl" : {
                   "short" : "fnl",
                   "long" : "purpose",
+                  "italian" : "fine",
                   "sections" : "2008-2010"
                 },
                 "cns" : {
                   "short" : "cns",
                   "long" : "result",
+                  "italian" : "risultato",
                   "sections" : "2011"
                 },
                 "tmp" : {
                   "short" : "tmp",
                   "long" : "temporal",
+                  "italian" : "temporale",
                   "sections" : "2453-2461"
                 },
                 "nna" : {
@@ -160,22 +173,27 @@
     "ind" : {
       "short" : "ind",
       "long" : "independent",
+      "italian" : "indipendente",
       "nested" : {
         "com" : {
           "short" : "cmm",
-          "long" : "command"
+          "long" : "command",
+          "italian" : "comando"
         },
         "wsh" : {
           "short" : "wsh",
-          "long" : "wish"
+          "long" : "wish",
+          "italian" : "desiderio"
         },
         "exc" : {
           "short" : "exc",
-          "long" : "exclamation"
+          "long" : "exclamation",
+          "italian" : "esclamazione"
         },
         "abs" : {
           "short" : "abs",
-          "long" : "in absolute use"
+          "long" : "absolute use",
+          "italian" : "uso assoluto"
         },
         "nna" : {
           "short" : "nna",
