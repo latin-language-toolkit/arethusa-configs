@@ -50,11 +50,57 @@
           "nested" : {
             "nmn" : {
               "short" : "nmn",
-              "long" : "nominative"
+              "long" : "nominative",
+              "nested" : {
+                "ind" : {
+                  "short" : "ind",
+                  "long" : "in indirect discourse",
+                  "italian" : "nel discorso indiretto", 
+                  "sections" : "2589–2635"
+                },
+                "not_ind" : {
+                  "short" : "not_ind",
+                  "long" : "not in indirect discourse",
+                  "italian" : "non nel discorso indiretto"
+                },
+                "nna" : {
+                  "short" : "nna",
+                  "long" : "none of the above",
+                  "italian" : "nessuno dei precedenti"
+                },
+                "idk" : {
+                  "short" : "idk",
+                  "long" : "I do not know",
+                  "italian" : "non so"
+                }
+              }
             },
             "acc" : {
               "short" : "acc",
-              "long" : "accusative"
+              "long" : "accusative",
+              "nested" : {
+                "ind" : {
+                  "short" : "ind",
+                  "long" : "in indirect discourse",
+                  "italian" : "nel discorso indiretto", 
+                  "sections" : "2589–2635"
+                },
+                "not_ind" : {
+                  "short" : "not_ind",
+                  "long" : "not in indirect discourse",
+                  "italian" : "non nel discorso indiretto"
+                },
+                "nna" : {
+                  "short" : "nna",
+                  "long" : "none of the above",
+                  "italian" : "nessuno dei precedenti"
+                },
+                "idk" : {
+                  "short" : "idk",
+                  "long" : "I do not know",
+                  "italian" : "non so"
+                }
+              }
             },
             "unc" : {
               "short" : "unc",
