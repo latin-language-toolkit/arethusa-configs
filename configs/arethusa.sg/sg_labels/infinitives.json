@@ -31,6 +31,16 @@
               "sections" : "2034",
               "long" : "accusative",
               "@include" : "./arethusa.sg/sg_labels/accusative_cases.json"
+            },
+            "nna" : {
+              "short" : "nna",
+              "long" : "none of the above",
+              "italian" : "nessuno dei precedenti"
+            },
+            "idk" : {
+              "short" : "idk",
+              "long" : "I do not know",
+              "italian" : "non so"
             }
           }
         },
@@ -64,8 +74,28 @@
                   "short" : "tmp",
                   "long" : "temporal",
                   "sections" : "2453-2461"
+                },
+                "nna" : {
+                  "short" : "nna",
+                  "long" : "none of the above",
+                  "italian" : "nessuno dei precedenti"
+                },
+                "idk" : {
+                  "short" : "idk",
+                  "long" : "I do not know",
+                  "italian" : "non so"
                 }
               }
+            },
+            "nna" : {
+              "short" : "nna",
+              "long" : "none of the above",
+              "italian" : "nessuno dei precedenti"
+            },
+            "idk" : {
+            "short" : "idk",
+            "long" : "I do not know",
+            "italian" : "non so"
             }
           }
         }
@@ -90,8 +120,28 @@
         "abs" : {
           "short" : "abs",
           "long" : "in absolute use"
+        },
+        "nna" : {
+          "short" : "nna",
+          "long" : "none of the above",
+          "italian" : "nessuno dei precedenti"
+        },
+        "idk" : {
+          "short" : "idk",
+          "long" : "I do not know",
+          "italian" : "non so"
         }
       }
+    },
+    "nna" : {
+      "short" : "nna",
+      "long" : "none of the above",
+      "italian" : "nessuno dei precedenti"
+    },
+    "idk" : {
+      "short" : "idk",
+      "long" : "I do not know",
+      "italian" : "non so"
     }
   }
 }
