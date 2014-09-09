@@ -60,12 +60,12 @@
       },
       "@include" : "./arethusa.sg/sg_labels/adverbs.json"
     },
-    "nmr" : {
-      "short" : "pos_nmr",
-      "long" : "numerals",
+    "nrl" : {
+      "short" : "nrl",
+      "long" : "numeral",
       "sections" : "",
       "dependency" : {
-        "pos" : "nmr"
+        "pos" : "nrl"
       },
       "@include" : "./arethusa.sg/sg_labels/numerals.json"
     }
