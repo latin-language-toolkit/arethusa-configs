@@ -48,6 +48,14 @@
             "color" : "purple"
           }
         },
+        "nmr" : {
+          "long" : "numeral",
+          "short" : "nmr",
+          "postag" : "m",
+          "style" : {
+            "color" : "black"
+          }
+        },
         "verb" : {
           "long" : "verb",
           "short" : "verb",
@@ -352,19 +360,19 @@
         }
       ],
       "values" : {
-        "nom" : {
+        "nmn" : {
           "long" : "nominative",
-          "short" : "nom",
+          "short" : "nmn",
           "postag" : "n"
         },
-        "gen" : {
+        "gnt" : {
           "long" : "genitive",
-          "short" : "gen",
+          "short" : "gnt",
           "postag" : "g"
         },
-        "dat" : {
+        "dtv" : {
           "long" : "dative",
-          "short" : "dat",
+          "short" : "dtv",
           "postag" : "d"
         },
         "acc" : {
@@ -372,14 +380,14 @@
           "short" : "acc",
           "postag" : "a"
         },
-        "voc" : {
+        "vct" : {
           "long" : "vocative",
-          "short" : "voc",
+          "short" : "vct",
           "postag" : "v"
         },
-        "loc" : {
+        "lct" : {
           "long" : "locative",
-          "short" : "loc",
+          "short" : "lct",
           "postag" : "l"
         }
       }
@@ -428,7 +436,6 @@
       "values" : {
         "pos" : {
           "verb\nparticiple": "verb",
-          "numeral": "adjective",
           "particle": "adverb",
           "preposition": "adposition",
           "exclamation": "interjection"
