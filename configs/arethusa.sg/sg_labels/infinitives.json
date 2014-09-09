@@ -22,7 +22,7 @@
               "sections" : "2032",
               "long" : "genitive",
               "italian" : "genitivo",
-              "@include" : "./arethusa.sg/sg_labels/genetive_cases.json"
+              "@include" : "./arethusa.sg/sg_labels/genitive_cases.json"
             },
             "dtv" : {
               "short" : "dtv",
