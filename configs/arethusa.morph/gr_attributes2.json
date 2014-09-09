@@ -40,6 +40,14 @@
             "color" : "blue"
           }
         },
+        "adj" : {
+          "long" : "numeral",
+          "short" : "nmr",
+          "postag" : "m",
+          "style" : {
+            "color" : "black"
+          }
+        },
         "pron" : {
           "long" : "pronoun",
           "short" : "pron",
@@ -141,7 +149,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "noun", "art", "part", "adj", "pron" ]
+            "pos" : [ "noun", "art", "part", "adj", "pron", "nmr" ]
           }
         },
         {
@@ -307,7 +315,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "noun", "adj", "pron" ]
+            "pos" : [ "art", "noun", "adj", "pron", "nmr" ]
           }
         },
         {
@@ -341,7 +349,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "noun", "adj", "pron" ]
+            "pos" : [ "art", "noun", "adj", "pron", "nmr" ]
           }
         },
         {
@@ -428,7 +436,6 @@
       "values" : {
         "pos" : {
           "verb\nparticiple": "verb",
-          "numeral": "adjective",
           "particle": "adverb",
           "preposition": "adposition",
           "exclamation": "interjection"
