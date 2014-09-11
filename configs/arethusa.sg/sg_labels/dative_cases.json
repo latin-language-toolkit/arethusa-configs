@@ -281,6 +281,11 @@
               "long" : "sequential-durative",
               "italian" : "sequenziale-durativo"
             },
+            "tmp_dst" : {
+              "short" : "tmp_dst",
+              "long" : "temporal distance",
+              "italian" : "distanza temporale"
+            },
             "tmp_ext" : {
               "short" : "tmp_ext",
               "long" : "temporal extent",
