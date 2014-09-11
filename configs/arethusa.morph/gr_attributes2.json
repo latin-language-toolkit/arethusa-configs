@@ -392,11 +392,6 @@
           "long" : "vocative",
           "short" : "voc",
           "postag" : "v"
-        },
-        "loc" : {
-          "long" : "locative",
-          "short" : "loc",
-          "postag" : "l"
         }
       }
     },
