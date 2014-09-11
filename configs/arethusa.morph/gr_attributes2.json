@@ -40,14 +40,6 @@
             "color" : "blue"
           }
         },
-        "nrl" : {
-          "long" : "numeral",
-          "short" : "nrl",
-          "postag" : "m",
-          "style" : {
-            "color" : "lightgreen"
-          }
-        },
         "pron" : {
           "long" : "pronoun",
           "short" : "pron",
@@ -86,6 +78,14 @@
           "postag" : "c",
           "style" : {
             "color" : "deeppink"
+          }
+        },
+        "nrl" : {
+          "long" : "numeral",
+          "short" : "nrl",
+          "postag" : "m",
+          "style" : {
+            "color" : "lightgreen"
           }
         },
         "intj" : {
