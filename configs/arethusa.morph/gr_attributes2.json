@@ -101,10 +101,18 @@
           "short" : "punct",
           "postag" : "u"
         },
-        "irreg" : {
-          "long" : "irregular",
-          "short" : "irreg",
-          "postag" : "x",
+        "nna" : {
+          "long" : "none of the above",
+          "short" : "nna",
+          "postag" : "b",
+          "style" : {
+            "color" : "gray"
+          }
+        },
+        "idk" : {
+          "long" : "I do not know",
+          "short" : "idk",
+          "postag" : "k",
           "style" : {
             "color" : "gray"
           }
