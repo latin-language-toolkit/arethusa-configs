@@ -706,16 +706,30 @@
               "italian" : "proposizione temporale",
               "sections" : "2383–2461",
               "nested" : {
-                "ind" : {
-                  "short" : "ind",
-                  "long" : "in indirect discourse",
-                  "italian" : "nel discorso indiretto", 
-                  "sections" : "2589–2635"
+                "sml_lct" : {
+                  "short" : "sml_lct",
+                  "long" : "simultaneous location",
+                  "italian" : "locazione simultanea"
                 },
-                "not_ind" : {
-                  "short" : "not_ind",
-                  "long" : "not in indirect discourse",
-                  "italian" : "non nel discorso indiretto"
+                "squ_lct" : {
+                  "short" : "squ_lct",
+                  "long" : "sequential location",
+                  "italian" : "locazione sequenziale"
+                },
+                "squ_drt" : {
+                  "short" : "squ_drt",
+                  "long" : "sequential-durative",
+                  "italian" : "sequenziale-durativo"
+                },
+                "tmp_dst" : {
+                  "short" : "tmp_dst",
+                  "long" : "temporal distance",
+                  "italian" : "distanza temporale"
+                },
+                "tmp_ext" : {
+                  "short" : "tmp_ext",
+                  "long" : "temporal extent",
+                  "italian" : "estensione temporale"
                 },
                 "nna" : {
                   "short" : "nna",
