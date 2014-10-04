@@ -709,27 +709,142 @@
                 "sml_lct" : {
                   "short" : "sml_lct",
                   "long" : "simultaneous location",
-                  "italian" : "locazione simultanea"
+                  "italian" : "locazione simultanea",
+                  "nested" : {
+                    "ind" : {
+                      "short" : "ind",
+                      "long" : "in indirect discourse",
+                      "italian" : "nel discorso indiretto", 
+                      "sections" : "2589–2635"
+                    },
+                    "not_ind" : {
+                      "short" : "not_ind",
+                      "long" : "not in indirect discourse",
+                      "italian" : "non nel discorso indiretto"
+                    },
+                    "nna" : {
+                      "short" : "nna",
+                      "long" : "none of the above",
+                      "italian" : "nessuno dei precedenti"
+                    },
+                    "idk" : {
+                      "short" : "idk",
+                      "long" : "I do not know",
+                      "italian" : "non so"
+                    }
+                  }
                 },
                 "squ_lct" : {
                   "short" : "squ_lct",
                   "long" : "sequential location",
-                  "italian" : "locazione sequenziale"
+                  "italian" : "locazione sequenziale",
+                  "nested" : {
+                    "ind" : {
+                      "short" : "ind",
+                      "long" : "in indirect discourse",
+                      "italian" : "nel discorso indiretto", 
+                      "sections" : "2589–2635"
+                    },
+                    "not_ind" : {
+                      "short" : "not_ind",
+                      "long" : "not in indirect discourse",
+                      "italian" : "non nel discorso indiretto"
+                    },
+                    "nna" : {
+                      "short" : "nna",
+                      "long" : "none of the above",
+                      "italian" : "nessuno dei precedenti"
+                    },
+                    "idk" : {
+                      "short" : "idk",
+                      "long" : "I do not know",
+                      "italian" : "non so"
+                    }
+                  }
                 },
                 "squ_drt" : {
                   "short" : "squ_drt",
                   "long" : "sequential-durative",
-                  "italian" : "sequenziale-durativo"
+                  "italian" : "sequenziale-durativo",
+                  "nested" : {
+                    "ind" : {
+                      "short" : "ind",
+                      "long" : "in indirect discourse",
+                      "italian" : "nel discorso indiretto", 
+                      "sections" : "2589–2635"
+                    },
+                    "not_ind" : {
+                      "short" : "not_ind",
+                      "long" : "not in indirect discourse",
+                      "italian" : "non nel discorso indiretto"
+                    },
+                    "nna" : {
+                      "short" : "nna",
+                      "long" : "none of the above",
+                      "italian" : "nessuno dei precedenti"
+                    },
+                    "idk" : {
+                      "short" : "idk",
+                      "long" : "I do not know",
+                      "italian" : "non so"
+                    }
+                  }
                 },
                 "tmp_dst" : {
                   "short" : "tmp_dst",
                   "long" : "temporal distance",
-                  "italian" : "distanza temporale"
+                  "italian" : "distanza temporale",
+                  "nested" : {
+                    "ind" : {
+                      "short" : "ind",
+                      "long" : "in indirect discourse",
+                      "italian" : "nel discorso indiretto", 
+                      "sections" : "2589–2635"
+                    },
+                    "not_ind" : {
+                      "short" : "not_ind",
+                      "long" : "not in indirect discourse",
+                      "italian" : "non nel discorso indiretto"
+                    },
+                    "nna" : {
+                      "short" : "nna",
+                      "long" : "none of the above",
+                      "italian" : "nessuno dei precedenti"
+                    },
+                    "idk" : {
+                      "short" : "idk",
+                      "long" : "I do not know",
+                      "italian" : "non so"
+                    }
+                  }
                 },
                 "tmp_ext" : {
                   "short" : "tmp_ext",
                   "long" : "temporal extent",
-                  "italian" : "estensione temporale"
+                  "italian" : "estensione temporale",
+                  "nested" : {
+                    "ind" : {
+                      "short" : "ind",
+                      "long" : "in indirect discourse",
+                      "italian" : "nel discorso indiretto", 
+                      "sections" : "2589–2635"
+                    },
+                    "not_ind" : {
+                      "short" : "not_ind",
+                      "long" : "not in indirect discourse",
+                      "italian" : "non nel discorso indiretto"
+                    },
+                    "nna" : {
+                      "short" : "nna",
+                      "long" : "none of the above",
+                      "italian" : "nessuno dei precedenti"
+                    },
+                    "idk" : {
+                      "short" : "idk",
+                      "long" : "I do not know",
+                      "italian" : "non so"
+                    }
+                  }
                 },
                 "nna" : {
                   "short" : "nna",
