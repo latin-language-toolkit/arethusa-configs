@@ -1,0 +1,70 @@
+{
+  "main" : {
+    "plugins" : [
+      "text",
+      "morph",
+      "relation",
+      "sg",
+      "artificialToken",
+      "search",
+      "history",
+      "comments",
+      "depTree"
+    ]
+  },
+  "plugins" : {
+    "sg" : {
+      "retriever" : {
+        "SgGrammarRetriever" : {
+          "resource" : "sgGrammar"
+        }
+      },
+      "template" : "templates/sg.html",
+      "contextMenu" : true,
+      "contextMenuTemplate": "templates/arethusa.sg/context_menu.html",
+      "@include" : "./arethusa.harrington/harrington_labels.json"
+    },
+    "morph" : {
+      "retrievers" : {
+        "BspMorphRetriever" : {
+          "resource" : "morphologyServiceLat"
+        }
+      },
+      "postagSchema" : [
+        "pos",
+        "pers",
+        "num",
+        "tense",
+        "mood",
+        "voice",
+        "gend",
+        "case",
+        "degree"
+      ],
+      "styledThrough" : "pos",
+      "@include" : "./arethusa.morph/lat_attributes.json",
+      "mappings" : {
+        "BspMorphRetriever" : {
+          "attributes" : {
+            "pofs" : "pos",
+            "comp" : "degree"
+          },
+          "values" : {
+            "pos" : {
+              "verb\nparticiple": "verb",
+              "particle": "adverb",
+              "preposition": "adposition",
+              "exclamation": "interjection"
+            },
+            "tense" : {
+              "pluperfect" : "plusquamperfect"
+            },
+            "voice" : {
+              "mediopassive" : "medio-passive"
+            }
+          }
+        }
+      }
+    }
+  }
+}
