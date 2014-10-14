@@ -1,0 +1,60 @@
+{
+  "nested" : {
+    "ORIENT" : {
+      "short" : "ORIENT",
+      "long" : "orient"
+    },
+    "SEPAR" : {
+      "short" : "SEPAR",
+      "long" : "separation"
+    },
+    "CAUSE" : {
+      "short" : "CAUSE",
+      "long" : "cause"
+    },
+    "AGENT" : {
+      "short" : "AGENT",
+      "long" : "agent"
+    },
+    "ABSOL" : {
+      "short" : "ABSOL",
+      "long" : "absolute"
+    },
+    "COMPAR" : {
+      "short" : "COMPAR",
+      "long" : "comparison"
+    },
+    "LOCAT" : {
+      "short" : "LOCAT",
+      "long" : "location"
+    },
+    "RESPECT" : {
+      "short" : "RESPECT",
+      "long" : "respect"
+    },
+    "ACCOMP" : {
+      "short" : "ACCOMP",
+      "long" : "accompaniment"
+    },
+    "DECRIP" : {
+      "short" : "DECRIP",
+      "long" : "description"
+    },
+    "MEANS" : {
+      "short" : "MEANS",
+      "long" : "means"
+    },
+    "MANN" : {
+      "short" : "MANN",
+      "long" : "manner"
+    },
+    "PRICE" : {
+      "short" : "PRICE",
+      "long" : "price"
+    },
+    "DEGDIF" : {
+      "short" : "DEGDIF",
+      "long" : "degree of difference"
+    }
+  }
+}

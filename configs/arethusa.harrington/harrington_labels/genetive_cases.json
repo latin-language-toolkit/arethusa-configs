@@ -1,0 +1,32 @@
+{
+  "nested" : {
+    "POSS" : {
+      "short" : "POSS",
+      "long" : "possessive"
+    },
+    "PART" : {
+      "short" : "PART",
+      "long" : "partitive"
+    },
+    "OBJEC" : {
+      "short" : "OBJEC",
+      "long" : "object"
+    },
+    "DESC" : {
+      "short" : "DESC",
+      "long" : "desc"
+    },
+    "CHAR" : {
+      "short" : "CHAR",
+      "long" : "char"
+    },
+    "VALUE" : {
+      "short" : "VALUE",
+      "long" : "value"
+    },
+    "MATER" : {
+      "short" : "MATER",
+      "long" : "mater"
+    }
+  }
+}

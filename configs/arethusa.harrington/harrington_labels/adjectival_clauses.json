@@ -1,0 +1,16 @@
+{
+  "nested" : {
+    "RC" : {
+      "short" : "RC",
+      "long" : "relative clause"
+    },
+    "RCCHAR" : {
+      "short" : "RCCHAR",
+      "long" : "rcchar"
+    },
+    "RCINDSTAT" : {
+      "short" : "RCINDSTAT",
+      "long" : "relative clause as indirect statement"
+    }
+  }
+}

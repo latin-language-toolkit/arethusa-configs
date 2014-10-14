@@ -1,0 +1,52 @@
+{
+  "nested" : {
+    "PURP" : {
+      "short" : "PURP",
+      "long" : "purpose"
+    },
+    "RESULT" : {
+      "short" : "RESULT",
+      "long" : "result"
+    },
+    "CONSEC" : {
+      "short" : "CONSEC",
+      "long" : "consecutive"
+    },
+    "PROTAS" : {
+      "short" : "PROTAS",
+      "long" : "protas"
+    },
+    "TEMPOR" : {
+      "short" : "TEMPOR",
+      "long" : "temporal"
+    },
+    "CIRCUMS" : {
+      "short" : "CIRCUMS",
+      "long" : "circumstances"
+    },
+    "CAUSAL" : {
+      "short" : "CAUSAL",
+      "long" : "causal"
+    },
+    "COMPAR" : {
+      "short" : "COMPAR",
+      "long" : "comparison"
+    },
+    "PROVISO" : {
+      "short" : "PROVISO",
+      "long" : "provision"
+    },
+    "RCPURP" : {
+      "short" : "RCPURP",
+      "long" : "relative clause of purpose"
+    },
+    "RCRESULT" : {
+      "short" : "RCRESULT",
+      "long" : "relative clause of result"
+    },
+    "RCPROTAS" : {
+      "short" : "RCPROTAS",
+      "long" : "recprotas"
+    }
+  }
+}

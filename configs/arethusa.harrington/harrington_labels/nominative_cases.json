@@ -1,0 +1,12 @@
+{
+  "nested" : {
+    "SUBJ" : {
+      "short" : "SUBJ",
+      "long" : "SUBJ"
+    },
+    "PRED" : {
+      "short" : "PRED",
+      "long" : "PRED"
+    }
+  }
+}

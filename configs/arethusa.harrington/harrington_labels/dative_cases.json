@@ -1,0 +1,28 @@
+{
+  "nested" : {
+    "IO" : {
+      "short" : "IO",
+      "long" : "io"
+    },
+    "INTER" : {
+      "short" : "INTER",
+      "long" : "inter"
+    },
+    "POSS" : {
+      "short" : "POSS",
+      "long" : "possessive"
+    },
+    "REFER" : {
+      "short" : "REFER",
+      "long" : "refer"
+    },
+    "AGENT" : {
+      "short" : "AGENT",
+      "long" : "agent"
+    },
+    "PURP" : {
+      "short" : "PURP",
+      "long" : "purpose"
+    }
+  }
+}

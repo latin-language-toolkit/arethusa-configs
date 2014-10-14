@@ -1,0 +1,40 @@
+{
+  "nested" : {
+    "DO" : {
+      "short" : "DO",
+      "long" : "do"
+    },
+    "INTOBJ" : {
+      "short" : "INTOBJ",
+      "long" : "internal object"
+    },
+    "PRED" : {
+      "short" : "PRED",
+      "long" : "predicate"
+    },
+    "SUBJ" : {
+      "short" : "SUBJ",
+      "long" : "subject"
+    },
+    "ORIENT" : {
+      "short" : "ORIENT",
+      "long" : "orient"
+    },
+    "EXTENT" : {
+      "short" : "EXTENT",
+      "long" : "extent"
+    },
+    "RESPECT" : {
+      "short" : "RESPECT",
+      "long" : "respect"
+    },
+    "ADVERB" : {
+      "short" : "ADVERB",
+      "long" : "adverb"
+    },
+    "EXCLAM" : {
+      "short" : "EXCLAM",
+      "long" : "exclamation"
+    }
+  }
+}

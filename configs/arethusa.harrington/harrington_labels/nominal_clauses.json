@@ -1,0 +1,20 @@
+{
+  "nested" : {
+    "INDCMND" : {
+      "short" : "INDCMND",
+      "long" : "indirect command"
+    },
+    "FEARCL" : {
+      "short" : "FEARCL",
+      "long" : "fearcl"
+    },
+    "INDQUES" : {
+      "short" : "INDQUES",
+      "long" : "indirect question"
+    },
+    "INDSTAT" : {
+      "short" : "INDSTAT",
+      "long" : "indirect statement"
+    }
+  }
+}
