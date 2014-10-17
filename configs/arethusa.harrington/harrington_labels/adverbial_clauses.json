@@ -2,39 +2,39 @@
   "nested" : {
     "PURP" : {
       "short" : "PURP",
-      "long" : "purpose"
+      "long" : "purpose clause"
     },
     "RESULT" : {
       "short" : "RESULT",
-      "long" : "result"
+      "long" : "result clause"
     },
     "CONSEC" : {
       "short" : "CONSEC",
-      "long" : "consecutive"
+      "long" : "consecutive clause"
     },
     "PROTAS" : {
       "short" : "PROTAS",
-      "long" : "protas"
+      "long" : "protasis"
     },
     "TEMPOR" : {
       "short" : "TEMPOR",
-      "long" : "temporal"
+      "long" : "temporal clause"
     },
     "CIRCUMS" : {
       "short" : "CIRCUMS",
-      "long" : "circumstances"
+      "long" : "circumstantial clause"
     },
     "CAUSAL" : {
       "short" : "CAUSAL",
-      "long" : "causal"
+      "long" : "causal clause"
     },
     "COMPAR" : {
       "short" : "COMPAR",
-      "long" : "comparison"
+      "long" : "comparison clause"
     },
     "PROVISO" : {
       "short" : "PROVISO",
-      "long" : "provision"
+      "long" : "proviso clause"
     },
     "RCPURP" : {
       "short" : "RCPURP",
@@ -45,8 +45,8 @@
       "long" : "relative clause of result"
     },
     "RCPROTAS" : {
-      "short" : "RCPROTAS",
-      "long" : "recprotas"
+      "short" : "RCCONDIT",
+      "long" : "conditional relative clause"
     }
   }
 }
