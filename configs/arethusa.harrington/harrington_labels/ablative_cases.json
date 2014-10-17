@@ -2,59 +2,59 @@
   "nested" : {
     "ORIENT" : {
       "short" : "ORIENT",
-      "long" : "orient"
+      "long" : "ablative of orientation"
     },
     "SEPAR" : {
       "short" : "SEPAR",
-      "long" : "separation"
+      "long" : "ablative of separation"
     },
     "CAUSE" : {
       "short" : "CAUSE",
-      "long" : "cause"
+      "long" : "ablative of cause"
     },
     "AGENT" : {
       "short" : "AGENT",
-      "long" : "agent"
+      "long" : "ablative of agent"
     },
     "ABSOL" : {
       "short" : "ABSOL",
-      "long" : "absolute"
+      "long" : "ablative absolute"
     },
     "COMPAR" : {
       "short" : "COMPAR",
-      "long" : "comparison"
+      "long" : "ablative of comparison"
     },
     "LOCAT" : {
       "short" : "LOCAT",
-      "long" : "location"
+      "long" : "ablative of location"
     },
     "RESPECT" : {
       "short" : "RESPECT",
-      "long" : "respect"
+      "long" : "ablative of respect"
     },
     "ACCOMP" : {
       "short" : "ACCOMP",
-      "long" : "accompaniment"
+      "long" : "ablative of accompaniment"
     },
     "DECRIP" : {
       "short" : "DECRIP",
-      "long" : "description"
+      "long" : "ablative of description"
     },
     "MEANS" : {
       "short" : "MEANS",
-      "long" : "means"
+      "long" : "ablative of means"
     },
     "MANN" : {
       "short" : "MANN",
-      "long" : "manner"
+      "long" : "ablative of manner"
     },
     "PRICE" : {
       "short" : "PRICE",
-      "long" : "price"
+      "long" : "ablative of price"
     },
     "DEGDIF" : {
       "short" : "DEGDIF",
-      "long" : "degree of difference"
+      "long" : "ablative of degree of difference"
     }
   }
 }
