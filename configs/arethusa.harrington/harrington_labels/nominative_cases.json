@@ -2,11 +2,11 @@
   "nested" : {
     "SUBJ" : {
       "short" : "SUBJ",
-      "long" : "SUBJ"
+      "long" : "subject nominative"
     },
     "PRED" : {
       "short" : "PRED",
-      "long" : "PRED"
+      "long" : "predicate nominative"
     }
   }
 }
