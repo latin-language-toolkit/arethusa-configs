@@ -1,0 +1,74 @@
+{
+  "relations" : {
+    "BASIC" : {
+      "short" : "BASIC",
+      "long" : ""
+    },
+    "nominative" : {
+      "short" : "nominative",
+      "long" : "",
+      "nested" : {
+        "N-SUBJ" : {
+          "short" : "N-SUBJ",
+          "long" : ""
+        },
+        "N-PRED" : {
+          "short" : "N-PRED",
+          "long" : ""
+        }
+      }
+    },
+    "genitive" : {
+      "short" : "genitive",
+      "long" : "",
+      "nested" : {
+        "G-POSS" : {
+          "short" : "G-POSS",
+          "long" : ""
+        },
+        "G-PART" : {
+          "short" : "G-PART",
+          "long" : ""
+        },
+        "G-OBJEC" : {
+          "short" : "G-OBJEC",
+          "long" : ""
+        },
+        "G-DESC" : {
+          "short" : "G-DESC",
+          "long" : ""
+        },
+        "G-CHAR" : {
+          "short" : "G-CHAR",
+          "long" : ""
+        },
+        "G-VALUE" : {
+          "short" : "G-VALUE",
+          "long" : ""
+        },
+        "G-MATER" : {
+          "short" : "G-MATER",
+          "long" : ""
+        }
+      }
+    },
+    "adjectival clause" : {
+      "short" : "adjectival clause",
+      "long" : "",
+      "nested" : {
+        "ADJ-RC" : {
+          "short" : "ADJ-RC",
+          "long" : ""
+        },
+        "ADJ-RCCHAR" : {
+          "short" : "ADJ-RCCHAR",
+          "long" : ""
+        },
+        "ADJ-RCINDSTAT" : {
+          "short" : "ADJ-RCINDSTAT",
+          "long" : ""
+        }
+      }
+    }
+  }
+}

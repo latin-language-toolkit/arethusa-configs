@@ -4,7 +4,6 @@
       "text",
       "morph",
       "relation",
-      "sg",
       "artificialToken",
       "search",
       "history",
@@ -13,16 +12,8 @@
     ]
   },
   "plugins" : {
-    "sg" : {
-      "retriever" : {
-        "SgGrammarRetriever" : {
-          "resource" : "sgGrammar"
-        }
-      },
-      "template" : "templates/sg.html",
-      "contextMenu" : true,
-      "contextMenuTemplate": "templates/arethusa.sg/context_menu.html",
-      "@include" : "./arethusa.harrington/harrington_labels.json"
+    "relation" : {
+      "@include" : "./arethusa.relation/harrington.json"
     },
     "morph" : {
       "retrievers" : {
