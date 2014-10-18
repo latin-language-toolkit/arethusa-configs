@@ -1,19 +1,19 @@
 {
   "nested" : {
     "INDCMND" : {
-      "short" : "INDCMND",
+      "short" : "NOM-INDCMND",
       "long" : "indirect command"
     },
     "FEARCL" : {
-      "short" : "FEARCL",
+      "short" : "NOM-FEARCL",
       "long" : "fear clause"
     },
     "INDQUES" : {
-      "short" : "INDQUES",
+      "short" : "NOM-INDQUES",
       "long" : "indirect question"
     },
     "INDSTAT" : {
-      "short" : "INDSTAT",
+      "short" : "NOM-INDSTAT",
       "long" : "indirect statement"
     }
   }
