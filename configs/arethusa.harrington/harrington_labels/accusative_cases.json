@@ -1,39 +1,39 @@
 {
   "nested" : {
     "DO" : {
-      "short" : "DO",
+      "short" : "A-DO",
       "long" : "accusative direct object"
     },
     "INTOBJ" : {
-      "short" : "INTOBJ",
+      "short" : "A-INTOBJ",
       "long" : "accusative internal object"
     },
     "PRED" : {
-      "short" : "PRED",
+      "short" : "A-PRED",
       "long" : "predicate accusative"
     },
     "SUBJ" : {
-      "short" : "SUBJ",
+      "short" : "A-SUBJ",
       "long" : "subject accusative"
     },
     "ORIENT" : {
-      "short" : "ORIENT",
+      "short" : "A-ORIENT",
       "long" : "accusative of orientation"
     },
     "EXTENT" : {
-      "short" : "EXTENT",
+      "short" : "A-EXTENT",
       "long" : "accusative of extent"
     },
     "RESPECT" : {
-      "short" : "RESPECT",
+      "short" : "A-RESPECT",
       "long" : "accusative of respect"
     },
     "ADVERB" : {
-      "short" : "ADVERB",
+      "short" : "A-ADVERB",
       "long" : "adverbial accusative"
     },
     "EXCLAM" : {
-      "short" : "EXCLAM",
+      "short" : "A-EXCLAM",
       "long" : "accusative of exclamation"
     }
   }
