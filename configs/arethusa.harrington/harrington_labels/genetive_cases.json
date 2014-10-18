@@ -26,8 +26,8 @@
     },
     "MATER" : {
       "short" : "G-MATER",
-      "long" : "genitive of material"    },
-    }
+      "long" : "genitive of material"    
+    },
     "CHARGE" : {
       "short" : "G-CHARGE",
       "long" : "genitive of the charge"

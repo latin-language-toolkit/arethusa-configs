@@ -3,73 +3,48 @@
     "labels" : {
       "BASIC" : {
         "short" : "BASIC",
-        "long" : ""
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/basic.json"
       },
       "nominative" : {
         "short" : "nominative",
         "long" : "",
-        "nested" : {
-          "N-SBJ" : {
-            "short" : "N-SBJ",
-            "long" : ""
-          },
-          "N-PRED" : {
-            "short" : "N-PRED",
-            "long" : ""
-          }
-        }
+        "@include" : "./arethusa.harrington/harrington_labels/nominative_cases.json"
       },
       "genitive" : {
         "short" : "genitive",
         "long" : "",
-        "nested" : {
-          "G-POSS" : {
-            "short" : "G-POSS",
-            "long" : ""
-          },
-          "G-PART" : {
-            "short" : "G-PART",
-            "long" : ""
-          },
-          "G-OBJEC" : {
-            "short" : "G-OBJEC",
-            "long" : ""
-          },
-          "G-DESC" : {
-            "short" : "G-DESC",
-            "long" : ""
-          },
-          "G-CHAR" : {
-            "short" : "G-CHAR",
-            "long" : ""
-          },
-          "G-VALUE" : {
-            "short" : "G-VALUE",
-            "long" : ""
-          },
-          "G-MATER" : {
-            "short" : "G-MATER",
-            "long" : ""
-          }
-        }
+        "@include" : "./arethusa.harrington/harrington_labels/genetive_cases.json"
+      },
+      "dative" : {
+        "short" : "dative",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/dative_cases.json"
+      },
+      "accusative" : {
+        "short" : "accusative",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/accusative_cases.json"
+      },
+      "ablative" : {
+        "short" : "ablative",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/ablative_cases.json"
       },
       "adjectival clause" : {
         "short" : "adjectival clause",
         "long" : "",
-        "nested" : {
-          "ADJ-RC" : {
-            "short" : "ADJ-RC",
-            "long" : ""
-          },
-          "ADJ-RCCHAR" : {
-            "short" : "ADJ-RCCHAR",
-            "long" : ""
-          },
-          "ADJ-RCINDSTAT" : {
-            "short" : "ADJ-RCINDSTAT",
-            "long" : ""
-          }
-        }
+        "@include" : "./arethusa.harrington/harrington_labels/adjectival_clauses.json"
+      },
+      "adverbial clause" : {
+        "short" : "adjverbial clause",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/adverbial_clauses.json"
+      },
+      "nominal clause" : {
+        "short" : "nominal clause",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/nominal_clauses.json"
       }
     },
     "suffixes" : {
@@ -95,5 +70,4 @@
       }
     }
   }
-
 }
