@@ -37,7 +37,7 @@
         "@include" : "./arethusa.harrington/harrington_labels/adjectival_clauses.json"
       },
       "adverbial clause" : {
-        "short" : "adjverbial clause",
+        "short" : "adverbial clause",
         "long" : "",
         "@include" : "./arethusa.harrington/harrington_labels/adverbial_clauses.json"
       },
