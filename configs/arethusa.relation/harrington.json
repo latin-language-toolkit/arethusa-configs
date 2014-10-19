@@ -31,6 +31,14 @@
         "long" : "",
         "@include" : "./arethusa.harrington/harrington_labels/ablative_cases.json"
       },
+      "vocative" : {
+        "short" : "V-VOC",
+        "long" : "vocative"
+      },
+      "locative" : {
+        "short" : "L-LOCAT",
+        "long" : "locative"
+      },
       "adjectival clause" : {
         "short" : "adjectival clause",
         "long" : "",

@@ -25,20 +25,6 @@
            }
         }
       },
-      "SBJ" : {
-        "short" : "SBJ",
-        "long" : "subject",
-        "style" : {
-          "color" : "rgb(92, 201, 83)"
-        }
-      },
-      "OBJ" : {
-        "short" : "OBJ",
-        "long" : "object",
-        "style" : {
-          "color" : "rgb(11, 200, 216)"
-        }
-      },
       "ATR" : {
         "short" : "ATR",
         "long" : "attribute",
@@ -65,20 +51,6 @@
         "long" : "complement",
         "style" : {
           "color" : "rgb(131, 11, 16)"
-        }
-      },
-      "PNOM" : {
-        "short" : "PNOM",
-        "long" : "predicate nominal",
-        "style" : {
-          "color" : "rgb(87, 160, 119)"
-        }
-      },
-      "OCOMP" : {
-        "short" : "OCOMP",
-        "long" : "object complement",
-        "style" : {
-          "color" : "rgb(92, 201, 83)"
         }
       },
       "COORD" : {

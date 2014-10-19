@@ -28,6 +28,10 @@
       "short" : "ADV-CAUSAL",
       "long" : "causal clause"
     },
+    "CONCESS" : {
+      "short" : "ADV-CONCESS",
+      "long" : "concessive clause"
+    },
     "COMPAR" : {
       "short" : "ADV-COMPAR",
       "long" : "comparison clause"
