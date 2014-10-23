@@ -114,6 +114,11 @@
       "long" : "negation",
       "italian" : "negazione"
     },
+    "prt" : {
+      "short" : "prt",
+      "long" : "particle",
+      "italian" : "particella"
+    },
     "nna" : {
       "short" : "nna",
       "long" : "none of the above",
