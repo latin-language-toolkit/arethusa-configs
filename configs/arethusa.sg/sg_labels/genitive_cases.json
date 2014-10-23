@@ -343,11 +343,6 @@
             }
           }
         },
-        "uns" : {
-          "short" : "uns",
-          "long" : "unspecified (only if dep. on adj., adv., or adp.)",
-          "italian" : "non specificato (solo se dip. da agg., avv. or adp.)"
-        },
         "nna" : {
           "short" : "nna",
           "long" : "none of the above",
