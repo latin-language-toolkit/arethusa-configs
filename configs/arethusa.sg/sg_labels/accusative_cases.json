@@ -135,6 +135,11 @@
               "long" : "manner",
               "italian" : "modo"
             },
+            "ins_mns" : {
+              "short" : "ins_mns",
+              "long" : "instrument or means",
+              "italian" : "strumento o mezzo"
+            },
             "cau" : {
               "short" : "cau",
               "long" : "cause",
@@ -156,19 +161,34 @@
               "italian" : "comparazione"
             },
             "adv_dsd" : {
-              "short" : "adv_dsd",
-              "long" : "advantage and disadvantage",
-              "italian" : "vantaggio e svantaggio"
+              "short" : "adv",
+              "long" : "advantage",
+              "italian" : "vantaggio"
             },
-            "prc" : {
-              "short" : "prc",
-              "long" : "price",
-              "italian" : "prezzo"
+            "adv_dsd" : {
+              "short" : "dsd",
+              "long" : "disadvantage",
+              "italian" : "svantaggio"
             },
-            "ass" : {
-              "short" : "ass",
-              "long" : "association",
-              "italian" : "associazione"
+            "rcp_add" : {
+              "short" : "rcp_add",
+              "long" : "recipient or addressee",
+              "italian" : "recipiente o destinatario"
+            },
+            "cnf" : {
+              "short" : "cnf",
+              "long" : "conformity",
+              "italian" : "conformità"
+            },
+            "frd_ass" : {
+              "short" : "frd_ass",
+              "long" : "frendly association",
+              "italian" : "associazione amichevole"
+            },
+            "hst_ass" : {
+              "short" : "hst_ass",
+              "long" : "hostile association",
+              "italian" : "associazione ostile"
             },
             "nna" : {
               "short" : "nna",
