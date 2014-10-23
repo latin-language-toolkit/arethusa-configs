@@ -30,10 +30,16 @@
               "italian" : "possessore",
               "sections" : "1476-1480"
             },
-            "adv_dsd" : {
-              "short" : "adv_dsd",
-              "long" : "advantage and disadvantage",
-              "italian" : "vantaggio e svantaggio",
+            "adv" : {
+              "short" : "adv",
+              "long" : "advantage",
+              "italian" : "vantaggio",
+              "sections" : "1481-1485"
+            },
+            "dsd" : {
+              "short" : "dsd",
+              "long" : "disadvantage",
+              "italian" : "svantaggio",
               "sections" : "1481-1485"
             },
             "fln" : {
@@ -179,10 +185,16 @@
           "italian" : "comitativo",
           "sections" : "1521-1528",
           "nested" : {
-            "ass" : {
-              "short" : "ass",
-              "long" : "association",
-              "italian" : "associazione",
+            "frd_ass" : {
+              "short" : "frd_ass",
+              "long" : "friendly association",
+              "italian" : "associazione amichevole",
+              "sections" : "1523"
+            },
+            "hst_ass" : {
+              "short" : "hst_ass",
+              "long" : "hostile association",
+              "italian" : "associazione ostile",
               "sections" : "1523"
             },
             "acm" : {
@@ -329,6 +341,21 @@
           "short" : "msr",
           "long" : "measure",
           "italian" : "misura"
+        },
+        "cnf" : {
+          "short" : "cnf",
+          "long" : "conformity",
+          "italian" : "conformità"
+        },
+        "prc" : {
+          "short" : "prc",
+          "long" : "price",
+          "italian" : "prezzo"
+        },
+        "cnd" : {
+          "short" : "cnd",
+          "long" : "condition",
+          "italian" : "condizione"
         },
         "nna" : {
           "short" : "nna",
