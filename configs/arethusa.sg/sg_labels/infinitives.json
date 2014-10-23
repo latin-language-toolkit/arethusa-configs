@@ -229,8 +229,8 @@
         },
         "abs" : {
           "short" : "abs",
-          "long" : "absolute use",
-          "italian" : "uso assoluto"
+          "long" : "absolute",
+          "italian" : "assoluto"
         },
         "nna" : {
           "short" : "nna",
