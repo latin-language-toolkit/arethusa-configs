@@ -33,12 +33,14 @@
                 "lct" : {
                   "short" : "lct",
                   "long" : "location",
-                  "italian" : "locazione"
+                  "italian" : "locazione",
+                  "@include" : "./arethusa.sg/sg_labels/figurative.json"
                 },
                 "pth" : {
                   "short" : "pth",
                   "long" : "path",
-                  "italian" : "attraverso"
+                  "italian" : "attraverso",
+                  "@include" : "./arethusa.sg/sg_labels/figurative.json"
                 },
                 "nna" : {
                   "short" : "nna",
@@ -117,7 +119,8 @@
           "short" : "drc",
           "long" : "terminal",
           "italian" : "terminale",
-          "sections" : "1588-1589"
+          "sections" : "1588-1589",
+          "@include" : "./arethusa.sg/sg_labels/figurative.json"
         },
         "rsp" : {
           "short" : "rsp",
