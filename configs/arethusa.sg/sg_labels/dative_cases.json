@@ -253,17 +253,20 @@
                                 "lct": {
                                     "short": "lct",
                                     "long": "location",
-                                    "italian": "locazione"
+                                    "italian": "locazione",
+                                    "@include" : "./arethusa.sg/sg_labels/figurative.json"
                                 },
                                 "drc": {
                                     "short": "drc",
                                     "long": "direction",
-                                    "italian": "direzione"
+                                    "italian": "direzione",
+                                    "@include" : "./arethusa.sg/sg_labels/figurative.json"
                                 },
                                 "pth": {
                                     "short": "pth",
                                     "long": "path",
-                                    "italian": "attraverso"
+                                    "italian": "attraverso",
+                                    "@include" : "./arethusa.sg/sg_labels/figurative.json"
                                 },
                                 "nna": {
                                     "short": "nna",
