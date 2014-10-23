@@ -306,10 +306,15 @@
               "long" : "manner",
               "italian" : "modo"
             },
-            "ass" : {
-              "short" : "ass",
-              "long" : "association",
-              "italian" : "associazione"
+            "frd_ass" : {
+              "short" : "frd_ass",
+              "long" : "friendly association",
+              "italian" : "associazione amichevole"
+            },
+            "hst_ass" : {
+              "short" : "hst_ass",
+              "long" : "hostile association",
+              "italian" : "associazione ostile"
             },
             "acm" : {
               "short" : "acm",
@@ -321,15 +326,25 @@
               "long" : "accompanying circumstance",
               "italian" : "circostanza accompagnante"
             },
-            "adv_dsd" : {
-              "short" : "adv_dsd",
-              "long" : "advantage and disadvantage",
-              "italian" : "vantaggio e svantaggio"
+            "adv" : {
+              "short" : "adv",
+              "long" : "advantage",
+              "italian" : "vantaggio"
+            },
+            "dsd" : {
+              "short" : "dsd",
+              "long" : "disadvantage",
+              "italian" : "svantaggio"
             },
             "rfr" : {
               "short" : "rfr",
               "long" : "reference",
               "italian" : "riferimento"
+            },
+            "cnf" : {
+              "short" : "cnf",
+              "long" : "conformity",
+              "italian" : "conformità"
             },
             "nna" : {
               "short" : "nna",
