@@ -1,12 +1,12 @@
 {
   "nested" : {
-    "sbs" : {
+    "adj" : {
       "short" : "adj",
       "long" : "adjective participle",
       "italian" : "participio aggettivale",
       "@include" : "./arethusa.sg/sg_labels/participles2.json"
     },
-    "adj" : {
+    "sbs" : {
       "short" : "sbs",
       "long" : "substantive participle",
       "italian" : "participio sostantivato",
