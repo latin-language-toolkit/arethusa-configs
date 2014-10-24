@@ -366,12 +366,14 @@
                   "short" : "ind",
                   "long" : "in indirect discourse",
                   "italian" : "nel discorso indiretto", 
-                  "sections" : "2589–2635"
+                  "sections" : "2589–2635",
+                  "@include" : "./arethusa.sg/sg_labels/cases.json"
                 },
                 "not_ind" : {
                   "short" : "not_ind",
                   "long" : "not in indirect discourse",
-                  "italian" : "non nel discorso indiretto"
+                  "italian" : "non nel discorso indiretto",
+                  "@include" : "./arethusa.sg/sg_labels/cases.json"
                 },
                 "nna" : {
                   "short" : "nna",
