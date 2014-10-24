@@ -163,12 +163,12 @@
               "long" : "comparison",
               "italian" : "comparazione"
             },
-            "adv_dsd" : {
+            "adv" : {
               "short" : "adv",
               "long" : "advantage",
               "italian" : "vantaggio"
             },
-            "adv_dsd" : {
+            "dsd" : {
               "short" : "dsd",
               "long" : "disadvantage",
               "italian" : "svantaggio"
