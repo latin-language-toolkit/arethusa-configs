@@ -55,7 +55,7 @@
           "long" : "verbal",
           "italian" : "verbale",
           "nested" : {
-            "nmn" : {
+            "as_nmn" : {
               "short" : "as_nmn",
               "long" : "as nominative",
               "italian" : "come nominativo",
@@ -83,7 +83,7 @@
                 }
               }
             },
-            "acc" : {
+            "as_acc" : {
               "short" : "as_acc",
               "long" : "as accusative",
               "italian" : "come accusativo",
