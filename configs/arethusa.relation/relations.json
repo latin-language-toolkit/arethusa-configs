@@ -177,6 +177,13 @@
           "color" : "rgb(154, 130, 206)"
         }
       },
+      "ALL" : {
+        "short" : "ALL",
+        "long" : "scope over all the governor's dependents",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
       "AP_CO" : {
         "short" : "AP_CO",
         "long" : "apposing and coordinated"
