@@ -25,6 +25,7 @@
       "@include" : "./arethusa.sg/sg_labels.json"
     },
     "morph" : {
+      "gloss" : true,
       "retrievers" : {
         "BspMorphRetriever" : {
           "resource" : "morphologyServiceGrc"
