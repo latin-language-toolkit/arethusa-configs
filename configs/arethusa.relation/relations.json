@@ -78,6 +78,13 @@
           "color" : "rgb(7, 95, 39)"
         }
       },
+      "MWE" : {
+        "short" : "MWE",
+        "long" : "multiword expression",
+        "style" : {
+          "color" : "rgb(162, 219, 46)"
+        }
+      },
       "Aux" : {
         "short" : "Aux",
         "long" : "auxiliary",
