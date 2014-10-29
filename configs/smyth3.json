@@ -31,6 +31,9 @@
         }
       },
       "@include" : "./arethusa.morph/gr_attributes2.json"
+    },
+    "relation" : {
+      "@include" : "./arethusa.relation/relations2.json"
     }
   }
 }
