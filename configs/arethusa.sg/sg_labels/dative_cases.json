@@ -345,19 +345,14 @@
                             "long": "purpose",
                             "italian": "fine"
                         },
-                        "mea": {
-                            "short": "msr",
-                            "long": "measure",
-                            "italian": "misura"
-                        },
                         "cnf": {
                             "short": "cnf",
                             "long": "conformity",
                             "italian": "conformità"
                         },
-                        "prc": {
-                            "short": "prc",
-                            "long": "price",
+                        "prc_val": {
+                            "short": "prc_val",
+                            "long": "price and value",
                             "italian": "prezzo"
                         },
                         "cnd": {
