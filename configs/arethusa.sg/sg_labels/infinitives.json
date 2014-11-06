@@ -140,7 +140,55 @@
                   "short" : "ind",
                   "long" : "in indirect discourse",
                   "italian" : "nel discorso indiretto", 
-                  "sections" : "2589–2635"
+                  "sections" : "2589–2635",
+                  "nested" : {
+                    "stt" : {
+                      "short" : "stt",
+                      "long" : "statement",
+                      "italian" : "asserzione", 
+                      "sections" : "2153"
+                    },  
+                    "ass" : {
+                      "short" : "ass",
+                      "long" : "assumption",
+                      "italian" : "assunzione", 
+                      "sections" : "2154"
+                    },
+                    "cmm" : {
+                      "short" : "cmm",
+                      "long" : "command",
+                      "italian" : "comando", 
+                      "sections" : "2155"
+                    },
+                    "wsh" : {
+                      "short" : "wsh",
+                      "long" : "wish",
+                      "italian" : "desiderio", 
+                      "sections" : "2156"
+                    },
+                    "qst" : {
+                      "short" : "qst",
+                      "long" : "question",
+                      "italian" : "domanda", 
+                      "sections" : "2157"
+                    },
+                    "exc" : {
+                      "short" : "exc",
+                      "long" : "exclamation",
+                      "italian" : "esclamazione", 
+                      "sections" : "2158"
+                    },
+                    "nna" : {
+                      "short" : "nna",
+                      "long" : "none of the above",
+                      "italian" : "nessuno dei precedenti"
+                    },
+                    "idk" : {
+                      "short" : "idk",
+                      "long" : "I do not know",
+                      "italian" : "non so"
+                    }
+                  }
                 },
                 "not_ind" : {
                   "short" : "not_ind",
