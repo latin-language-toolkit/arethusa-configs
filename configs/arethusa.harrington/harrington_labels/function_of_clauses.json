@@ -5,45 +5,15 @@
       "long" : "as subject",
       "@include" : "./arethusa.harrington/harrington_labels/clauses.json"
     },
-        "nested" : {
-           "SUBJ-CO" : {
-             "short" : "SUBJ-CO",
-             "long" : "coordinated subject"
-           },
-           "SUBJ-AP" : {
-             "short" : "SUBJ-AP",
-             "long" : "subjecte in apposition"
-           }
-        },
     "OBJ" : {
       "short" : "OBJ",
       "long" : "as object",
       "@include" : "./arethusa.harrington/harrington_labels/clauses.json"
     },
-        "nested" : {
-           "OBJ-CO" : {
-             "short" : "OBJ-CO",
-             "long" : "coordinated object"
-           },
-           "OBJ-AP" : {
-             "short" : "OBJ-AP",
-             "long" : "object in apposition"
-           }
-        },
     "PRED" : {
       "short" : "PRED",
       "long" : "as predicate",
       "@include" : "./arethusa.harrington/harrington_labels/clauses.json"
-    },
-        "nested" : {
-           "PRED-CO" : {
-             "short" : "PRED-CO",
-             "long" : "coordinated predicate"
-           },
-           "PRED-AP" : {
-             "short" : "PRED-AP",
-             "long" : "predicate in apposition"
-           }
-        }
-      }
+    }
+  }
 }

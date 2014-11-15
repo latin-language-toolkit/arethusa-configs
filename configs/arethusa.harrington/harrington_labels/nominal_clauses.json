@@ -15,7 +15,7 @@
     "INDSTAT" : {
       "short" : "NOM-INDSTAT",
       "long" : "indirect statement"
-    }
+    },
     "DIRSTAT" : {
       "short" : "NOM-DIRSTAT",
       "long" : "direct statement"

@@ -66,15 +66,45 @@
       },
       "SBJ" : {
         "short" : "SBJ",
-        "long" : ""
+        "long" : "",
+        "nested" : {
+         "SUBJ-CO" : {
+           "short" : "SUBJ-CO",
+           "long" : "coordinated subject"
+         },
+         "SUBJ-AP" : {
+           "short" : "SUBJ-AP",
+           "long" : "subjecte in apposition"
+         }
+        }
       },
       "PRED" : {
         "short" : "PRED",
-        "long" : ""
+        "long" : "",
+        "nested" : {
+         "OBJ-CO" : {
+           "short" : "OBJ-CO",
+           "long" : "coordinated object"
+         },
+         "OBJ-AP" : {
+           "short" : "OBJ-AP",
+           "long" : "object in apposition"
+         }
+        }
       },
       "OBJ" : {
         "short" : "OBJ",
-        "long" : ""
+        "long" : "",
+        "nested" : {
+         "PRED-CO" : {
+           "short" : "PRED-CO",
+           "long" : "coordinated predicate"
+         },
+         "PRED-AP" : {
+           "short" : "PRED-AP",
+           "long" : "predicate in apposition"
+         }
+        }
       }
     }
   }
