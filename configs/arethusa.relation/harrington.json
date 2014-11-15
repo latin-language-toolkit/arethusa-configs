@@ -82,28 +82,28 @@
         "short" : "PRED",
         "long" : "",
         "nested" : {
-         "OBJ-CO" : {
-           "short" : "OBJ-CO",
-           "long" : "coordinated object"
-         },
-         "OBJ-AP" : {
-           "short" : "OBJ-AP",
-           "long" : "object in apposition"
-         }
+          "PRED-CO" : {
+           "short" : "PRED-CO",
+           "long" : "coordinated predicate"
+           },
+           "PRED-AP" : {
+             "short" : "PRED-AP",
+             "long" : "predicate in apposition"
+           }
         }
       },
       "OBJ" : {
         "short" : "OBJ",
         "long" : "",
         "nested" : {
-         "PRED-CO" : {
-           "short" : "PRED-CO",
-           "long" : "coordinated predicate"
-         },
-         "PRED-AP" : {
-           "short" : "PRED-AP",
-           "long" : "predicate in apposition"
-         }
+          "OBJ-CO" : {
+            "short" : "OBJ-CO",
+            "long" : "coordinated object"
+          },
+          "OBJ-AP" : {
+            "short" : "OBJ-AP",
+            "long" : "object in apposition"
+          }
         }
       }
     }
