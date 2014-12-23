@@ -53,6 +53,11 @@
         "short" : "nominal clause",
         "long" : "",
         "@include" : "./arethusa.harrington/harrington_labels/nominal_clauses.json"
+      },
+      "infinitive_uses" : {
+        "short" : "infinitive uses",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/infinitive_uses.json"
       }
     },
     "suffixes" : {
