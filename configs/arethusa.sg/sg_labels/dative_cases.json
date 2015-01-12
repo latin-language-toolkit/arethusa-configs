@@ -130,7 +130,7 @@
                     "italian": "strumentale",
                     "sections": "1503-1529",
                     "nested": {
-                        "ins_prp": {
+                        "prp": {
                             "short": "prp",
                             "long": "proper",
                             "italian": "proper",
