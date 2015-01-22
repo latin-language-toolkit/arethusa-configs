@@ -37,6 +37,7 @@
             "short": "PlceTo",
             "long": "place to"
         },
+        
         "IndObj": {
             "short": "IndObj",
             "long": "Indirect obj"
@@ -115,6 +116,11 @@
             "short": "AuxZ",
             "long": "AuxZ (emph)"
         },
+        
+        "AuxV": {
+            "short": "AuxV",
+            "long": "auxiliary verb)"
+        },        
         
         "C-Cl": {
             "short": "C-Cl",
