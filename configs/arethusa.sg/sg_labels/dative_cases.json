@@ -83,7 +83,7 @@
                             "italian": "relazione",
                             "sections": "1495-1498",
                             "nested": {
-                                "rlt_prp": {
+                                "prp": {
                                     "short": "prp",
                                     "long": "proper",
                                     "italian": "proprio",
@@ -136,7 +136,7 @@
                             "italian": "proper",
                             "sections": "1506-1520",
                             "nested": {
-                                "ins_msn": {
+                                "ins_mns": {
                                     "short": "ins_mns",
                                     "long": "instrument or means",
                                     "italian": "strumento o mezzo",
@@ -154,7 +154,7 @@
                                     "italian": "modo",
                                     "sections": "1527"
                                 },
-                                "mea_dff": {
+                                "msr_dff": {
                                     "short": "msr_dff",
                                     "long": "measure of difference",
                                     "italian": "misura di differenza",
