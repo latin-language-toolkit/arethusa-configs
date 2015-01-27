@@ -97,7 +97,7 @@
                 }
               }
             },
-            "mea" : {
+            "msr" : {
               "short" : "msr",
               "long" : "measure",
               "italian" : "misura",
