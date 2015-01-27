@@ -28,7 +28,7 @@
             "sections": "1551-1635",
             "@include": "./arethusa.sg/sg_labels/accusative_cases.json"
         },
-        "voc": {
+        "vct": {
             "short": "vct",
             "long": "vocative",
             "italian": "vocativo",
