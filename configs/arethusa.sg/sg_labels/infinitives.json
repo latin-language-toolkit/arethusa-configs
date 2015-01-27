@@ -308,7 +308,7 @@
       "long" : "independent",
       "italian" : "indipendente",
       "nested" : {
-        "com" : {
+        "cmm" : {
           "short" : "cmm",
           "long" : "command",
           "italian" : "comando"
