@@ -2,8 +2,7 @@
   "plugins": {
     "morph" : {
       "retrievers" : {
-        "BspMorphRetriever" : {
-          "resource" : "morphologyServiceLat"
+        "BspMorphRetriever" : { }
         }
       }
     },
