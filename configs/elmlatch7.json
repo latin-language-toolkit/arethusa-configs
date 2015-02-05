@@ -1,6 +1,7 @@
 {
   "plugins": {
     "morph" : {
+      "noRetrieval" : "online",
       "retrievers" : {
         "BspMorphRetriever" : {
           "resource" : "morphologyServiceLat"
