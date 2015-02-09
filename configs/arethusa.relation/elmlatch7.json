@@ -71,7 +71,7 @@
                     "long": "idirect object"
                 },
                 "Ref": {
-                    "short": "IndObj",
+                    "short": "Ref",
                     "long": "indirect object"
                 },
                 "Purp": {
