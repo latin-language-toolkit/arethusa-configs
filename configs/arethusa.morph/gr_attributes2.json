@@ -401,6 +401,11 @@
         },
         {
           "if" : {
+            "pos" : "adv"
+          }
+        },
+        {
+          "if" : {
             "pos" : "verb",
             "mood" : "part"
           }
