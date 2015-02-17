@@ -1,0 +1,179 @@
+{
+  "relations" : {
+    "labels" : {
+      "PRED" : {
+        "short" : "PRED",
+        "long" : "predikat",
+        "style" : {
+          "color" : "rgb(223, 38, 38)"
+        }
+      },
+      "SBJ" : {
+        "short" : "SBJ",
+        "long" : "subjekt",
+        "style" : {
+          "color" : "rgb(92, 201, 83)"
+        }
+      },
+      "OBJ" : {
+        "short" : "OBJ",
+        "long" : "objekt",
+        "style" : {
+          "color" : "rgb(11, 200, 216)"
+        }
+      },
+      "ATR" : {
+        "short" : "ATR",
+        "long" : "atribut",
+        "style" : {
+          "color" : "blue"
+        }
+      },
+      "ADV" : {
+        "short" : "PRIL",
+        "long" : "priložna oznaka",
+        "style" : {
+          "color" : "darkorange"
+        }
+      },
+      "ATV" : {
+        "short" : "KOMPL",
+        "long" : "komplement",
+        "style" : {
+          "color" : "rgb(131, 11, 16)"
+        }
+      },
+      "AtvV" : {
+        "short" : "KomplV",
+        "long" : "komplement",
+        "style" : {
+          "color" : "rgb(131, 11, 16)"
+        }
+      },
+      "PNOM" : {
+        "short" : "ImPred",
+        "long" : "imenski predikat",
+        "style" : {
+          "color" : "rgb(87, 160, 119)"
+        }
+      },
+      "OCOMP" : {
+        "short" : "DopOb",
+        "long" : "dopuna objekta",
+        "style" : {
+          "color" : "rgb(92, 201, 83)"
+        }
+      },
+      "COORD" : {
+        "short" : "KOORD",
+        "long" : "koordinator",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
+      "APOS" : {
+        "short" : "APOZ",
+        "long" : "apozicija",
+        "style" : {
+          "color" : "rgb(7, 95, 39)"
+        }
+      },
+      "Aux" : {
+        "short" : "POMČ",
+        "long" : "pomoćna čestica",
+        "nested" : {
+          "AuxP" : {
+            "short" : "PomPr",
+            "long" : "prijedlog",
+            "style" : {
+              "color" : "green"
+            }
+          },
+          "AuxC" : {
+            "short" : "PomV",
+            "long" : "veznik",
+            "style" : {
+              "color" : "deeppink"
+            }
+          },
+          "AuxY" : {
+            "short" : "PomR",
+            "long" : "Priložni modifikator rečenice",
+            "style" : {
+              "color" : "rgb(139, 211, 31)"
+            }
+          },
+          "AuxZ" : {
+            "short" : "PomEm",
+            "long" : "emfatička čestica",
+            "style" : {
+              "color" : "rgb(216, 57, 159)"
+            }
+          },
+          "AuxV" : {
+            "short" : "PomGl",
+            "long" : "pomoćni glagol",
+            "style" : {
+              "color" : "rgb(70, 96, 235)"
+            }
+          },
+          "AuxR" : {
+            "short" : "PomM",
+            "long" : "bezlični refleksiv",
+            "style" : {
+              "color" : "rgb(162, 70, 235)"
+            }
+          },
+          "AuxG" : {
+            "short" : "PomZg",
+            "long" : "interpunkcija - zagrada",
+            "style" : {
+              "color" : "black"
+            }
+          },
+          "AuxX" : {
+            "short" : "PomZ",
+            "long" : "zarez",
+            "style" : {
+              "color" : "black"
+            }
+          },
+          "AuxK" : {
+            "short" : "PomK",
+            "long" : "interpunkcija na kraju rečenice",
+            "style" : {
+              "color" : "black"
+            }
+          }
+        }
+      },
+      "ExD" : {
+        "short" : "Elps",
+        "long" : "elipsa",
+        "style" : {
+          "color" : "rgb(17, 131, 67)"
+        }
+      }
+    },
+    "suffixes" : {
+      "CO" : {
+        "short" : "KO",
+        "long" : "koordinativni odnos",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
+      "AP" : {
+        "short" : "AP",
+        "long" : "apozitivni odnos",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
+      "AP_CO" : {
+        "short" : "AP_CO",
+        "long" : "apozitivni i koordinativni odnos"
+      }
+    }
+  }
+}
