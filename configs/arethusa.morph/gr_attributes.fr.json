@@ -13,7 +13,7 @@
   "styledThrough" : "pos",
   "attributes" : {
     "pos" : {
-      "long" : "Membre de Phrase",
+      "long" : "Classe grammaticale",
       "short" : "pos",
       "values" : {
         "noun" : {
