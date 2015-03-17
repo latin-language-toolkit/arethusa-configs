@@ -99,10 +99,14 @@
                 "Sepr": {
                     "short": "Sepr",
                     "long": "separation"
-                },
+                },                
                 "PlceFr": {
                     "short": "PlceFr",
                     "long": "place from"
+                },
+                "Plce": {
+                    "short": "Plce",
+                    "long": "place where"
                 },
                 "Rsp": {
                     "short": "Rsp",
