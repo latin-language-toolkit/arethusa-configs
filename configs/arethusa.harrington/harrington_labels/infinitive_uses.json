@@ -1,18 +1,18 @@
 {
   "nested" : {
-    "COMP" : {
+    "INF-COMP" : {
       "short" : "INF-COMP",
       "long" : "complimentary infinitive"
     },
-    "HIST" : {
+    "INF-HIST" : {
       "short" : "INF-HIST",
       "long" : "historical infinitive"
     },
-    "EXPL" : {
+    "INF-EXPL" : {
       "short" : "INF-EXPL",
       "long" : "explanatory infinitive"
     },
-    "PURP" : {
+    "INF-PURP" : {
       "short" : "INF-PURP",
       "long" : "infinitive of purpose"
     }

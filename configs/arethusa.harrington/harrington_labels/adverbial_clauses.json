@@ -1,54 +1,54 @@
 {
   "nested" : {
-    "PURP" : {
+    "ADV-PURP" : {
       "short" : "ADV-PURP",
       "long" : "purpose clause"
     },
-    "RESULT" : {
+    "ADV-RESULT" : {
       "short" : "ADV-RESULT",
       "long" : "result clause"
     },
-    "CONSEC" : {
+    "ADV-CONSEC" : {
       "short" : "ADV-CONSEC",
       "long" : "consecutive clause"
     },
-    "PROTAS" : {
+    "ADV-PROTAS" : {
       "short" : "ADV-PROTAS",
       "long" : "conditional protasis"
     },
-    "TEMPOR" : {
+    "ADV-TEMPOR" : {
       "short" : "ADV-TEMPOR",
       "long" : "temporal clause"
     },
-    "CIRCUMS" : {
+    "ADV-CIRCUMS" : {
       "short" : "ADV-CIRCUMS",
       "long" : "circumstantial clause"
     },
-    "CAUSAL" : {
+    "ADV-CAUSAL" : {
       "short" : "ADV-CAUSAL",
       "long" : "causal clause"
     },
-    "CONCESS" : {
+    "ADV-CONCESS" : {
       "short" : "ADV-CONCESS",
       "long" : "concessive clause"
     },
-    "COMPAR" : {
+    "ADV-COMPAR" : {
       "short" : "ADV-COMPAR",
       "long" : "comparison clause"
     },
-    "PROVISO" : {
+    "ADV-PROVISO" : {
       "short" : "ADV-PROVISO",
       "long" : "proviso clause"
     },
-    "RCPURP" : {
+    "ADV-RCPURP" : {
       "short" : "ADV-RCPURP",
       "long" : "relative clause of purpose"
     },
-    "RCRESULT" : {
+    "ADV-RCRESULT" : {
       "short" : "ADV-RCRESULT",
       "long" : "relative clause of result"
     },
-    "RCPROTAS" : {
+    "ADV-RCPCONDIG" : {
       "short" : "ADV-RCCONDIT",
       "long" : "conditional relative clause"
     }

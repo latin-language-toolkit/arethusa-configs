@@ -1,22 +1,22 @@
 {
   "nested" : {
-    "SUBST" : {
+    "NOM-SUBST" : {
       "short" : "NOM-SUBST",
       "long" : "substantive noun clause"
     },
-    "FEARCL" : {
+    "NOM-FEARCL" : {
       "short" : "NOM-FEARCL",
       "long" : "fear clause"
     },
-    "INDQUES" : {
+    "NOM-INDQUES" : {
       "short" : "NOM-INDQUES",
       "long" : "indirect question"
     },
-    "INDSTAT" : {
+    "NOM-INDSTAT" : {
       "short" : "NOM-INDSTAT",
       "long" : "indirect statement"
     },
-    "DIRSTAT" : {
+    "NOM-DIRSTAT" : {
       "short" : "NOM-DIRSTAT",
       "long" : "direct statement"
     }

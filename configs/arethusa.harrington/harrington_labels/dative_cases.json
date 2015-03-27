@@ -1,26 +1,26 @@
 {
   "nested" : {
-    "IO" : {
+    "D-IO" : {
       "short" : "D-IO",
       "long" : "dative indirect object"
     },
-    "INTER" : {
+    "D-INTER" : {
       "short" : "D-INTER",
       "long" : "dative of interest"
     },
-    "POSS" : {
+    "D-POSS" : {
       "short" : "D-POSS",
       "long" : "dative of possessive"
     },
-    "REFER" : {
+    "D-REFER" : {
       "short" : "D-REFER",
       "long" : "dative of reference"
     },
-    "AGENT" : {
+    "D-AGENT" : {
       "short" : "D-AGENT",
       "long" : "dative of agent"
     },
-    "PURP" : {
+    "D-PURP" : {
       "short" : "D-PURP",
       "long" : "dative of purpose"
     }
