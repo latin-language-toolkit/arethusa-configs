@@ -88,6 +88,13 @@
             "color" : "gold"
           }
         },
+        "nrl" : {
+          "long" : "numeral",
+          "short" : "nrl",
+          "postag" : "m",
+          "style" : {
+            "color" : "lightgreen"
+         },
         "punct" : {
           "long" : "punctuation",
           "short" : "punct",
@@ -428,7 +435,6 @@
       "values" : {
         "pos" : {
           "verb\nparticiple": "verb",
-          "numeral": "adjective",
           "particle": "adverb",
           "preposition": "adposition",
           "exclamation": "interjection"
