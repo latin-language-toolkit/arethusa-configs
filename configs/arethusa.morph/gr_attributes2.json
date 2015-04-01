@@ -94,6 +94,7 @@
           "postag" : "m",
           "style" : {
             "color" : "lightgreen"
+           }
          },
         "punct" : {
           "long" : "punctuation",
