@@ -1,4 +1,13 @@
 {
+  "main": {
+    "plugins" : [
+      "text",
+      "relation",
+      "history",
+      "comments",
+      "search"
+    ]
+  },
   "plugins": {
     "morph" : {
       "noRetrieval" : "online",
