@@ -148,7 +148,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "noun", "art", "part", "adj", "pron" ]
+            "pos" : [ "noun", "art", "part", "adj", "pron", "nrl" ]
           }
         },
         {
@@ -314,7 +314,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "noun", "adj", "pron" ]
+            "pos" : [ "art", "noun", "adj", "pron", "nrl" ]
           }
         },
         {
@@ -348,7 +348,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "noun", "adj", "pron" ]
+            "pos" : [ "art", "noun", "adj", "pron", "nrl" ]
           }
         },
         {
@@ -400,6 +400,11 @@
             "pos" : "adj"
           }
         },
+        {
+          "if" : {
+            "pos" : "adv"
+          }
+        },  
         {
           "if" : {
             "pos" : "verb",
