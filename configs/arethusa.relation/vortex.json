@@ -1,0 +1,77 @@
+{"relations": {
+    "labels": {
+        "--": {
+            "short": "--",
+            "long": "nil"
+        },
+        "Whirlpool": {
+            "short": "Whirlpool",
+            "long": "Whirlpool"
+        },
+        "OpticalIllusion": {
+            "short": "OpticalIllusion",
+            "long": "Optical Illusion"
+        },
+        "gorgon": {
+            "short": "Gorgon",
+            "long": "Gorgon"
+        },
+        "LoudNoise": {
+            "short": "LoudNoise",
+            "long": "Loud Noise"
+        },
+        "Bellowing": {
+            "short": "Bellowing",
+            "long": "Bellowing"
+        },
+        "Water": {
+            "short": "Water",
+            "long": "Water"
+        },
+        "Dolphin": {
+            "short": "Dolphin",
+            "long": "Dolphin"
+        },
+        "Flight": {
+            "short": "Flight",
+            "long": "Flight"
+        },
+        "Hades": {
+            "short": "Hades",
+            "long": "Hades"
+        },
+        "Chasm": {
+            "short": "Chasm",
+            "long": "Chasm"
+        },
+        "Fire": {
+            "short": "Fire",
+            "long": "Fire"
+        },
+        "Running": {
+            "short": "Running",
+            "long": "Running"
+        },
+        "River": {
+            "short": "River",
+            "long": "River"
+        },
+        "Coils": {
+            "short": "Coils",
+            "long": "Coils"
+        },
+        "Snake": {
+            "short": "Snake",
+            "long": "Snake"
+        },
+        "Dancing": {
+            "short": "Dancing",
+            "long": "Dancing"
+        },
+        "Trance": {
+            "short": "Trance",
+            "long": "Trance"
+        }
+    },
+    "suffixes": {}
+}}
