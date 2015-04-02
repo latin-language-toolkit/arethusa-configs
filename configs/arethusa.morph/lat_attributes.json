@@ -141,7 +141,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "noun", "adj", "pron" ]
+            "pos" : [ "noun", "adj",  "nrl", "pron" ]
           }
         },
         {
@@ -386,6 +386,11 @@
         {
           "if" : {
             "pos" : "adj"
+          }
+        },
+        {
+          "if" : {
+            "pos" : "adv"
           }
         },
         {
