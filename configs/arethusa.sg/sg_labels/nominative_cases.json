@@ -4,13 +4,13 @@
       "short" : "dpd",
       "long" : "dependent",
       "italian" : "dipendente", 
-      "sections" : "940-941"
+      "sections" : "938-939"
     },
     "inn" : {
       "short" : "inn",
       "long" : "independent",
       "italian" : "indipendente", 
-      "sections" : "938-939",
+      "sections" : "940-941",
       "nested" : {
         "cit" : {
           "short" : "ctc",
