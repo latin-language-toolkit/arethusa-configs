@@ -1,9 +1,5 @@
 {"relations": {
   "labels": {
-    "--": {
-      "short": "--",
-      "long": "nil"
-    },
     "Animal" : {
       "short" : "Animal",
       "long" : "Animal",
