@@ -7,7 +7,7 @@
           "resource" : "morphologyServiceGrc"
         }
       },
-      "@include" : "./arethusa.morph/english.json"
+      "@include" : "./arethusa.morph/en_attributes.json"
     },
     "relation" : {
       "@include" : "./arethusa.relation/english.json"

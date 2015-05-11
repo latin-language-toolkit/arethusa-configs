@@ -1,0 +1,194 @@
+{
+    "postagSchema": [
+        "pos"
+    ],
+    "styledThrough": "pos",
+    "attributes": {
+        "pos": {
+          "short" : "pos",
+          "long" : "Part of Speech",
+          "values" : {
+            "CC": {
+                "short": "CC",
+                "long": "coordinating conjunction",
+                "postag" : "a"
+            },
+            "CD": {
+                "short": "CD",
+                "long": "cardinal number",
+                "postag" : "b"
+            },
+            "DT": {
+                "short": "DT",
+                "long": "determiner",
+                "postag" : "c"
+            },
+            "EX": {
+                "short": "EX",
+                "long": "existential there",
+                "postag" : "d"
+            },
+            "FW": {
+                "short": "FW",
+                "long": "foreign word",
+                "postag" : "e"
+            },
+            "IN": {
+                "short": "IN",
+                "long": "preposition or subordinating conjunction",
+                "postag" : "f"
+            },
+            "JJ": {
+                "short": "JJ",
+                "long": "adjective",
+                "postag" : "g"
+            },
+            "JJR": {
+                "short": "JJR",
+                "long": "adjective, comparative",
+                "postag" : "h"
+            },
+            "JJS": {
+                "short": "JJS",
+                "long": "adjective, superlative",
+                "postag" : "i"
+            },
+            "LS": {
+                "short": "LS",
+                "long": "list item marker",
+                "postag" : "j"
+            },
+            "MD": {
+                "short": "MD",
+                "long": "modal",
+                "postag" : "k"
+            },
+            "NN": {
+                "short": "NN",
+                "long": "noun, singular or mass",
+                "postag" : "l"
+            },
+            "NNS": {
+                "short": "NNS",
+                "long": "noun, plural",
+                "postag" : "m"
+            },
+            "NNP": {
+                "short": "NNP",
+                "long": "proper noun, singular",
+                "postag" : "n"
+            },
+            "NNPS": {
+                "short": "NNPS",
+                "long": "proper noun, plural",
+                "postag" : "o"
+            },
+            "PDT": {
+                "short": "PDT",
+                "long": "predeterminer",
+                "postag" : "p"
+            },
+            "POS": {
+                "short": "POS",
+                "long": "possessive ending",
+                "postag" : "q"
+            },
+            "PRP": {
+                "short": "PRP",
+                "long": "personal pronoun",
+                "postag": "r"
+            },
+            "PRP$": {
+                "short": "PRP$",
+                "long": "possessive pronoun",
+                "postag": "s"
+            },
+            "RB": {
+                "short": "RB",
+                "long": "adverb",
+                "postag": "t"
+            },
+            "RBR": {
+                "short": "RBR",
+                "long": "adverb, comparative",
+                "postag": "u"
+            },
+            "RBS": {
+                "short": "RBS",
+                "long": "adverb, superlative",
+                "postag": "v"
+            },
+            "RP": {
+                "short": "RP",
+                "long": "particle",
+                "postag": "w"
+            },
+            "SYM": {
+                "short": "SYM",
+                "long": "symbol",
+                "postag": "x"
+            },
+            "TO": {
+                "short": "TO",
+                "long": "to",
+                "postag": "y"
+            },
+            "UH": {
+                "short": "UH",
+                "long": "interjection",
+                "postag": "z"
+            },
+            "VB": {
+                "short": "VB",
+                "long": "verb, base form",
+                "postag": "1"
+            },
+            "VBD": {
+                "short": "VBD",
+                "long": "verb, past tense",
+                "postag": "2"
+            },
+            "VBG": {
+                "short": "VBG",
+                "long": "verb, gerund or present participle",
+                "postag": "3"
+            },
+            "VBN": {
+                "short": "VBN",
+                "long": "verb, past participle",
+                "postag": "4"
+            },
+            "VBP": {
+                "short": "VBP",
+                "long": "verb, non-3rd person singular present",
+                "postag": "5"
+            },
+            "VBZ": {
+                "short": "VBZ",
+                "long": "verb, 3rd person singular present",
+                "postag": "6"
+            },
+            "WDT": {
+                "short": "WDT",
+                "long": "wh-determiner",
+                "postag": "7"
+            },
+            "WP": {
+                "short": "WP",
+                "long": "wh-pronoun",
+                "postag": "8"
+            },
+            "WP$": {
+                "short": "WP$",
+                "long": "possessive wh-pronoun",
+                "postag": "9"
+            },
+            "WRB": {
+                "short": "WRB",
+                "long": "wh-adverb",
+                "postag": "0"
+            }
+         }
+      }
+    }
+}
