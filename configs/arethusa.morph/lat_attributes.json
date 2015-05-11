@@ -141,7 +141,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "noun", "adj",  "nrl", "pron" ]
+            "pos" : [ "noun", "adj",  "nrl", "pron"]
           }
         },
         {
@@ -297,13 +297,19 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "noun", "adj", "pron", "nrl" ]
+            "pos" : [ "noun", "adj", "pron", "nrl"]
           }
         },
         {
           "if" : {
             "pos" : "verb",
             "mood" : "part"
+          }
+        },
+        {
+          "if" : {
+            "pos" : "verb",
+            "mood" : "gerundive"
           }
         }
       ],
@@ -331,13 +337,25 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "noun", "adj", "pron", "nrl" ]
+            "pos" : [ "noun", "adj", "pron", "nrl"]
           }
         },
         {
           "if" : {
             "pos" : "verb",
             "mood" : "part"
+          }
+        },
+        {
+          "if" : {
+            "pos" : "verb",
+            "mood" : "gerund"
+          }
+        },
+        {
+          "if" : {
+            "pos" : "verb",
+            "mood" : "gerundive"
           }
         }
       ],
