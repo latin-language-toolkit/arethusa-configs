@@ -29,13 +29,6 @@
         "short" : "Aux",
         "long" : "auxiliary",
         "nested" : {
-          "AuxP" : {
-            "short" : "AuxP",
-            "long" : "preposition",
-            "style" : {
-              "color" : "green"
-            }
-          },
           "AuxC" : {
             "short" : "AuxC",
             "long" : "conjunction",
@@ -43,11 +36,11 @@
               "color" : "deeppink"
             }
           },
-          "AuxR" : {
-            "short" : "AuxR",
-            "long" : "reflexive passive",
+          "AuxP" : {
+            "short" : "AuxP",
+            "long" : "preposition",
             "style" : {
-              "color" : "rgb(162, 70, 235)"
+              "color" : "green"
             }
           },
           "AuxV" : {
@@ -57,11 +50,18 @@
               "color" : "rgb(70, 96, 235)"
             }
           },
-          "AuxX" : {
-            "short" : "AuxX",
-            "long" : "comma",
+          "AuxY" : {
+            "short" : "AuxY",
+            "long" : "sentence adverbial",
             "style" : {
-              "color" : "black"
+              "color" : "rgb(139, 211, 31)"
+            }
+          },
+          "AuxZ" : {
+            "short" : "AuxZ",
+            "long" : "emphasizing particle",
+            "style" : {
+              "color" : "rgb(216, 57, 159)"
             }
           },
           "AuxG" : {
@@ -78,20 +78,13 @@
               "color" : "black"
             }
           },
-          "AuxY" : {
-            "short" : "AuxY",
-            "long" : "sentence adverbial",
+          "AuxX" : {
+            "short" : "AuxX",
+            "long" : "comma",
             "style" : {
-              "color" : "rgb(139, 211, 31)"
+              "color" : "black"
             }
-          },
-          "AuxZ" : {
-            "short" : "AuxZ",
-            "long" : "emphasizing particle",
-            "style" : {
-              "color" : "rgb(216, 57, 159)"
-            }
-          }
+          }      
         }
       },
       "ATR" : {
@@ -108,20 +101,6 @@
           "color" : "darkorange"
         }
       },
-      "ATV" : {
-        "short" : "ATV",
-        "long" : "complement",
-        "style" : {
-          "color" : "rgb(131, 11, 16)"
-        }
-      },
-      "AtvV" : {
-        "short" : "AtvV",
-        "long" : "complement",
-        "style" : {
-          "color" : "rgb(131, 11, 16)"
-        }
-      },
       "COORD" : {
         "short" : "COORD",
         "long" : "coordinator",
@@ -134,13 +113,6 @@
         "long" : "apposing element",
         "style" : {
           "color" : "rgb(7, 95, 39)"
-        }
-      },
-      "ExD" : {
-        "short" : "ExD",
-        "long" : "ellipsis",
-        "style" : {
-          "color" : "rgb(17, 131, 67)"
         }
       }
     }
