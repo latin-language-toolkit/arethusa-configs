@@ -6,7 +6,8 @@
         "BspMorphRetriever" : {
           "resource" : "morphologyServiceLat"
         }
-      }
+      },
+      "@include" : "./arethusa.morph/lat_attributes.json"
     },
     "relation" : {
       "@include" : "./arethusa.relation/elmlatch11.json"
