@@ -18,7 +18,7 @@
     "morph" : {
       "retrievers" : {
         "BspMorphRetriever" : {
-          "resource" : "morphologyServiceLat"
+          "resource" : "morphologyServiceGrc"
         }
       },
       "postagSchema" : [
@@ -33,7 +33,7 @@
         "degree"
       ],
       "styledThrough" : "pos",
-      "@include" : "./arethusa.morph/lat_attributes.json",
+      "@include" : "./arethusa.morph/gr_attributes2.json",
       "mappings" : {
         "BspMorphRetriever" : {
           "attributes" : {
