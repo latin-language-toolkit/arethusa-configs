@@ -12,14 +12,10 @@
             "short": "Atr",
             "long": "attribute"
         },
-        
         "Adv": {
             "short": "Adv",
             "long": "adverbial"
         },
-        
-        
-        
         "Pnom": {
             "short": "Pnom",
             "long": "predicate nom"
@@ -52,14 +48,10 @@
             "short": "Mns",
             "long": "means"
         },
-        
         "Mnr": {
             "short": "Mnr",
             "long": "manner"
         },
-        
-        
-        
         "Acmp": {
             "short": "Acmp",
             "long": "accompaniment"
@@ -68,8 +60,8 @@
             "short": "Sepr",
             "long": "separation"
         },
-        "C_Cl": {
-            "short": "C_Cl",
+        "CmplCl": {
+            "short": "CmplCl",
             "long": "complement cl"
         },
         "APOS": {
