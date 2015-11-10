@@ -42,14 +42,14 @@
               "italian" : "materiale o contenuto",
               "sections" : "1323-1324"
             },
-            "mea" : {
-              "short" : "mea",
+            "msr" : {
+              "short" : "msr",
               "long" : "measure",
               "italian" : "misura",
               "sections" : "1325-1327",
               "nested" : {
-                "tim" : {
-                  "short" : "tim",
+                "tmp" : {
+                  "short" : "tmp",
                   "long" : "time",
                   "italian" : "tempo",
                   "sections" : "1325-1327"
@@ -154,7 +154,8 @@
               "short" : "spr",
               "long" : "separation",
               "italian" : "separazione",
-              "sections" : "1392-1400"
+              "sections" : "1392-1400",
+              "@include" : "./arethusa.sg/sg_labels/figurative.json"
             },
             "dst_cmp" : {
               "short" : "dst_cmp",
@@ -168,8 +169,8 @@
               "italian" : "causa",
               "sections" : "1405-1407"
             },
-            "pur" : {
-              "short" : "pur",
+            "fnl" : {
+              "short" : "fnl",
               "long" : "purpose",
               "italian" : "fine",
               "sections" : "1408"
@@ -192,14 +193,14 @@
             }
           }
         },
-        "tim_plc" : {
-          "short" : "tim_plc",
+        "tmp_plc" : {
+          "short" : "tmp_plc",
           "long" : "time and place",
           "italian" : "tempo e luogo",
           "sections" : "1444-1449",
           "nested" : {
-            "tim" : {
-              "short" : "tim",
+            "tmp" : {
+              "short" : "tmp",
               "long" : "time",
               "italian" : "tempo",
               "sections" : "1444-1447",
@@ -218,6 +219,11 @@
                   "short" : "squ_drt", 
                   "long" : "sequential-durative",
                   "italian" : "sequenziale-durativo"
+                },
+                "tmp_dst" : {
+                  "short" : "tmp_dst", 
+                  "long" : "temporal distance",
+                  "italian" : "distanza temporale"
                 },
                 "tmp_ext" : {
                   "short" : "tmp_ext", 
@@ -245,17 +251,20 @@
                 "lct" : {
                   "short" : "lct", 
                   "long" : "location",
-                  "italian" : "locazione"
+                  "italian" : "locazione",
+                  "@include" : "./arethusa.sg/sg_labels/figurative.json"
                 },
                 "drc" : {
                   "short" : "drc", 
                   "long" : "direction",
-                  "italian" : "direzione"
+                  "italian" : "direzione",
+                  "@include" : "./arethusa.sg/sg_labels/figurative.json"
                 },
                 "pth" : {
                   "short" : "pth", 
                   "long" : "path",
-                  "italian" : "attraverso"
+                  "italian" : "attraverso",
+                  "@include" : "./arethusa.sg/sg_labels/figurative.json"
                 },
                 "nna" : {
                   "short" : "nna",
@@ -301,10 +310,15 @@
               "long" : "manner",
               "italian" : "modo"
             },
-            "ass" : {
-              "short" : "ass",
-              "long" : "association",
-              "italian" : "associazione"
+            "frd_ass" : {
+              "short" : "frd_ass",
+              "long" : "friendly association",
+              "italian" : "associazione amichevole"
+            },
+            "hst_ass" : {
+              "short" : "hst_ass",
+              "long" : "hostile association",
+              "italian" : "associazione ostile"
             },
             "acm" : {
               "short" : "acm",
@@ -316,15 +330,25 @@
               "long" : "accompanying circumstance",
               "italian" : "circostanza accompagnante"
             },
-            "adv_dsd" : {
-              "short" : "adv_dsd",
-              "long" : "advantage and disadvantage",
-              "italian" : "vantaggio e svantaggio"
+            "adv" : {
+              "short" : "adv",
+              "long" : "advantage",
+              "italian" : "vantaggio"
+            },
+            "dsd" : {
+              "short" : "dsd",
+              "long" : "disadvantage",
+              "italian" : "svantaggio"
             },
             "rfr" : {
               "short" : "rfr",
               "long" : "reference",
               "italian" : "riferimento"
+            },
+            "cnf" : {
+              "short" : "cnf",
+              "long" : "conformity",
+              "italian" : "conformità"
             },
             "nna" : {
               "short" : "nna",
@@ -338,11 +362,6 @@
             }
           }
         },
-        "uns" : {
-          "short" : "uns",
-          "long" : "unspecified (only if dep. on adj., adv., or adp.)",
-          "italian" : "non specificato (solo se dip. da agg., avv. or adp.)"
-        },
         "nna" : {
           "short" : "nna",
           "long" : "none of the above",
@@ -355,8 +374,8 @@
         }
       }
     },
-    "inn" : {
-      "short" : "inn",
+    "ind" : {
+      "short" : "ind",
       "long" : "independent",
       "italian" : "indipendente", 
       "sections" : "1407",

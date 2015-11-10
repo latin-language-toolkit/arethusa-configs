@@ -6,13 +6,13 @@
       "italian" : "dipendente", 
       "sections" : "938-939"
     },
-    "inn" : {
-      "short" : "inn",
+    "ind" : {
+      "short" : "ind",
       "long" : "independent",
       "italian" : "indipendente", 
       "sections" : "940-941",
       "nested" : {
-        "cit" : {
+        "ctc" : {
           "short" : "ctc",
           "long" : "citation",
           "italian" : "citazione" 

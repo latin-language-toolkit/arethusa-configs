@@ -1,17 +1,16 @@
 {
   "nested" : {
-    "sbs" : {
-      "short" : "sbs",
-      "long" : "substantive pronoun",
-      "italian" : "pronome sostantivo",
-      "sections" : "1190-1278",
-      "@include" : "./arethusa.sg/sg_labels/cases.json"
-    },
     "adj" : {
       "short" : "adj",
-      "long" : "adjective pronoun",
-      "italian" : "pronome aggettivo",
-      "sections" : "1190-1278"
+      "long" : "adjective participle",
+      "italian" : "participio aggettivale",
+      "@include" : "./arethusa.sg/sg_labels/participles2.json"
+    },
+    "sbs" : {
+      "short" : "sbs",
+      "long" : "substantive participle",
+      "italian" : "participio sostantivato",
+      "@include" : "./arethusa.sg/sg_labels/cases.json"
     },
     "nna" : {
       "short" : "nna",

@@ -21,7 +21,7 @@
     },
     "vrb_sbs" : {
       "short" : "vrb_sbs",
-      "long" : "substantivized verbal adjective",
+      "long" : "substantive verbal adjective",
       "italian" : "aggettivo verbale sostantivato",
       "sections" : "2149-2152",
       "@include" : "./arethusa.sg/sg_labels/cases.json"

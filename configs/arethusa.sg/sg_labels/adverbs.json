@@ -1,7 +1,7 @@
 {
   "nested" : {
-    "tim" : {
-      "short" : "tim",
+    "tmp" : {
+      "short" : "tmp",
       "long" : "time",
       "italian" : "tempo",
       "nested" : {
@@ -19,6 +19,11 @@
           "short" : "squ_drt",
           "long" : "sequential-durative",
           "italian" : "sequenziale-durativo"
+        },
+        "tmp_dst" : {
+          "short" : "tmp_dst",
+          "long" : "temporal distance",
+          "italian" : "distanza temporale"
         },
         "tmp_ext" : {
           "short" : "tmp_ext",
@@ -45,17 +50,26 @@
         "lct" : {
           "short" : "lct",
           "long" : "location",
-          "italian" : "locazione"
+          "italian" : "locazione",
+          "@include" : "./arethusa.sg/sg_labels/figurative.json"
         },
         "drc" : {
           "short" : "drc",
           "long" : "direction",
-          "italian" : "direzione"
+          "italian" : "direzione",
+          "@include" : "./arethusa.sg/sg_labels/figurative.json"
         },
         "pth" : {
           "short" : "pth",
           "long" : "path",
-          "italian" : "attraverso"
+          "italian" : "attraverso",
+          "@include" : "./arethusa.sg/sg_labels/figurative.json"
+        },
+        "spr" : {
+          "short" : "spr",
+          "long" : "separation",
+          "italian" : "separazione",
+          "@include" : "./arethusa.sg/sg_labels/figurative.json"
         },
         "nna" : {
           "short" : "nna",
@@ -79,8 +93,8 @@
       "long" : "cause",
       "italian" : "causa"
     },
-    "rsl" : {
-      "short" : "rsl",
+    "cns" : {
+      "short" : "cns",
       "long" : "result",
       "italian" : "risultato"
     },
@@ -89,18 +103,18 @@
       "long" : "manner",
       "italian" : "modo"
     },
-    "mea" : {
-      "short" : "mea",
+    "msr" : {
+      "short" : "msr",
       "long" : "measure",
       "italian" : "misura"
     },
-    "ins" : {
-      "short" : "ins",
-      "long" : "intruments or means",
+    "ins_mns" : {
+      "short" : "ins_mns",
+      "long" : "instrument or means",
       "italian" : "strumento o mezzo"
     },
-    "pur" : {
-      "short" : "pur",
+    "fnl" : {
+      "short" : "fnl",
       "long" : "purpose",
       "italian" : "fine"
     },
@@ -114,10 +128,10 @@
       "long" : "negation",
       "italian" : "negazione"
     },
-    "uns" : {
-      "short" : "uns",
-      "long" : "unspecific",
-      "italian" : "non specificato"
+    "prt" : {
+      "short" : "prt",
+      "long" : "particle",
+      "italian" : "particella"
     },
     "nna" : {
       "short" : "nna",
