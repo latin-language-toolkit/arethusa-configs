@@ -80,6 +80,14 @@
             "color" : "deeppink"
           }
         },
+        "nrl" : {
+          "long" : "numeral",
+          "short" : "nrl",
+          "postag" : "m",
+          "style" : {
+            "color" : "lightgreen"
+          }
+        },
         "intj" : {
           "long" : "interjection",
           "short" : "intj",
@@ -88,23 +96,23 @@
             "color" : "gold"
           }
         },
-        "nrl" : {
-          "long" : "numeral",
-          "short" : "nrl",
-          "postag" : "m",
-          "style" : {
-            "color" : "lightgreen"
-           }
-         },
         "punct" : {
           "long" : "punctuation",
           "short" : "punct",
           "postag" : "u"
         },
-        "irreg" : {
-          "long" : "irregular",
-          "short" : "irreg",
-          "postag" : "x",
+        "nna" : {
+          "long" : "none of the above",
+          "short" : "nna",
+          "postag" : "b",
+          "style" : {
+            "color" : "gray"
+          }
+        },
+        "idk" : {
+          "long" : "I do not know",
+          "short" : "idk",
+          "postag" : "k",
           "style" : {
             "color" : "gray"
           }
@@ -301,11 +309,6 @@
           "long" : "medio-passive",
           "short" : "mp",
           "postag" : "e"
-        },
-        "dep" : {
-          "long" : "deponens",
-          "short" : "dep",
-          "postag" : "d"
         }
       }
     },
@@ -384,11 +387,6 @@
           "long" : "vocative",
           "short" : "voc",
           "postag" : "v"
-        },
-        "loc" : {
-          "long" : "locative",
-          "short" : "loc",
-          "postag" : "l"
         }
       }
     },
@@ -455,4 +453,3 @@
     }
   }
 }
-
