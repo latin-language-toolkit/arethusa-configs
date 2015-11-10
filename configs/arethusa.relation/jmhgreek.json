@@ -1,0 +1,111 @@
+{
+  "relations" : {
+    "labels" : {
+      "BASIC" : {
+        "short" : "BASIC",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-basic.json"
+      },
+      "nominative" : {
+        "short" : "nominative",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-nominative_cases.json"
+      },
+      "genitive" : {
+        "short" : "genitive",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-genitive_cases.json"
+      },
+      "dative" : {
+        "short" : "dative",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-dative_cases.json"
+      },
+      "accusative" : {
+        "short" : "accusative",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-accusative_cases.json"
+      },
+      "vocative" : {
+        "short" : "V-VOC",
+        "long" : "vocative"
+      },
+      "locative" : {
+        "short" : "L-LOCAT",
+        "long" : "locative"
+      },
+      "adjectival clause" : {
+        "short" : "adjectival clause",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-adjectival_clauses.json"
+      },
+      "adverbial clause" : {
+        "short" : "adverbial clause",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-adverbial_clauses.json"
+      },
+      "nominal clause" : {
+        "short" : "nominal clause",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-nominal_clauses.json"
+      },
+      "infinitive_uses" : {
+        "short" : "infinitive uses",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-infinitive_uses.json"
+      }
+    },
+    "suffixes" : {
+      "CO" : {
+        "short" : "CO",
+        "long" : ""
+      },
+      "AP" : {
+        "short" : "AP",
+        "long" : ""
+      },
+      "SBJ" : {
+        "short" : "SBJ",
+        "long" : "",
+        "nested" : {
+         "SUBJ-CO" : {
+           "short" : "SUBJ-CO",
+           "long" : "coordinated subject"
+         },
+         "SUBJ-AP" : {
+           "short" : "SUBJ-AP",
+           "long" : "subjecte in apposition"
+         }
+        }
+      },
+      "PRED" : {
+        "short" : "PRED",
+        "long" : "",
+        "nested" : {
+          "PRED-CO" : {
+           "short" : "PRED-CO",
+           "long" : "coordinated predicate"
+           },
+           "PRED-AP" : {
+             "short" : "PRED-AP",
+             "long" : "predicate in apposition"
+           }
+        }
+      },
+      "OBJ" : {
+        "short" : "OBJ",
+        "long" : "",
+        "nested" : {
+          "OBJ-CO" : {
+            "short" : "OBJ-CO",
+            "long" : "coordinated object"
+          },
+          "OBJ-AP" : {
+            "short" : "OBJ-AP",
+            "long" : "object in apposition"
+          }
+        }
+      }
+    }
+  }
+}

@@ -96,6 +96,14 @@
             "color" : "gold"
           }
         },
+        "nrl" : {
+          "long" : "numeral",
+          "short" : "nrl",
+          "postag" : "m",
+          "style" : {
+            "color" : "lightgreen"
+           }
+         },
         "punct" : {
           "long" : "punctuation",
           "short" : "punct",
