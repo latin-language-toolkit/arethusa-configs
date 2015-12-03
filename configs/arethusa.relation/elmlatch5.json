@@ -60,19 +60,14 @@
             "short": "Acmp",
             "long": "accompaniment"
         },
-
         "Sepr": {
             "short": "Sepr",
             "long": "separation"
         },
-
-
         "Rsp": {
             "short": "Rsp",
             "long": "respect"
         },
-
-
         "APOS": {
             "short": "APOS",
             "long": "apposing element"
@@ -97,41 +92,36 @@
             "short": "AuxZ",
             "long": "AuxZ (emph)"
         },
-
         "Cl": {
-          "short" : "Cl",
-          "long" : "Clause",
-          "nested" : {
-
-            "C-Cl": {
-                "short": "C-Cl",
-                "long": "complement cl"
-            },
-            "Tmp-Cl": {
-                "short": "Tmp-Cl",
-                "long": "temporal cl"
-            },
-            "Circ-Cl": {
-                "short": "Circ-Cl",
-                "long": "circumstance cl"
-            },
-            "Caus-Cl": {
-                "short": "Caus-Cl",
-                "long": "causal cl"
-            },
-            "Cond-Cl": {
-                "short": "Cond-Cl",
-                "long": "conditional cl"
-            },
-            "Conc-Cl": {
-                "short": "Conc-Cl",
-                "long": "concessive cl"
+            "short": "Cl",
+            "long": "Clause",
+            "nested": {
+                "CompCl": {
+                    "short": "CompCl",
+                    "long": "complement cl"
+                },
+                "TmpCl": {
+                    "short": "TmpCl",
+                    "long": "temporal cl"
+                },
+                "CircCl": {
+                    "short": "CircCl",
+                    "long": "circumstance cl"
+                },
+                "CausCl": {
+                    "short": "CausCl",
+                    "long": "causal cl"
+                },
+                "CondCl": {
+                    "short": "CondCl",
+                    "long": "conditional cl"
+                },
+                "ConcCl": {
+                    "short": "ConcCl",
+                    "long": "concessive cl"
+                }
             }
-
-          }
-
         }
-
     },
     "suffixes": {
         "AP": {
