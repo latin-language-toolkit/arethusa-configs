@@ -1,0 +1,11 @@
+{
+  "plugins": {
+    "morph" : {
+      "noRetrieval" : "online",
+      "@include" : "./arethusa.morph/empty_attributes.json"
+    },
+    "relation" : {
+      "@include" : "./arethusa.relation/ud.json"
+    }
+  }
+}
