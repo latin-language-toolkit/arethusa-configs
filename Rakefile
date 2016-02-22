@@ -49,7 +49,7 @@ task :release, [:quality] do |t, args|
   version = Version.new.bump(quality)
 
   puts
-  puts "Raised version to #{version}"
+  puts "Raised version num to #{version}"
 
   git('add -A')
   git("commit -m 'Release version #{version}'")
