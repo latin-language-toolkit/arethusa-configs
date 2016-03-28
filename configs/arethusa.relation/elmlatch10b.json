@@ -24,7 +24,7 @@
             "short": "ADV",
             "long": "adverb"
         },
-        "C-Phr": {
+        "CPhr": {
             "short": "C-Phr",
             "long": "complement phrase"
         },
@@ -138,10 +138,6 @@
                     "short": "CompCl",
                     "long": "complement cl"
                 },
-                "CircCl": {
-                    "short": "CircCl",
-                    "long": "circumstance cl"
-                },
                 "AbsCl": {
                     "short": "AbsCl",
                     "long": "absolute cl"
@@ -174,8 +170,6 @@
                     "short": "PartCl",
                     "long": "participle cl"
                 },
-                
-                
                 "RelCl": {
                     "short": "RelCl",
                     "long": "relative cl"
