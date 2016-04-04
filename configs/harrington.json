@@ -1,16 +1,4 @@
 {
-  "main" : {
-    "plugins" : [
-      "text",
-      "morph",
-      "relation",
-      "artificialToken",
-      "search",
-      "history",
-      "comments",
-      "depTree"
-    ]
-  },
   "plugins" : {
     "relation" : {
       "@include" : "./arethusa.relation/harrington.json"
