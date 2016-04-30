@@ -2,7 +2,7 @@
   "plugins": {
     "morph" : {
       "noRetrieval" : "online",
-      "@include" : "./arethusa.morph/empty_attributes.json"
+      "@include" : "./arethusa.morph/ud_pos.json"
     },
     "relation" : {
       "@include" : "./arethusa.relation/ud.json"
