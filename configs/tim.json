@@ -1,0 +1,12 @@
+{
+  "plugins": {
+    "morph" : {
+      "noRetrieval" : "online",
+      
+        
+      
+      "@include" : "./arethusa.morph/sk_attributes.json"
+   
+    }
+  }
+}
