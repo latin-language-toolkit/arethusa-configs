@@ -2,8 +2,8 @@
   "relations": {
     "labels": {
       "Sbj": {
-        "short": "TIM",
-        "long": "timothy"
+        "short": "Sbj",
+        "long": "subject"
       },
       "Poss": {
         "short": "Poss",
