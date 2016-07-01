@@ -259,7 +259,7 @@
         "sup" : {
           "long" : "supine",
           "short" : "sup",
-          "postag" : "s"
+          "postag" : "u"
         }
       }
     },
