@@ -5,9 +5,10 @@
       "retrievers" : {
         "BspMorphRetriever" : {
           "resource" : "morphologyServiceLat"
-        }
-      }
-    },
+ }
+      },
+      "@include" : "./arethusa.morph/lattest_attributes.json"
+      },
     "relation" : {
       "@include" : "./arethusa.relation/testlat.json"
     }
