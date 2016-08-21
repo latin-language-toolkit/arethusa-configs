@@ -48,7 +48,7 @@
                         "short": "DirObj",
                         "long": "direct obj"
                     },
-                    "PlceTo": {
+                    "Lmt": {
                         "short": "Lmt",
                         "long": "limit of motion or time"
                     },
