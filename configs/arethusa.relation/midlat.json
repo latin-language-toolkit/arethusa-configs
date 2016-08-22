@@ -48,9 +48,9 @@
                         "short": "DirObj",
                         "long": "direct obj"
                     },
-                    "PlceTo": {
-                        "short": "PlceTo",
-                        "long": "place to which"
+                    "Lmt": {
+                        "short": "Lmt",
+                        "long": "limit of motion or time"
                     },
                     "Ocmp": {
                         "short": "Ocmp",
@@ -147,12 +147,16 @@
                 "long": "Clause",
                 "nested": {
                     "C-Cl": {
-                        "short": "CompCl",
+                        "short": "ComplCl",
                         "long": "complement cl"
                     },
                     "CircCl": {
                         "short": "CircCl",
                         "long": "circumstance cl"
+                    },
+                    "PartCl": {
+                        "short": "PartCl",
+                        "long": "participle cl"
                     },
                     "AbsCl": {
                         "short": "AbsCl",
@@ -190,6 +194,10 @@
                         "short": "IndrCmdCl",
                         "long": "indirect command cl"
                     },
+                    "IndQuestCl": {
+                        "short": "IndQuestCl",
+                        "long": "indirect question clause"
+                    },
                     "RsltCl": {
                         "short": "RsltCl",
                         "long": "result cl"
@@ -201,6 +209,10 @@
                     "GrndCl": {
                         "short": "GrndCl",
                         "long": "gerund cl"
+                    },
+                    "ComparCl": {
+                        "short": "ComparCl",
+                        "long": "comparison cl"
                     },                    
                     "FearCl": {
                         "short": "FearCl",
