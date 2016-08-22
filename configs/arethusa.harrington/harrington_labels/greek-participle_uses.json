@@ -1,5 +1,9 @@
 {
   "nested" : {
+    "CP-TEMPOR" : {
+      "short" : "CP-TEMPOR",
+      "long" : "temporal circumstantial participle"
+    },
     "CP-CAUSAL" : {
       "short" : "CP-CAUSAL",
       "long" : "causal circumstantial participle"
@@ -11,10 +15,6 @@
     "CP-FPPURP" : {
       "short" : "CP-FPPURP",
       "long" : "future participle of purpose"
-    },
-    "CP-TEMPOR" : {
-      "short" : "CP-TEMPOR",
-      "long" : "temporal circumstantial participle"
     },
     "CP-PROTAS" : {
       "short" : "CP-PROTAS",

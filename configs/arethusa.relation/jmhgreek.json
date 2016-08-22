@@ -49,6 +49,11 @@
         "long" : "",
         "@include" : "./arethusa.harrington/harrington_labels/greek-nominal_clauses.json"
       },
+      "participle uses" : {
+        "short": "participle uses",
+        "long" : "",
+        "@include" : "./arethusa.harrington/harrington_labels/greek-participle_uses.json"
+      },
       "infinitive_uses" : {
         "short" : "infinitive uses",
         "long" : "",
