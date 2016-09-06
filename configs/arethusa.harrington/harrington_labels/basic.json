@@ -113,6 +113,7 @@
         "long" : "apposing element",
         "style" : {
           "color" : "rgb(7, 95, 39)"
+          }
         },
       "INTRJ" : {
         "short" : "INTRJ",
@@ -121,5 +122,5 @@
           "color" : "rgb(255, 153, 51)"
         }
       }
-    
+    }
 }
