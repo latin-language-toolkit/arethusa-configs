@@ -1,6 +1,10 @@
 {
   "relations": {
     "labels": {
+      "MnVb": {
+        "short": "MnVb",
+        "long": "main verb"
+      },
       "Sbj": {
         "short": "Sbj",
         "long": "subject"
