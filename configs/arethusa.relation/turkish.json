@@ -1,14 +1,14 @@
 {
   "relations" : {
     "labels" : {
-      "YUK" : {
+      "YÜK" : {
         "short" : "YÜK",
         "long" : "yüklem",
         "style" : {
           "color" : "rgb(223, 38, 38)"
         }
       },
-      "OZN" : {
+      "ÖZN" : {
         "short" : "ÖZN",
         "long" : "özne",
         "style" : {
@@ -36,7 +36,7 @@
           "color" : "darkorange"
         }
       },
-      "TUM" : {
+      "TÜM" : {
         "short" : "TÜM",
         "long" : "tümleç",
         "style" : {
@@ -64,7 +64,7 @@
           "color" : "rgb(154, 130, 206)"
         }
       },
-      "ESL" : {
+      "EŞL" : {
         "short" : "EŞL",
         "long" : "eşleme",
         "style" : {
