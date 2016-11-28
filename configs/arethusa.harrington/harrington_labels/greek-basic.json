@@ -121,6 +121,13 @@
         "style" : {
           "color" : "rgb(255, 153, 51)"
         }
-    }
+      },
+      "PARENTH" : {
+        "short" : "parenthetical ",
+        "long" : "parenthetical statement",
+        "style" : {
+          "color" : "rgb(255, 153, 51)"
+         }
+      }
     }
 }
