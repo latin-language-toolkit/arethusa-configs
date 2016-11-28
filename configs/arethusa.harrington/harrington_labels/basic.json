@@ -120,7 +120,14 @@
         "long" : "interjection",
         "style" : {
           "color" : "rgb(255, 153, 51)"
-        }
+        },
+        "nested": {
+          "PARENTH" : {
+            "short" : "parenthetical ",
+            "long" : "parenthetical statement",
+            "style" : {
+              "color" : "rgb(255, 153, 51)"
+            }
       }
     }
 }
