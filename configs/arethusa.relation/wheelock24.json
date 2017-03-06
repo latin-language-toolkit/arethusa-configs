@@ -73,6 +73,10 @@
         "short": "RelCl",
         "long": "relative clause"
       },
+      "AbsolCl": {
+        "short": "AbsolCl",
+        "long": "absolute clause"
+      },
       "PartCl": {
         "short": "PartCl",
         "long": "participle clause"
