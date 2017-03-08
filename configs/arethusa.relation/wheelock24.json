@@ -65,6 +65,10 @@
         "short": "Separ",
         "long": "Separation"
       },
+      "Compar": {
+        "short": "Compar",
+        "long": "comparison"
+      },
       "CmplCl": {
         "short": "CmplCl",
         "long": "complement clause"
