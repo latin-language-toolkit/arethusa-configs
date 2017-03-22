@@ -19,7 +19,7 @@
           "resource" : "sgGrammar"
         }
       },
-      "template" : "templates/sg.html",
+      "template" : "js/templates/sg.html",
       "contextMenu" : true,
       "contextMenuTemplate": "js/arethusa.sg/templates/context_menu.html",
       "@include" : "./arethusa.sg/sg_labels.json"
