@@ -13,6 +13,17 @@
     ]
   },
   "plugins" : {
+    "sg" : {
+      "retriever" : {
+        "SgGrammarRetriever" : {
+          "resource" : "sgGrammar"
+        }
+      },
+      "template" : "templates/sg.html",
+      "contextMenu" : true,
+      "contextMenuTemplate": "js/arethusa.sg/templates/context_menu.html",
+      "@include" : "./arethusa.sg/sg_labels.json"
+    },
     "morph" : {
       "gloss" : true,
       "retrievers" : {
