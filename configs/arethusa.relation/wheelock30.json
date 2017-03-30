@@ -105,6 +105,10 @@
         "short": "COORD",
         "long": "coordinator"
       },
+      "SubConj": {
+        "short": "SubConj",
+        "long": "subordinating conjunction"
+      },
       "APOS": {
         "short": "APOS",
         "long": "appossitor"
