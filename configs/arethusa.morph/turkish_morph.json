@@ -445,7 +445,8 @@
       },
       "values" : {
         "pos" : {
-          "verb\nparticiple": "verb"
+          "verb\nparticiple": "verb",
+          "verb participle": "verb"
         },
         "tense" : {
           "pluperfect" : "plusquamperfect"

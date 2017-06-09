@@ -441,6 +441,7 @@
       "values" : {
         "pos" : {
           "verb\nparticiple": "verb",
+          "verb participle": "verb",
           "particle": "adverb",
           "preposition": "adposition",
           "exclamation": "interjection"
