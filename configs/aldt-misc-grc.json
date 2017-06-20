@@ -4,7 +4,7 @@
       "noRetrieval" : "online",
       "retrievers" : {
         "BspMorphRetriever" : {
-          "resource" : "morphologyServiceGrc"
+          "resource" : "newMorphologyServiceGrc"
         }
       },
       "@include" : "./arethusa.morph/gr_attributes2.json"

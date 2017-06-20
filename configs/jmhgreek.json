@@ -6,7 +6,7 @@
     "morph" : {
       "retrievers" : {
         "BspMorphRetriever" : {
-          "resource" : "morphologyServiceGrc"
+          "resource" : "newMorphologyServiceGrc"
         }
       },
       "postagSchema" : [

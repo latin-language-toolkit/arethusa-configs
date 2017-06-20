@@ -4,7 +4,7 @@
       "noRetrieval" : "online",
       "retrievers" : {
         "BspMorphRetriever" : {
-          "resource" : "morphologyServiceLat"
+          "resource" : "newMorphologyServiceLat"
         }
       },
       "@include" : "./arethusa.morph/lat_attributes.json"

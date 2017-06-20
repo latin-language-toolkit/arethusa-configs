@@ -13,7 +13,7 @@
       "noRetrieval" : "online",
       "retrievers" : {
         "BspMorphRetriever" : {
-          "resource" : "morphologyServiceLat"
+          "resource" : "newMorphologyServiceLat"
         }
       }
     },

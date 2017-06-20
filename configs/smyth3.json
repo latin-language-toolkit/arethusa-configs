@@ -28,7 +28,7 @@
       "gloss" : true,
       "retrievers" : {
         "BspMorphRetriever" : {
-          "resource" : "morphologyServiceGrc"
+          "resource" : "newMorphologyServiceGrc"
         }
       },
       "@include" : "./arethusa.morph/gr_attributes_sg.json"
