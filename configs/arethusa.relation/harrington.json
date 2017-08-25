@@ -6,6 +6,39 @@
         "long" : "",
         "@include" : "./arethusa.harrington/harrington_labels/basic.json"
       },
+      "AUX" : {
+        "short" : "Aux",
+        "long" : "auxiliary",
+        "@include" : "./arethusa.harrington/harrington_labels/aux.json"
+      },
+      "ATR" : {
+        "short" : "ATR",
+        "long" : "attribute",
+        "style" : {
+          "color" : "blue"
+        }
+      },
+      "ADV" : {
+        "short" : "ADV",
+        "long" : "adverbial",
+        "style" : {
+          "color" : "darkorange"
+        }
+      },
+      "COORD" : {
+        "short" : "COORD",
+        "long" : "coordinator",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
+      "APOS" : {
+        "short" : "APOS",
+        "long" : "apposing element",
+        "style" : {
+          "color" : "rgb(7, 95, 39)"
+          }
+      },
       "nominative" : {
         "short" : "nominative",
         "long" : "",

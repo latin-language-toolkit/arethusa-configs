@@ -19,6 +19,22 @@
     "NOM-DIRSTAT" : {
       "short" : "NOM-DIRSTAT",
       "long" : "direct statement"
+    },
+    "NOM-DS-HORT": {
+      "short": "NOM-DS-HORT",
+      "long": "Hortatory Subjunctive in Direct Statement"
+    },
+    "NOM-DS-DELIB": {
+      "short": "NOM-DS-DELIB",
+      "long": "Deliberative Subjunctive in Direct Statement"
+    },
+    "NOM-DS-POTENT": {
+      "short": "NOM-DS-POTENT",
+      "long": "Potential Subjunctive in Direct Statement"
+    },
+    "NOM-DS-OPT": {
+      "short": "NOM-DS-OPT",
+      "long": "Optative Subjunctive in Direct Statement"
     }
   }
 }

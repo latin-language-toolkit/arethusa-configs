@@ -11,6 +11,10 @@
     "INF-IMPER" : {
       "short" : "INF-IMPER",
       "long" : "imperitival infinitive"
+    },
+    "INF-PURP": {
+      "short" : "INF-PURP",
+      "long" : "infinitive of purpose"
     }
   }
 }
