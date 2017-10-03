@@ -213,14 +213,16 @@
                     "ComparCl": {
                         "short": "ComparCl",
                         "long": "comparison cl"
-                    },                    
-                    "FearCl": {
-                        "short": "FearCl",
-                        "long": "fearing cl"
-                    },                    
+                    }, 
                     "DrQtCl": {
                         "short": "DrQtCl",
                         "long": "direct quotation cl"
+                    },                    
+                    
+                    "FearCl": {
+                        "short": "FearCl",
+                        "long": "fearing cl"
+                    }
                 }
             },
             "APOS": {
