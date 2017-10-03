@@ -217,7 +217,10 @@
                     "FearCl": {
                         "short": "FearCl",
                         "long": "fearing cl"
-                    }
+                    },                    
+                    "DrQtCl": {
+                        "short": "DrQtCl",
+                        "long": "direct quotation cl"
                 }
             },
             "APOS": {
