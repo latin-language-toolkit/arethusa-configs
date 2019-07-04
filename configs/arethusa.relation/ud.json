@@ -5,18 +5,53 @@
                 "short": "acl",
                 "long": "adjectival clause"
             },
+            "acl:appos": {
+                "short": "acl:appos",
+                "long": ""
+            },
+            "acl:relcl": {
+                "short": "acl:relcl",
+                "long": ""
+            },
             "advcl": {
                 "short": "advcl",
                 "long": "adverbial clause modifier"
             },
+             "advcl:appos": {
+                "short": "advcl:appos",
+                "long": "adverbial clause modifier appositive"
+            },           
+             "advcl:arg": {
+                "short": "advcl:arg",
+                "long": ""
+            }             
+            ,
             "advmod": {
                 "short": "advmod",
                 "long": "adverbial modifier"
             },
+             "advmod:appos": {
+                "short": "advmod:appos",
+                "long": ""
+            },
+             "advmod:cc": {
+                "short": "advmod:cc",
+                "long": ""
+            },              
+              "advmod:emph": {
+                "short": "advmod:emph",
+                "long": ""
+            }            
+            ,
             "amod": {
                 "short": "amod",
                 "long": "adjectival modifier"
             },
+             "amod:advmod": {
+                "short": "amod:advmod",
+                "long": ""
+            }           
+            ,
             "appos": {
                 "short": "appos",
                 "long": "appositional modifier"
@@ -25,8 +60,8 @@
                 "short": "aux",
                 "long": "auxiliary"
             },
-            "auxpass": {
-                "short": "auxpass",
+            "aux:pass": {
+                "short": "aux:pass",
                 "long": "passive auxiliary"
             },
             "case": {
@@ -57,8 +92,8 @@
                 "short": "csubj",
                 "long": "clausal subject"
             },
-            "csubjpass": {
-                "short": "csubjpass",
+            "csubj:pass": {
+                "short": "csubj:pass",
                 "long": "clausal passive subject"
             },
             "dep": {
@@ -77,18 +112,49 @@
                 "short": "dislocated",
                 "long": "dislocated element"
             },
-            "dobj": {
-                "short": "dobj",
-                "long": "direct object"
+            "obj": {
+                "short": "obj",
+                "long": "object"
             },
+             "obj:arg": {
+                "short": "obj:arg",
+                "long": ""
+            },           
+             "obj:agent": {
+                "short": "obj:agent",
+                "long": ""
+            }              
+            ,
             "expl": {
                 "short": "expl",
                 "long": "expletive"
             },
-            "foreign": {
-                "short": "foreign",
-                "long": "foreign"
+            "expl:pass": {
+                "short": "expl:pass",
+                "long": ""
+            }            
+            
+            
+            ,
+            "fixed": {
+                "short": "fixed",
+                "long": "fixed"
             },
+            "flat": {
+                "short": "flat",
+                "long": "flat"
+            },
+            "flat:foreign": {
+                "short": "flat:foreign",
+                "long": ""
+            },            
+            "flat:name": {
+                "short": "flat:name",
+                "long": ""
+            }              
+            
+            
+            ,
             "goeswith": {
                 "short": "goeswith",
                 "long": "goes with"
@@ -121,12 +187,22 @@
                 "short": "nmod",
                 "long": "nominal modifier"
             },
+             "nmod:advmod": {
+                "short": "nmod:advmod",
+                "long": ""
+            } ,          
+              "nmod:appos": {
+                "short": "nmod:appos",
+                "long": ""
+            }             
+            ,
             "nsubj": {
                 "short": "nsubj",
                 "long": "nominal subject"
-            },
-            "nsubjpass": {
-                "short": "nsubjpass",
+            }
+            ,
+            "nsubj:pass": {
+                "short": "nsubj:pass",
                 "long": "passive nominal subject"
             },
             "nummod": {
