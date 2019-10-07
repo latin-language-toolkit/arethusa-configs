@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    arethusa-client (0.1.17)
+      nokogiri
+      thor
+    mini_portile2 (2.0.0)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    rake (12.3.3)
+    thor (0.20.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  arethusa-client
+  nokogiri (= 1.6.7.2)
+  rake
+
+BUNDLED WITH
+   1.17.3
