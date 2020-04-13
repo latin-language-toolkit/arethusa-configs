@@ -74,6 +74,10 @@
                         "short": "Ref",
                         "long": "indirect object"
                     },
+                    "Compl": {
+                        "short": "Compl",
+                        "long": "dative complement"
+                    },
                     "Purp": {
                         "short": "Purp",
                         "long": "purpose"
@@ -100,9 +104,14 @@
                         "short": "Acmp",
                         "long": "accompaniment"
                     },
+                    
                     "Dscp": {
                         "short": "Dscp",
                         "long": "description"
+                    },
+                    "Compl": {
+                        "short": "Compl",
+                        "long": "ablative complement"
                     },
                     "Sepr": {
                         "short": "Sepr",
