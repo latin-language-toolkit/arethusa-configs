@@ -1,0 +1,179 @@
+{
+  "relations" : {
+    "labels" : {
+      "PRED" : {
+        "short" : "PRED",
+        "long" : "verbe",
+        "style" : {
+          "color" : "rgb(223, 38, 38)"
+        }
+      },
+      "SBJ" : {
+        "short" : "SBJ",
+        "long" : "sujet",
+        "style" : {
+          "color" : "rgb(92, 201, 83)"
+        }
+      },
+      "OBJ" : {
+        "short" : "OBJ",
+        "long" : "objet",
+        "style" : {
+          "color" : "rgb(11, 200, 216)"
+        }
+      },
+      "ATR" : {
+        "short" : "ATR",
+        "long" : "attribut",
+        "style" : {
+          "color" : "blue"
+        }
+      },
+      "ADV" : {
+        "short" : "ADV",
+        "long" : "adverbe",
+        "style" : {
+          "color" : "darkorange"
+        }
+      },
+      "ATV" : {
+        "short" : "ATV",
+        "long" : "attribut verbal",
+        "style" : {
+          "color" : "rgb(131, 11, 16)"
+        }
+      },
+      "AtvV" : {
+        "short" : "AtvV",
+        "long" : "attribut verbal",
+        "style" : {
+          "color" : "rgb(131, 11, 16)"
+        }
+      },
+      "PNOM" : {
+        "short" : "PNOM",
+        "long" : "attribut du sujet",
+        "style" : {
+          "color" : "rgb(87, 160, 119)"
+        }
+      },
+      "OCOMP" : {
+        "short" : "OCOMP",
+        "long" : "attribut de l'object",
+        "style" : {
+          "color" : "rgb(92, 201, 83)"
+        }
+      },
+      "COORD" : {
+        "short" : "COORD",
+        "long" : "coordination",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
+      "APOS" : {
+        "short" : "APOS",
+        "long" : "apposition",
+        "style" : {
+          "color" : "rgb(7, 95, 39)"
+        }
+      },
+      "Aux" : {
+        "short" : "Aux",
+        "long" : "auxiliaire",
+        "nested" : {
+          "AuxP" : {
+            "short" : "AuxP",
+            "long" : "préposition",
+            "style" : {
+              "color" : "green"
+            }
+          },
+          "AuxC" : {
+            "short" : "AuxC",
+            "long" : "conjonction",
+            "style" : {
+              "color" : "deeppink"
+            }
+          },
+          "AuxY" : {
+            "short" : "AuxY",
+            "long" : "particule corrélative",
+            "style" : {
+              "color" : "rgb(139, 211, 31)"
+            }
+          },
+          "AuxZ" : {
+            "short" : "AuxZ",
+            "long" : "opérateur logique",
+            "style" : {
+              "color" : "rgb(216, 57, 159)"
+            }
+          },
+          "AuxV" : {
+            "short" : "AuxV",
+            "long" : "auxiliaire attributif",
+            "style" : {
+              "color" : "rgb(70, 96, 235)"
+            }
+          },
+          "AuxR" : {
+            "short" : "AuxR",
+            "long" : "réfléchi passif",
+            "style" : {
+              "color" : "rgb(162, 70, 235)"
+            }
+          },
+          "AuxG" : {
+            "short" : "AuxG",
+            "long" : "parenthèse",
+            "style" : {
+              "color" : "black"
+            }
+          },
+          "AuxX" : {
+            "short" : "AuxX",
+            "long" : "virgule",
+            "style" : {
+              "color" : "black"
+            }
+          },
+          "AuxK" : {
+            "short" : "AuxK",
+            "long" : "ponctuation finale",
+            "style" : {
+              "color" : "black"
+            }
+          }
+        }
+      },
+      "ExD" : {
+        "short" : "ExD",
+        "long" : "ellipse",
+        "style" : {
+          "color" : "rgb(17, 131, 67)"
+        }
+      }
+    },
+    "suffixes" : {
+      "CO" : {
+        "short" : "CO",
+        "long" : "coordonné",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
+      "AP" : {
+        "short" : "AP",
+        "long" : "apposé",
+        "style" : {
+          "color" : "rgb(154, 130, 206)"
+        }
+      },
+      "AP_CO" : {
+        "short" : "AP_CO",
+        "long" : "apposé et coordonné"
+      }
+    }
+  }
+}
