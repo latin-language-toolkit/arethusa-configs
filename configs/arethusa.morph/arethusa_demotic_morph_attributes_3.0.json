@@ -62,7 +62,7 @@
           "style" : {
             "color" : "rgb (173, 255, 47)"
           },
-          "values" : {
+          "nested" : {
             "pn" : {
               "long" : "personal name",
               "short" : "pn",
