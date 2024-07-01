@@ -78,6 +78,14 @@
             "color" : "rgb (173, 255, 47)"
           }
         },
+        "epi" : {
+          "long" : "epitheton",
+          "short" : "epi",
+          "postag" : "e",
+          "style" : {
+            "color" : "rgb (173, 255, 47)"
+          }
+        },
         "deity" : {
           "long" : "divine name",
           "short" : "deity",
