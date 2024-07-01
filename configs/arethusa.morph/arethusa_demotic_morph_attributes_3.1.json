@@ -79,7 +79,7 @@
           }
         },
         "epi" : {
-          "long" : "epitheton",
+          "long" : "epithet",
           "short" : "epi",
           "postag" : "e",
           "style" : {
