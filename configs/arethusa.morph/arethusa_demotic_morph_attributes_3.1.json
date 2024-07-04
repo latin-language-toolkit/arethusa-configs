@@ -6,7 +6,8 @@
     "tense",
     "mood",
     "voice",
-    "gend"
+    "gend",
+    "type"
     ],
   "styledThrough" : "pos",
   "attributes" : {
@@ -55,49 +56,9 @@
           }
         },
         "name" : {
-          "long" : "personal name",
+          "long" : "name",
           "short" : "name",
           "postag" : "n",
-          "style" : {
-            "color" : "rgb (173, 255, 47)"
-          }
-        },
-        "king" : {
-          "long" : "king's name",
-          "short" : "king",
-          "postag" : "k",
-          "style" : {
-            "color" : "rgb (173, 255, 47)"
-          }
-        },
-        "queen" : {
-          "long" : "queen's name",
-          "short" : "queen",
-          "postag" : "q",
-          "style" : {
-            "color" : "rgb (173, 255, 47)"
-          }
-        },
-        "epi" : {
-          "long" : "epithet",
-          "short" : "epi",
-          "postag" : "e",
-          "style" : {
-            "color" : "rgb (173, 255, 47)"
-          }
-        },
-        "deity" : {
-          "long" : "divine name",
-          "short" : "deity",
-          "postag" : "d",
-          "style" : {
-            "color" : "rgb (173, 255, 47)"
-          }
-        },
-        "geographic" : {
-          "long" : "geographic name",
-          "short" : "geographic",
-          "postag" : "g",
           "style" : {
             "color" : "rgb (173, 255, 47)"
           }
@@ -506,6 +467,54 @@
           "long" : "neuter",
           "short" : "neut",
           "postag" : "n"
+        }
+      }
+    },
+    "type" : {
+      "long" : "type of name",
+      "short" : "type",
+      "rules" : [
+        {
+          "if" : {
+            "pos" : "name" 
+          }
+        }
+      ],
+      "values" : {
+        "man" : {
+          "long" : "man",
+          "short" : "man",
+          "postag" : "m"
+        },
+        "woman" : {
+          "long" : "woman",
+          "short" : "woman",
+          "postag" : "w"
+        },
+        "king" : {
+          "long" : "king",
+          "short" : "king",
+          "postag" : "k"
+        },
+        "queen" : {
+          "long" : "queen",
+          "short" : "queen",
+          "postag" : "q"
+        },
+        "god" : {
+          "long" : "god",
+          "short" : "god",
+          "postag" : "g"
+        },
+        "goddess" : {
+          "long" : "goddess",
+          "short" : "goddess",
+          "postag" : "g"
+        },
+        "top" : {
+          "long" : "toponym",
+          "short" : "top",
+          "postag" : "t"
         }
       }
     }
