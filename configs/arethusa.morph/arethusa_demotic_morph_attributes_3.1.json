@@ -3,72 +3,45 @@
     "pos",
     "pers",
     "num",
+    "gend",
     "tense",
     "mood",
     "voice",
-    "gend",
-    "type"
+    "typeA",
+    "typeC",
+    "typeN",
+    "typeNo",
+    "typePP",
+    "typeV"
     ],
   "styledThrough" : "pos",
   "attributes" : {
     "pos" : {
-      "long" : "Part of Speech",
+            "long" : "Part of Speech",
       "short" : "pos",
       "values" : {
-        "defart" : {
-          "long" : "definite article",
-          "short" : "defart",
-          "postag" : "d",
-          "style" : {
-            "color" : "rgb (173, 216, 230)"
-          }
-        },
-        "indart" : {
-          "long" : "indefinite article",
-          "short" : "indart",
-          "postag" : "i",
-          "style" : {
-            "color" : "rgb (173, 216, 230)"
-          }
-        },
-        "possart" : {
-          "long" : "possessive article",
-          "short" : "possart",
-          "postag" : "p",
-          "style" : {
-            "color" : "rgb (173, 216, 230)"
-          }
-        },
-        "posspr" : {
-          "long" : "possessive prefix",
-          "short" : "posspr",
-          "postag" : "o",
-          "style" : {
-            "color" : "rgb (173, 216, 230)"
-          }
-        },
-        "noun" : {
-          "long" : "noun",
-          "short" : "noun",
-          "postag" : "n",
-          "style" : {
-            "color" : "rgb (43, 114, 124)"
-          }
-        },
-        "name" : {
-          "long" : "name",
-          "short" : "name",
-          "postag" : "n",
-          "style" : {
-            "color" : "rgb (173, 255, 47)"
-          }
-        },
         "adj" : {
           "long" : "adjective",
           "short" : "adj",
+          "postag" : "j",
+          "style" : {
+            "color" : "rgb (29, 29, 255)"
+          }
+        },
+        "adv" : {
+          "long" : "adverb",
+          "short" : "adv",
+          "postag" : "b",
+          "style" : {
+            "color" : "rgb (255, 140, 20)"
+          }
+        },
+        "art" : {
+          "long" : "article",
+          "short" : "art",
           "postag" : "a",
           "style" : {
-            "color" : "rgb (0, 0, 255)"
+            "color" : "rgb (210, 210, 250)"
           }
         },
         "aug" : {
@@ -76,151 +49,39 @@
           "short" : "aug",
           "postag" : "u",
           "style" : {
-            "color" : "rgb (64, 224, 208)"
-          }
-        },
-        "dempr" : {
-          "long" : "demonstrative pronoun",
-          "short" : "dempr",
-          "postag" : "m",
-          "style" : {
-            "color" : "rgb (0, 128, 128)"
-          }
-        },
-        "intpr" : {
-          "long" : "interrogative pronoun",
-          "short" : "intpr",
-          "postag" : "r",
-          "style" : {
-            "color" : "rgb (255, 0, 255)"
-          }
-        },
-        "suffpr" : {
-          "long" : "suffix pronoun",
-          "short" : "suffpr",
-          "postag" : "s",
-          "style" : {
-            "color" : "rgb (128, 0, 128)"
-          }
-        },
-        "deppr" : {
-          "long" : "dependent pronoun",
-          "short" : "deppr",
-          "postag" : "d",
-          "style" : {
-            "color" : "rgb (128, 0, 128)"
-          }
-        },
-        "indpr" : {
-          "long" : "independent pronoun",
-          "short" : "indpr",
-          "postag" : "i",
-          "style" : {
-            "color" : "rgb (128, 0, 128)"
-          }
-        },
-        "propr" : {
-          "long" : "proclitic pronoun",
-          "short" : "propr",
-          "postag" : "l",
-          "style" : {
-            "color" : "rgb (128, 0, 128)"
-          }
-        },
-        "popr" : {
-          "long" : "possessive pronoun",
-          "short" : "popr",
-          "postag" : "p",
-          "style" : {
-            "color" : "rgb (128, 0, 128)"
-          }
-        },
-        "verb" : {
-          "long" : "verb",
-          "short" : "verb",
-          "postag" : "v",
-          "style" : {
-            "color" : "rgb (255, 0, 0)"
-          }
-        },
-        "axv" : {
-          "long" : "auxiliary verb",
-          "short" : "axv",
-          "postag" : "x",
-          "style" : {
-            "color" : "rgb (255, 127, 80)"
-          }
-        },
-        "pcp" : {
-          "long" : "participle",
-          "short" : "pcp",
-          "postag" : "p",
-          "style" : {
-            "color" : "rgb (127, 255, 212)"
-          }
-        },
-        "rel" : {
-          "long" : "relative form",
-          "short" : "rel",
-          "postag" : "r",
-          "style" : {
-            "color" : "rgb (160, 82, 45)"
-          }
-        },
-        "inf" : {
-          "long" : "infinitive",
-          "short" : "inf",
-          "postag" : "n",
-          "style" : {
-            "color" : "rgb (188, 143, 143)"
-          }
-        },
-        "qua" : {
-          "long" : "qualitative",
-          "short" : "qua",
-          "postag" : "q",
-          "style" : {
-            "color" : "rgb (186, 85, 211)"
-          }
-        },
-        "adv" : {
-          "long" : "adverb",
-          "short" : "adv",
-          "postag" : "d",
-          "style" : {
-            "color" : "rgb (255, 140, 0)"
-          }
-        },
-        "prep" : {
-          "long" : "preposition",
-          "short" : "prep",
-          "postag" : "r",
-          "style" : {
-            "color" : "rgb (0, 128, 0)"
-          }
-        },
-        "part" : {
-          "long" : "particle",
-          "short" : "part",
-          "postag" : "l",
-          "style" : {
-            "color" : "rgb (128, 128, 128)"
-          }
-        },
-        "neg" : {
-          "long" : "negation",
-          "short" : "neg",
-          "postag" : "g",
-          "style" : {
-            "color" : "rgb (0, 255, 0)"
+            "color" : "rgb (110, 230, 220)"
           }
         },
         "conj" : {
           "long" : "conjunction",
           "short" : "conj",
+          "postag" : "o",
+          "style" : {
+            "color" : "rgb (255, 120, 180)"
+          }
+        },
+        "conv" : {
+          "long" : "converter",
+          "short" : "conv",
           "postag" : "c",
           "style" : {
-            "color" : "rgb (255, 20, 147)"
+            "color" : "rgb (255, 170, 200)"
+          }
+        },
+        "cop" : {
+          "long" : "copula",
+          "short" : "cop",
+          "postag" : "k",
+          "style" : {
+            "color" : "rgb (167, 138, 226)"
+          }
+        },
+        "dempr" : {
+          "long" : "demonstrative pronoun",
+          "short" : "dempr",
+          "postag" : "d",
+          "style" : {
+            "color" : "rgb (0, 240, 180)"
           }
         },
         "intj" : {
@@ -228,75 +89,83 @@
           "short" : "intj",
           "postag" : "i",
           "style" : {
-            "color" : "rgb (221, 160, 221)"
+            "color" : "rgb (255, 215, 0)"
           }
         },
-        "cop" : {
-          "long" : "copula",
-          "short" : "cop",
-          "postag" : "c",
-          "style" : {
-            "color" : "rgb (128, 128, 0)"
-          }
-        },
-        "circ" : {
-          "long" : "circumstantial converter",
-          "short" : "circ",
-          "postag" : "c",
-          "style" : {
-            "color" : "rgb (255, 182, 193)"
-          }
-        },
-        "relc" : {
-          "long" : "relative converter",
-          "short" : "relc",
+        "intpr" : {
+          "long" : "interrogative pronoun",
+          "short" : "intpr",
           "postag" : "r",
           "style" : {
-            "color" : "rgb (255, 182, 193)"
+            "color" : "rgb (244, 44, 244)"
           }
         },
-        "impc" : {
-          "long" : "imperfect converter",
-          "short" : "impc",
-          "postag" : "i",
+        "name" : {
+          "long" : "name",
+          "short" : "name",
+          "postag" : "m",
           "style" : {
-            "color" : "rgb (255, 182, 193)"
+            "color" : "rgb (0, 252, 246)"
           }
         },
-        "stc" : {
-          "long" : "second tense converter",
-          "short" : "stc",
-          "postag" : "t",
+        "neg" : {
+          "long" : "negation",
+          "short" : "neg",
+          "postag" : "g",
           "style" : {
-            "color" : "rgb (255, 182, 193)"
+            "color" : "rgb (204, 255, 102)"
           }
         },
-        "irrc" : {
-          "long" : "irrealis converter",
-          "short" : "irrc",
-          "postag" : "i",
+        "noun" : {
+          "long" : "noun",
+          "short" : "noun",
+          "postag" : "n",
           "style" : {
-            "color" : "rgb (255, 182, 193)"
+            "color" : "rgb (87, 156, 213)"
           }
         },
-        "onrl" : {
-          "long" : "ordinal number",
-          "short" : "onrl",
-          "postag" : "o",
+        "nmrl" : {
+          "long" : "numeral",
+          "short" : "nmrl",
+          "postag" : "z",
           "style" : {
-            "color" : "rgb (144, 238, 144)"
+            "color" : "rgb (176, 167, 190)"
           }
         },
-        "cnrl" : {
-          "long" : "cardinal number",
-          "short" : "cnrl",
-          "postag" : "d",
+        "prtc" : {
+          "long" : "particle",
+          "short" : "prtc",
+          "postag" : "l",
           "style" : {
-            "color" : "rgb (144, 238, 144)"
+            "color" : "rgb (204, 93, 18)"
+          }
+        },
+        "perspr" : {
+          "long" : "personal pronoun",
+          "short" : "perspr",
+          "postag" : "p",
+          "style" : {
+            "color" : "rgb (250, 30, 190)"
+          }
+        },
+        "prep" : {
+          "long" : "preposition",
+          "short" : "prep",
+          "postag" : "e",
+          "style" : {
+            "color" : "rgb (0, 255, 0)"
+          }
+        },
+        "verb" : {
+          "long" : "verb",
+          "short" : "verb",
+          "postag" : "v",
+          "style" : {
+            "color" : "rgb (222, 0, 99)"
           }
         }
-        }
-      },
+      }
+    },
     "pers" : {
       "long" : "Person",
       "short" : "pers",
@@ -320,7 +189,14 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "possart", "propr", "popr", "suffpr", "deppr", "indpr", "pcp", "qua" ]
+            "pos" : [ "art", "perspr", "verb" ],
+            "typeA" : "possart",
+            "typePP" : "*",
+            "typeV" : [ "ptcp", "qua" ]
+          },
+          "unless" : {
+            "typeA" : [ "defart", "indart", "possprfx" ],
+            "typeV" : [ "sDm.f", "rel", "inf", "axv" ]
           }
         }
       ]
@@ -331,7 +207,13 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "defart", "indart", "possart", "posspr", "noun", "adj", "dempr", "propr", "popr", "suffpr", "deppr", "indpr", "pcp", "qua" ]
+            "pos" : [ "art", "noun", "adj", "dempr", "perspr", "verb" ],
+            "typeA" : "*",
+            "typePP" : "*",
+            "typeV" : [ "ptcp", "qua" ]
+          },
+          "unless" : {
+            "typeV" : [ "sDm.f", "rel", "inf", "axv" ]
           }
         }
       ],
@@ -353,13 +235,57 @@
         }
       }
     },
+    "gend" : {
+      "long" : "gender",
+      "short" : "gend",
+      "rules" : [
+        {
+          "if" : {
+            "pos" : [ "art", "noun", "name", "adj", "dempr", "perspr",  "nmrl", "verb" ],
+            "typeA" : "*",
+            "typeN" : [ "pers", "roy", "div", "epi" ],
+            "typeNo" : "cardn",
+            "typePP" : "*",
+            "typeV" : [ "ptcp", "rel", "qua" ]
+          },
+          "unless" : {
+            "typeN" : "geogr",
+            "typeNo" : "ordn",
+            "typeV" : [ "sDm.f", "inf", "axv" ]
+          }
+        }
+      ],
+      "values" : {
+        "masc" : {
+          "long" : "masculine",
+          "short" : "masc",
+          "postag" : "m"
+        },
+        "fem" : {
+          "long" : "feminine",
+          "short" : "fem",
+          "postag" : "f"
+        },
+        "neut" : {
+          "long" : "neuter",
+          "short" : "neut",
+          "postag" : "n"
+        },
+        "com" : {
+          "long" : "commune",
+          "short" : "com",
+          "postag" : "c"
+        }
+      }
+    },
     "tense" : {
       "long" : "Tense",
       "short" : "tense",
       "rules" : [
         {
           "if" : {
-            "pos" : "verb"
+            "pos" : "verb",
+            "typeV" : "*"
           }
         }
       ],
@@ -373,6 +299,16 @@
           "long" : "perfect",
           "short" : "perf",
           "postag" : "r"
+        },
+        "impf" : {
+          "long" : "imperfect",
+          "short" : "impf",
+          "postag" : "i"
+        },
+        "prs" : {
+          "long" : "present",
+          "short" : "prs",
+          "postag" : "s"
         },
         "aor" : {
           "long" : "aorist",
@@ -418,14 +354,15 @@
           "postag" : "m"
         }
       }
-      },
+    },
     "voice" : {
       "long" : "Voice",
       "short" : "voice",
       "rules" : [
         {
           "if" : {
-            "pos" : [ "verb", "pcp" ]
+            "pos" : "verb",
+            "typeV" : "ptcp"
           }
         }
       ],
@@ -442,37 +379,80 @@
         }
       }
     },
-    "gend" : {
-      "long" : "gender",
-      "short" : "gend",
+    "typeA" : {
+      "long" : "type of article",
+      "short" : "typeA",
       "rules" : [
         {
           "if" : {
-            "pos" : [ "defart", "indart", "possart", "posspr", "noun", "adj", "dempr", "propr", "popr", "suffpr", "deppr", "indpr", "cnrl", "pcp", "qua" ] 
+            "pos" : "art" 
           }
         }
       ],
       "values" : {
-        "masc" : {
-          "long" : "masculine",
-          "short" : "masc",
-          "postag" : "m"
+        "defart" : {
+          "long" : "definite article",
+          "short" : "defart",
+          "postag" : "d"
         },
-        "fem" : {
-          "long" : "feminine",
-          "short" : "fem",
-          "postag" : "f"
+        "indart" : {
+          "long" : "indefinite article",
+          "short" : "indart",
+          "postag" : "i"
         },
-        "neut" : {
-          "long" : "neuter",
-          "short" : "neut",
-          "postag" : "n"
+        "possart" : {
+          "long" : "possessive article",
+          "short" : "possart",
+          "postag" : "p"
+        },
+        "possprfx" : {
+          "long" : "possessive prefix",
+          "short" : "possprfx",
+          "postag" : "x"
         }
       }
     },
-    "type" : {
+    "typeC" : {
+      "long" : "type of converter",
+      "short" : "typeC",
+      "rules" : [
+        {
+          "if" : {
+            "pos" : "conv" 
+          }
+        }
+      ],
+      "values" : {
+        "circc" : {
+          "long" : "circumstantial converter",
+          "short" : "circc",
+          "postag" : "c"
+        },
+        "relc" : {
+          "long" : "relative converter",
+          "short" : "relc",
+          "postag" : "r"
+        },
+        "impc" : {
+          "long" : "imperfect converter",
+          "short" : "impc",
+          "postag" : "m"
+        },
+        "stc" : {
+          "long" : "second tense converter",
+          "short" : "stc",
+          "postag" : "s"
+        },
+        "irrc" : {
+          "long" : "irrealis converter",
+          "short" : "irrc",
+          "postag" : "i"
+        }
+      }
+    },
+    "typeN" : {
       "long" : "type of name",
-      "short" : "type",
+      "short" : "typeN",
       "rules" : [
         {
           "if" : {
@@ -481,40 +461,134 @@
         }
       ],
       "values" : {
-        "man" : {
-          "long" : "man",
-          "short" : "man",
-          "postag" : "m"
+        "pers" : {
+          "long" : "personal",
+          "short" : "pers",
+          "postag" : "p"
         },
-        "woman" : {
-          "long" : "woman",
-          "short" : "woman",
-          "postag" : "w"
+        "roy" : {
+          "long" : "royal",
+          "short" : "roy",
+          "postag" : "r"
         },
-        "king" : {
-          "long" : "king",
-          "short" : "king",
-          "postag" : "k"
+        "div" : {
+          "long" : "divine",
+          "short" : "div",
+          "postag" : "d"
         },
-        "queen" : {
-          "long" : "queen",
-          "short" : "queen",
+        "epi" : {
+          "long" : "epithet",
+          "short" : "epi",
+          "postag" : "e"
+        },
+        "geogr" : {
+          "long" : "geographic",
+          "short" : "geogr",
+          "postag" : "g"
+        }
+      }
+    },
+    "typeNo" : {
+      "long" : "type of numeral",
+      "short" : "typeNo",
+      "rules" : [
+        {
+          "if" : {
+            "pos" : "nmrl" 
+          }
+        }
+      ],
+      "values" : {
+        "ordn" : {
+          "long" : "ordinal number",
+          "short" : "ordn",
+          "postag" : "o"
+        },
+        "cardn" : {
+          "long" : "cardinal number",
+          "short" : "cardn",
+          "postag" : "c"
+        }
+      }
+    },
+    "typePP" : {
+      "long" : "type of personal pronoun",
+      "short" : "typePP",
+      "rules" : [
+        {
+          "if" : {
+            "pos" : "perspr" 
+          }
+        }
+      ],
+      "values" : {
+        "suffpr" : {
+          "long" : "suffix pronoun",
+          "short" : "suffpr",
+          "postag" : "s"
+        },
+        "deppr" : {
+          "long" : "dependent pronoun",
+          "short" : "deppr",
+          "postag" : "d"
+        },
+        "indpr" : {
+          "long" : "independent pronoun",
+          "short" : "indpr",
+          "postag" : "i"
+        },
+        "prclpr" : {
+          "long" : "proclitic pronoun",
+          "short" : "prclpr",
+          "postag" : "c"
+        },
+        "posspr" : {
+          "long" : "possessive pronoun",
+          "short" : "posspr",
+          "postag" : "p"
+        }
+      }
+    },
+    "typeV" : {
+      "long" : "type of verb",
+      "short" : "typeV",
+      "rules" : [
+        {
+          "if" : {
+            "pos" : "verb" 
+          }
+        }
+      ],
+      "values" : {
+        "sDm.f" : {
+          "long" : "sDm.f",
+          "short" : "sDm.f",
+          "postag" : "s"
+        },
+        "ptpc" : {
+          "long" : "participle",
+          "short" : "ptcp",
+          "postag" : "p"
+        },
+        "rel" : {
+          "long" : "relative form",
+          "short" : "rel",
+          "postag" : "r"
+        },
+        "inf" : {
+          "long" : "infinitive",
+          "short" : "inf",
+          "postag" : "i"
+        },
+        "qua" : {
+          "long" : "qualitative",
+          "short" : "qua",
           "postag" : "q"
         },
-        "god" : {
-          "long" : "god",
-          "short" : "god",
-          "postag" : "g"
-        },
-        "goddess" : {
-          "long" : "goddess",
-          "short" : "goddess",
-          "postag" : "g"
-        },
-        "top" : {
-          "long" : "toponym",
-          "short" : "top",
-          "postag" : "t"
+        "axv" : {
+          "long" : "auxiliary verb",
+          "short" : "axv",
+          "postag" : "x"
         }
       }
     }
@@ -524,11 +598,13 @@
       "attributes" : {
         "pofs" : "pos"
       },
-      "values" : {
-        "pos" : {
-          "suffix" : "suffix pronoun",
-          "verb\nparticiple" : "pcp",
-          "verb participle" : "pcp"
+      "values" :{
+        "typePP" : {
+          "suffix" : "suffix pronoun"
+        },
+        "typeV" : {
+          "verb\nparticiple" : "ptcp",
+          "verb participle" : "ptcp"
         }
       }
     }
