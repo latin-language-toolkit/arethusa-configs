@@ -189,13 +189,11 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "perspr", "verb" ],
-            "typeA" : "possart",
+            "pos" : [ "perspr", "verb" ],
             "typePP" : "*",
             "typeV" : [ "ptcp", "qua" ]
           },
           "unless" : {
-            "typeA" : [ "defart", "indart", "possprfx" ],
             "typeV" : [ "sDm.f", "rel", "inf", "axv" ]
           }
         }
