@@ -361,7 +361,9 @@
           "if" : {
             "pos" : "verb",
             "typeV" : "ptcp"
-          }
+          },
+          "unless" : {
+            "typeV" : ["sDm.f", "rel", "inf", "qua", "axv"]
         }
       ],
       "values" : {
