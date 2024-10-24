@@ -481,6 +481,11 @@
           "short" : "epi",
           "postag" : "e"
         },
+        "title" : {
+          "long" : "title",
+          "short" : "title",
+          "postag" : "t"
+        },
         "geogr" : {
           "long" : "geographic",
           "short" : "geogr",
@@ -560,6 +565,11 @@
         }
       ],
       "values" : {
+        "adjv" : {
+          "long" : "adjective verb",
+          "short" : "adjv",
+          "postag" : "a"
+        },
         "sDm.f" : {
           "long" : "sDm.f",
           "short" : "sDm.f",
