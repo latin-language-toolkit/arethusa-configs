@@ -234,11 +234,6 @@
           "long" : "plural",
           "short" : "pl",
           "postag" : "p"
-        },
-        "dl" : {
-          "long" : "dual",
-          "short" : "dl",
-          "postag" : "d"
         }
       }
     },
