@@ -197,12 +197,13 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "perspr", "verb" ],
-            "typePP" : "*",
+            "pos" : "perspr"
+          }
+        },
+        {
+          "if" : {
+            "pos" : "verb",
             "typeV" : [ "ptcp", "qua" ]
-          },
-          "unless" : {
-            "typeV" : [ "sDm.f", "rel", "inf", "axv" ]
           }
         }
       ]
@@ -213,13 +214,13 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "noun", "adj", "dempr", "perspr", "verb" ],
-            "typeA" : "*",
-            "typePP" : "*",
+            "pos" : [ "art", "noun", "adj", "dempr", "perspr", "verb" ]
+          }
+        },
+        {
+          "if" : {
+            "pos" : "verb",
             "typeV" : [ "ptcp", "qua" ]
-          },
-          "unless" : {
-            "typeV" : [ "sDm.f", "rel", "inf", "axv" ]
           }
         }
       ],
@@ -247,17 +248,25 @@
       "rules" : [
         {
           "if" : {
-            "pos" : [ "art", "noun", "name", "adj", "dempr", "perspr",  "nmrl", "verb" ],
-            "typeA" : "*",
-            "typeN" : [ "pers", "roy", "div", "epi" ],
-            "typeNo" : "cardn",
-            "typePP" : "*",
+            "pos" : [ "art", "noun", "adj", "dempr", "perspr" ]
+          }
+        },
+        {
+          "if" : {
+            "pos" : "name",
+            "typeN" : [ "pers", "roy", "div", "epi" ]
+          }
+        },
+        {
+          "if" : {
+            "pos" : "nmrl",
+            "typeNo" : "cardn"
+          }
+        },
+        {
+          "if" : {
+            "pos" : "verb",
             "typeV" : [ "ptcp", "rel", "qua" ]
-          },
-          "unless" : {
-            "typeN" : "geogr",
-            "typeNo" : "ordn",
-            "typeV" : [ "sDm.f", "inf", "axv" ]
           }
         }
       ],
@@ -290,8 +299,7 @@
       "rules" : [
         {
           "if" : {
-            "pos" : "verb",
-            "typeV" : "*"
+            "pos" : "verb"
           }
         }
       ],
@@ -369,9 +377,6 @@
           "if" : {
             "pos" : "verb",
             "typeV" : "ptcp"
-          },
-          "unless" : {
-            "typeV" : ["sDm.f", "rel", "inf", "qua", "axv"]
           }
         }
       ],
@@ -584,7 +589,7 @@
           "short" : "sDm.f",
           "postag" : "s"
         },
-        "ptpc" : {
+        "ptcp" : {
           "long" : "participle",
           "short" : "ptcp",
           "postag" : "p"
